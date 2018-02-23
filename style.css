@@ -32,15 +32,6 @@ display: grid;
     justify-content: space-around;
 }
 
-about-me-photo {
-	display: flex;
-    flex-direction: row;
-    max-width: 250px;
-	max-height: 250px;
-	width: auto;
-	height: auto;
-}
-
 .github-projects{
     grid-row: 4/5;
     background-color: orange;
