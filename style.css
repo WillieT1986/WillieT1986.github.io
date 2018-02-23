@@ -6,13 +6,29 @@
 
 
 header {
+	grid-row:1/2;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     background-color: lightblue;
 }
 
+main{
+grid-row:2/3;
+background-color: lightgrey;
+display: grid;
+grid-template-rows:1fr auto;
+}
+
+.githubProjects{
+    grid-row: 3/4;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+}
+
 footer {
+	grid-row: 4/5;
 	display: flex;
 	align-items: center;
     justify-content: center;
