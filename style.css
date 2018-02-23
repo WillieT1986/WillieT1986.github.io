@@ -17,7 +17,6 @@ main{
 grid-row:2/3;
 background-color: lightgrey;
 display: grid;
-grid-template-rows:1fr auto;
 }
 
 .about-me {
@@ -32,6 +31,12 @@ grid-template-rows:1fr auto;
     background-color: orange;
     display: flex;
     justify-content: space-around;
+}
+
+project-box {
+	display: flex;
+    background-color: violet;
+    flex-direction: row;
 }
 
 footer {
