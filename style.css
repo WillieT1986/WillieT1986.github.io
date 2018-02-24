@@ -34,7 +34,7 @@ main{
 }
 
 .my-photo {
-    padding: 17px;
+    padding: 5px;
     background-color: gray;
 }
 
@@ -48,19 +48,12 @@ main{
 .card{
     flex-direction: column;
     justify-content: space-around;
-    flex-basis: 0;
-    flex-grow: 1;
     padding: 10px;
     background-color: lightblue;
 }
 
-#card-title{
-
-}
-
-#project-image {
-
-
+.project-image {
+	margin: 10px;
 }
 
 footer {
