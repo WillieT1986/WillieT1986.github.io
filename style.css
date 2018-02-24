@@ -21,6 +21,10 @@ header {
 	border-bottom: 1px solid black;
 }
 
+nav{
+
+}
+
 main{
 	padding: 1rem;
 }
@@ -28,8 +32,6 @@ main{
 .about-me {
 	display: flex;
 	justify-content: flex-start;
-
-	width: auto;
 	border-radius: 5px;
 	border: 1px solid black;
 }
@@ -48,15 +50,14 @@ main{
 	padding: 5px;
 }
 
-nav {
+ul {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	padding: 5px;
-}
-nav li {
 	margin: 3px;
 }
+
 
 /*#calendar {
 	display: flex;
