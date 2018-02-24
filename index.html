@@ -36,10 +36,9 @@
 			</nav> -->
 			<section class="cards">
 				<article class="card">
-					<h2 id="card-title">Github Projects</h2>
 					<h3>Fortuneteller</h3>
 					<p>Fortuneteller was my very first project. I knew nothing of Java but within a week was able to create and run on console. 
-					Has predetermined answers to questions that you the User will be prompted with. Once all questions are answered the output will 
+						Has predetermined answers to questions that you the User will be prompted with. Once all questions are answered the output will 
 					be your future. </p>
 					<!-- Trigger the Modal -->
 					<img id="myImg" class="project-image" src="./images/fortune-teller.jpg" alt="Fortuneteller" width="200px" height="172px">
@@ -51,52 +50,38 @@
 						<img class="modal-content" id="img01">
 						<!-- Modal Caption (Image Text) -->
 						<div id="caption"></div>
-					</script>
-					<p>Created using: ......</p>
-				</article>
+					</div>
+						<p>Created using: ......</p>
+					</article>
+					<article class="card">				
+						<h3>Project 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<img class="project-image" width="200px" height="172px" src="./images/image2.jpg" alt="Enter Something Here">
+						<p>Created using: ......</p>					
+					</article>
 
-				<article class="card">				
-					<h3>Project 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<img class="project-image" width="200px" height="172px" src="./images/image2.jpg" alt="Enter Something Here">
-					<p>Created using: ......</p>					
-				</article>
-
-				<article class="card">
-					<h3>Project 3</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<img class="project-image" width="200px" height="172px" src="./images/image3.jpg" alt="Enter Something Here">
-					<p>Created using: ......</p>
-				</article>
-			</section>
-		</main>
+					<article class="card">
+						<h3>Project 3</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<img class="project-image" width="200px" height="172px" src="./images/image3.jpg" alt="Enter Something Here">
+						<p>Created using: ......</p>
+					</article>
+				</section>
+			</main>
+		</div>
+		<footer>
+			<small>© 2018</small>
+		</footer>
 	</div>
-	<footer>
-		<small>© 2018</small>
-	</footer>
-</div>
-<script>
-	var modal = document.getElementById('myModal');
-	var img = document.getElementById('myImg');
-	var modalImg = document.getElementById("img01");
-	var captionText = document.getElementById("caption");
-	img.onclick = function(){
-		modal.style.display = "block";
-		modalImg.src = this.src;
-		captionText.innerHTML = this.alt;
-		var span = document.getElementsByClassName("close")[0];
-		span.onclick = function() { 
-			modal.style.display = "none";
-		}
-		</body>
-		</html>
+</body>
+</html>
