@@ -14,9 +14,16 @@
 header {
 	display: flex;
 	grid-column: 1 / -1;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: flex-start;
 	background-color: lightgray;
+}
+
+#header {
+	grid-column: 1;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
 }
 
 main{
@@ -55,8 +62,7 @@ main{
 }
 
 #project-image {
-    align-items: center;
-    
+
 
 }
 
