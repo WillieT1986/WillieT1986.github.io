@@ -26,20 +26,20 @@ nav{
 	justify-content: flex-end;
 }
 
-    nav a {
-        color: black;
-        font-weight: 700;
-        text-decoration: none;
-    }
+nav a {
+	color: black;
+	font-weight: 700;
+	text-decoration: none;
+}
 
 nav li {
 	display: flex;
 	justify-content: flex-end;
-    margin: 0px 5px;
+	margin: 0px 5px;
 }
 
 main{
-	padding: 1rem;
+
 }
 
 .about-me {
@@ -65,23 +65,15 @@ main{
 
 ul {
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
 	padding: 5px;
 	margin: 3px;
 }
 
-
-/*#calendar {
+ul li {
 	display: flex;
-	justify-content: center;
-	align-content: center;
-	max-width: 32rem;
-	max-height: 19rem;
-	border-radius: 5px;
-	border: 1px solid black;
-}*/
-
+	padding: 5px;
+	margin: 3px;
+}
 
 .cards {
 	display: flex;
@@ -89,6 +81,7 @@ ul {
 }
 
 .card {
+	display: flex;
 	flex-direction: column;
 	flex-basis: 0;
 	flex-grow: 1;
@@ -103,8 +96,17 @@ ul {
 }
 
 .project-image {
-	margin: 10px;
+	margin-top: auto;
+	margin: auto;
 	display: flex;
+	align-items: center;
+}
+
+aside {
+	display: flex;
+	grid-column: 1 / 2;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -116,4 +118,3 @@ footer {
 	background-color: lightgray;
 	border-top: 1px solid black;
 }
-
