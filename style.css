@@ -36,8 +36,6 @@ nav li {
 }
 
 main{
-margin: auto;
-padding: auto;
 
 }
 
@@ -59,7 +57,7 @@ padding: auto;
 }
 
 .my-photo {
-	margin-top: 15%;
+	margin-top: 10%;
 	padding: 5px;
 }
 
