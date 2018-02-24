@@ -7,40 +7,34 @@
 .container{
     width:100%;
     display: grid;
-    grid-template-rows: 50px auto 50px;
+    grid-template-rows: 25px auto 25px;
 }
 
 header {
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: lightblue;
+    background-color: lightgray;
 }
 
 main{
-
-background-color: lightgrey;
 display: grid;
 }
 
 .about-me {
-
-    background-color: red;
     display: flex;
     justify-content: space-around;
+    max-width: 600px;
+    width: auto;
 }
 
 .github-projects{
-
-    background-color: orange;
     display: flex;
     justify-content: space-around;
 }
 
 project-box {
 	display: flex;
-    background-color: violet;
     flex-direction: row;
 }
 
@@ -48,6 +42,6 @@ footer {
 	display: flex;
 	align-items: center;
     justify-content: center;
-    background-color: teal;
+    background-color: lightgray;
 }
 
