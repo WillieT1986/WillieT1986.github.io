@@ -102,14 +102,6 @@ ul li {
 	align-items: center;
 }
 
-aside {
-	display: flex;
-	grid-column: 1 / 2;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
 footer {
 	display: flex;
 	grid-column: 1 / -1;	
