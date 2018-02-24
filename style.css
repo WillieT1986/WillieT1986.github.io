@@ -7,7 +7,7 @@
 .container{
 	width:100%;
 	display: grid;
-	grid-template-columns: 3fr 1fr;
+	grid-template-columns: repeat(3 1fr);
 	grid-template-rows: 40px auto 25px;
 	height: 100vh;
 }
@@ -23,15 +23,17 @@ header {
 
 nav{
 	display: flex;
+	justify-content: flex-end;
 }
 
     nav a {
-        color: #39add1;
+        color: black;
         font-weight: 700;
         text-decoration: none;
     }
 
 nav li {
+	display: flex;
 	justify-content: flex-end;
     margin: 0px 5px;
 }
