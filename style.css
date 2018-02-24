@@ -19,7 +19,7 @@ header {
 	background-color: lightgray;
 }
 
-#header {
+.header {
 	grid-column: 1;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -52,13 +52,16 @@ main{
 }
 
 .card{
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
     flex-basis: 0;
     flex-grow: 1;
     padding: 10px;
     background-color: lightblue;
+}
+
+#card-title{
+
 }
 
 #project-image {
