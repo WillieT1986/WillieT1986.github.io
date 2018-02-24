@@ -7,7 +7,7 @@
 .container{
 	width:100%;
 	display: grid;
-	grid-template-rows: 25px auto 25px;
+	grid-template-rows: 40px auto 25px;
 	min-height: 100vh;
 }
 
@@ -19,12 +19,6 @@ header {
 	background-color: lightgray;
 }
 
-.header {
-	grid-column: 1;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: flex-end;
-}
 
 main{
 	padding: 1rem;
@@ -33,15 +27,15 @@ main{
 
 .about-me {
 	display: flex;
-	justify-content: space-around;
-	max-width: 600px;
+	justify-content: flex-start;
+	max-width: 750px;
 	width: auto;
 	background-color: lightblue;
 }
 
 .my-photo {
     padding: 17px;
-    background-color: red;
+    background-color: gray;
 }
 
 .cards {
