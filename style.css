@@ -13,14 +13,15 @@
 
 header {
 	display: flex;
+	grid-column: 1 / -1;
 	align-items: center;
 	justify-content: flex-start;
 	background-color: lightgray;
 }
 
 main{
-	padding: 17px;
-
+	padding: 1rem;
+	background-color: lightgreen;
 }
 
 .about-me {
@@ -28,13 +29,19 @@ main{
 	justify-content: space-around;
 	max-width: 600px;
 	width: auto;
+	background-color: lightblue;
+}
+
+.my-photo {
+    padding: 17px;
+    background-color: red;
 }
 
 .cards {
     display: flex;
     margin: 11px;
     padding: 19px;
-
+    background-color: yellow;
 }
 
 .card{
@@ -43,7 +50,7 @@ main{
     flex-basis: 0;
     flex-grow: 1;
     padding: 5px;
-
+    background-color: lightblue;
 }
 
 #project-image {
@@ -53,6 +60,7 @@ main{
 
 footer {
 	display: flex;
+	grid-column: 1 / -1;	
 	align-items: center;
 	justify-content: center;
 	background-color: lightgray;
