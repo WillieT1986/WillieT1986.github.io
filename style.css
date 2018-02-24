@@ -7,9 +7,9 @@
 .container{
 	width:100%;
 	display: grid;
-	grid-template-columns: 7fr 1fr;
+	grid-template-columns: 3fr 1fr;
 	grid-template-rows: 40px auto 25px;
-	min-height: 100vh;
+	height: 100vh;
 }
 
 header {
@@ -28,9 +28,9 @@ main{
 .about-me {
 	display: flex;
 	justify-content: flex-start;
-	max-width: 750px;
+
 	width: auto;
-	border-radius: 11px;
+	border-radius: 5px;
 	border: 1px solid black;
 }
 
@@ -49,6 +49,7 @@ main{
 }
 
 nav {
+	display: flex;
 	padding: 5px;
 }
 nav li {
@@ -57,9 +58,7 @@ nav li {
 
 .cards {
 	display: flex;
-	margin: 11px;
-	padding: 19px;
-
+	padding-top: 2px;
 }
 
 .card {
@@ -67,7 +66,7 @@ nav li {
 	flex-basis: 0;
 	flex-grow: 1;
 	padding: 10px;
-	border-radius: 11px;
+	border-radius: 5px;
 	border: 1px solid black;
 }
 
