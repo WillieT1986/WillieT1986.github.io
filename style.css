@@ -58,6 +58,17 @@ nav li {
 	margin: 3px;
 }
 
+#calendar {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	max-width: 32rem;
+	max-height: 19rem;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+
 .cards {
 	display: flex;
 	padding-top: 2px;
