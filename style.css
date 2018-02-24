@@ -50,6 +50,8 @@ main{
 
 nav {
 	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
 	padding: 5px;
 }
 nav li {
