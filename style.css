@@ -16,13 +16,24 @@ header {
 	display: flex;
 	grid-column: 1 / -1;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	background-color: lightgray;
 	border-bottom: 1px solid black;
 }
 
 nav{
+	display: flex;
+}
 
+    nav a {
+        color: #39add1;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+nav li {
+	justify-content: flex-end;
+    margin: 0px 5px;
 }
 
 main{
