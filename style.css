@@ -22,7 +22,6 @@ header {
 
 main{
 	padding: 1rem;
-
 }
 
 .about-me {
@@ -40,6 +39,13 @@ main{
 
 .my-photo {
     padding: 5px;
+}
+
+nav {
+    padding: 5px;
+}
+nav li {
+    margin: 3px;
 }
 
 .cards {
