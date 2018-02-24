@@ -44,36 +44,66 @@
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<img class="project-image" width="200px" height="172px" src="./images/image1.jpg" alt="Enter Something Here">
-					<p>Created using: ......</p>
-				</article>
-				<article class="card">				
-					<h3>Project 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<img class="project-image" width="200px" height="172px" src="./images/image2.jpg" alt="Enter Something Here">
-					<p>Created using: ......</p>					
-				</article>
-				<article class="card">
-					<h3>Project 3</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<img class="project-image" width="200px" height="172px" src="./images/image3.jpg" alt="Enter Something Here">
-					<p>Created using: ......</p>
-				</article>
-			</section>
-		</main>
-		<footer>
-			<small>© 2018</small>
-		</footer>
-	</div>
-</body>
-</html>
+					<!-- <img class="project-image" width="200px" height="172px" src="./images/image1.jpg" alt="Enter Something Here"> -->
+					<!-- Trigger the Modal -->
+					<img id="myImg" src="./images/fortune-teller.jpg" alt="Fortuneteller" width="200px" height="172px">
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+						<!-- The Close Button -->
+						<span class="close">&times;</span>
+						<!-- Modal Content (The Image) -->
+						<img class="modal-content" id="img01">
+						<!-- Modal Caption (Image Text) -->
+						<div id="caption"></div>
+
+						<script>
+							<!-- Get the modal -->
+							var modal = document.getElementById('myModal');
+							var img = document.getElementById('myImg');
+							var modalImg = document.getElementById("img01");
+							var captionText = document.getElementById("caption");
+							img.onclick = function(){
+								modal.style.display = "block";
+								modalImg.src = this.src;
+								captionText.innerHTML = this.alt;
+								var span = document.getElementsByClassName("close")[0];
+								span.onclick = function() { 
+									modal.style.display = "none";
+								}
+							</script>
+
+							<p>Created using: ......</p>
+						</article>
+
+						<article class="card">				
+							<h3>Project 2</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<img class="project-image" width="200px" height="172px" src="./images/image2.jpg" alt="Enter Something Here">
+							<p>Created using: ......</p>					
+						</article>
+
+						<article class="card">
+							<h3>Project 3</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<img class="project-image" width="200px" height="172px" src="./images/image3.jpg" alt="Enter Something Here">
+							<p>Created using: ......</p>
+						</article>
+					</section>
+				</main>
+			</div>
+			<footer>
+				<small>© 2018</small>
+			</footer>
+		</div>
+	</body>
+	</html>
