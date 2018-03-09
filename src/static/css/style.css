@@ -88,6 +88,11 @@ ul li {
 	padding-top: 2px;
 }
 
+.cards button {
+	display: flex;
+	align-self: center;
+}
+
 .card {
 	display: flex;
 	flex-direction: column;
