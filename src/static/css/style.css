@@ -58,6 +58,10 @@ main{
 	padding: 5px;
 }
 
+.about-me-photo {
+	display: flex;
+}
+
 .my-photo {
 	margin-top: 10%;
 	padding: 5px;
