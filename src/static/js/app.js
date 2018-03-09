@@ -1,3 +1,4 @@
+// About Me Image Carousel
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -15,3 +16,5 @@ function showDivs(n) {
     }
     x[slideIndex-1].style.display = "block"; 
 }
+
+// Expand Button Functions
