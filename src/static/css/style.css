@@ -8,7 +8,6 @@
 	width:100%;
 	display: grid;
 	grid-template-rows: 40px auto 25px;
-	height: 100vh;
 }
 
 header {
