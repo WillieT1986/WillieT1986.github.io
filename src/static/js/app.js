@@ -83,3 +83,10 @@ window.onclick = event => { //This allows
 	}
 }
 // Ending of Modal JS
+
+//This is for the EventListener that will allow the button for the date to work
+document.getElementById("dateBtn").addEventListener("click", displayDate);
+
+function displayDate() {
+    document.getElementById("demoDate").innerHTML = Date();
+}
