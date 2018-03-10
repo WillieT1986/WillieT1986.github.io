@@ -18,15 +18,11 @@ function showDivs(n) {
 }
 
 // Expand Button Functions
-// function toggle() {
-// 	var ele = document.getElementById("toggleText");
-// 	var text = document.getElementById("displayText");
-// 	if(ele.style.display == "block") {
-//     		ele.style.display = "none";
-// 		text.innerHTML = "show";
-//   	}
-// 	else {
-// 		ele.style.display = "block";
-// 		text.innerHTML = "hide";
-// 	}
-// } 
+function expandButton() {
+    var x = document.getElementById("toggleText");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}

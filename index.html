@@ -8,6 +8,7 @@
 </head>
 <body>
 	<div class="container">
+	
 		<header> 
 			<nav>
 				<ul>
@@ -20,11 +21,15 @@
 				</ul>
 			</nav>
 		</header>
+		
 		<main>
+		
 			<h1>William Thompson Jr</h1>
 			<p>Skills: Java • Spring • TDD • HTML5 • CSS3 • Object Oriented Programming • Git</p>
 			<p>Tools: Eclipse IDE</p>
+			
 			<section class="about-me">
+				
 				<article class="about-me-photo"> 
 					<button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
 					<img class="my-photo" src="./src/static/images/me.jpeg" alt="Photo of William" >
@@ -32,6 +37,7 @@
 					<img class="my-photo" src="./src/static/images/image2.png" alt="Image Place Holder 2" >
 					<button class="display-right" onclick="plusDivs(+1)">&#10095;</button>
 				</article>
+				
 				<article>
 					<h2>Apprentice Software Developer</h2>
 					<p>Hi, I'm William. Being a Marine, I always had a passion for computers. Mainly the hardware aspect.There was always something about motherboards and cpu's that were interesting to me but I never thought about actually pursuing anything as an actual career. As a hobby I got a certification as a PC Technician but it wasn't until Pokemon Go was released in 2016 that I really got to see the software side of the I.T. world. My group that I played with wanted to utilize a Scanner so I found someone that had forked and modified one. Only catch was that you had to set all the stats and pokemon themselves. I ran that for only a few months in 2017 though just for laughs. However, later that year I found a Full Stack Java boot camp called WeCan{Code}IT that accepted the Post 9/11 GI Bill. Since January 2018, I have been an Apprentice. Feel free to check out my github projects that I had as projects so far while I learn to code.</p>
@@ -43,23 +49,30 @@
 						<li><img src="./src/static/images/cat.png" alt="github" width="25px" height="20px"><a href="https://www.instagram.com/williet1986/">Tara the Cat</a></li>
 					</ul>
 				</article>
+
 			</section>
+			
+			<!-- Beginning of GitHub Calendar -->
 			<div class="calendar">
 				Loading the data just for you.
 			</div>
 			<script>
 				GitHubCalendar(".calendar", "WillieT1986");
 			</script>
+			<!-- End of GitHub Calendar -->
+
 			<section class="cards">
+				
 				<article class="card">
 					<h3><a href="https://github.com/WillieT1986/fortune-teller">Fortune-Teller</a></h3>
-					<button id="displayText" href="javascript:toggle();">Expand</button>
+					<button onclick="expandButton()">Expand</button>
 					<p id="toggleText" style="display: none">Fortune-Teller was my very first project. I knew nothing of Java but within a week was able to create and run on console. Has predetermined answers to questions that you the User will be prompted with. Once all questions are answered the output will 
 					be your future. </p>
 					<p>To Note: Right clicking on image and opening in new tab will show full picture.</p>
 					<img class="project-image" src="./src/static/images/fortune-teller.jpg" alt="Fortune Teller" width="200px" height="172px">
 					<p>Created using: Java.Git/Eclipse IDE</p>
 				</article>
+				
 				<article class="card">				
 					<h3><a href="https://github.com/WillieT1986/virtual-pet">virtual-pet</a></h3><button>Expand</button>
 					<p>My version of the late 90's Tamagachi and my second project from after two weeks of learning Java and being introdced to unit testing. Here we have Hold the dog with some simple stats 
@@ -67,17 +80,21 @@
 					<img class="project-image" width="200px" height="172px" src="./src/static/images/pet-1.jpg" alt="Virtual Pet">
 					<p>Created using: Java.TDD.Git/Eclipse IDE</p>					
 				</article>
+				
 				<article class="card">
 					<h3><a href="https://github.com/WillieT1986/virtual-pets-amok">virtual-pets-amok</a></h3><button>Expand</button>
 					<p>After 4 weeks of learning Java, this project combined all that was learned within a 4 week time frame. Taking virtual-pet from week 2 and recreated it using not just a single pet but a multitude of pets like Dogs, Cats and Robot Dogs inside a Shelter. User has to feed and water the Dogs and Cats, as well as waste clean up created by each dog when prompted to. The Cats, there's a Shelter litter box which has a counter that resets to 0 when the User decides to clean the litter box. Other features include the intake and outake of pets. Best of all, the User has the ability to see a list of each pet and their stats at all times. </p>
 					<img class="project-image" width="200px" height="172px" src="./src/static/images/pets-amok.jpg" alt="Virtual Pets Amok">
 					<p>Created using: Java.OOP.TDD.Git/ Eclipse IDE</p>
 				</article>
+
 			</section>
 		</main>
+		
 		<footer>
 			<small>© 2018</small>
 		</footer>
+
 	</div>
 </body>
 <script src="./src/static/js/app.js"></script>
