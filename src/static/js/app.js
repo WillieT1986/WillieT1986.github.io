@@ -66,27 +66,25 @@ const modal = document.getElementById('myModal');
 const btn = document.getElementById("modalBtn");
 const span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on the button, open the modal 
-btn.onclick = () => {
+btn.onclick = () => { //Opens modal when button is clicked
 	modal.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = () => {
+span.onclick = () => { //Allows the user to cloce the modal by clicking the x
 	modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = event => { //This allows
+window.onclick = event => { //This allows the user to close modal by clicking outside it
 	if (event.target == modal) {
 		modal.style.display = "none";
 	}
 }
 // Ending of Modal JS
 
-//This is for the EventListener that will allow the button for the date to work
+//Beginning of the EventListener
 document.getElementById("dateBtn").addEventListener("click", displayDate);
 
 function displayDate() {
-    document.getElementById("demoDate").innerHTML = Date();
+	document.getElementById("demoDate").innerHTML = Date();
 }
+//End of the EventListener
