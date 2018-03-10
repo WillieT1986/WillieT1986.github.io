@@ -109,7 +109,7 @@ ul li {
 }
 
 .project-image {
-	margin-top: auto;
+	padding-top: 1rem;
 	margin: auto;
 	display: flex;
 	align-items: center;
