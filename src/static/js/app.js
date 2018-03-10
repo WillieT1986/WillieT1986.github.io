@@ -17,9 +17,27 @@ function showDivs(n) {
     x[slideIndex-1].style.display = "block"; 
 }
 
-// Expand Button Functions
-function expandButton() {
-    var x = document.getElementById("toggleText");
+// Expand Button Functions for Project Descriptions
+function expandButton1() {
+    var x = document.getElementById("toggleProj1");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function expandButton2() {
+    var x = document.getElementById("toggleProj2");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function expandButton3() {
+    var x = document.getElementById("toggleProj3");
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
