@@ -1,10 +1,7 @@
-// About Me Image Carousel
-var slideIndex = 1;
-showDivs(slideIndex);
 // Nav Toggle Button
 function toggleNavLiLinks() {
-	var x = document.getElementById("navLiLink1");
-	var y = document.getElementById("navLiLink2")
+	const x = document.getElementById("navLiLink1");
+	const y = document.getElementById("navLiLink2");
 	if (x.style.display === "none" && y.style.display === "none") {
 		x.style.display = "block";
 		y.style.display = "block";
@@ -14,7 +11,10 @@ function toggleNavLiLinks() {
 	}
 }
 
-// Image Thingy
+// About Me Image Carousel
+var slideIndex = 1;
+showDivs(slideIndex);
+
 function plusDivs(n) {
 	showDivs(slideIndex += n);
 }
