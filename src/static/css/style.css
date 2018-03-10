@@ -57,8 +57,7 @@ main{
 	padding: 5px;
 }
 
-/*Beginning of Modal CSS*/
-
+/*Beginning of Modal CSS <- To Delete Modal CSS Content after Grading*/
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -96,9 +95,7 @@ main{
     text-decoration: none;
     cursor: pointer;
 }
-
 /*End of Modal CSS*/
-
 
 .about-me-photo {
 	display: flex;
