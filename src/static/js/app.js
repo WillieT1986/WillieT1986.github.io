@@ -34,7 +34,7 @@ function showDivs(n) {
 // There has to be a way to refactor this into a single function.
 // Maybe someting similar to the Nav Links without them disappearing all at once.
 function expandButton1() {
-	var x = document.getElementById("toggleProj1");
+	const x = document.getElementById("toggleProj1");
 	if (x.style.display === "none") {
 		x.style.display = "block";
 	} else {
@@ -43,7 +43,7 @@ function expandButton1() {
 }
 
 function expandButton2() {
-	var x = document.getElementById("toggleProj2");
+	const x = document.getElementById("toggleProj2");
 	if (x.style.display === "none") {
 		x.style.display = "block";
 	} else {
@@ -52,7 +52,7 @@ function expandButton2() {
 }
 
 function expandButton3() {
-	var x = document.getElementById("toggleProj3");
+	const x = document.getElementById("toggleProj3");
 	if (x.style.display === "none") {
 		x.style.display = "block";
 	} else {
