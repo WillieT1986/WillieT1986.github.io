@@ -44,3 +44,12 @@ function expandButton3() {
         x.style.display = "none";
     }
 }
+
+function toggleNavLiLinks() {
+    var x = document.getElementById("navLiLinks");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
