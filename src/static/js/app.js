@@ -45,8 +45,17 @@ function expandButton3() {
     }
 }
 
-function toggleNavLiLinks() {
-    var x = document.getElementById("navLiLinks");
+function toggleNavLiLink1() {
+    var x = document.getElementById("navLiLink1");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function toggleNavLiLink2() {
+    var x = document.getElementById("navLiLink2");
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
