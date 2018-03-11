@@ -1,4 +1,4 @@
-describe('Testing the functionality, adding js to index', ()=>{
+describe('Testing the functionality, adding js to index', ()=> {
 
 	
 })
