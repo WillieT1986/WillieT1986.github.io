@@ -2,8 +2,8 @@ describe('Testing the functionality, adding js to index', ()=> {
 	//When the Nav Button is click, toggle hide/show for a nav link
 	describe('toggle navLiLink1', () => {
 		it('button clicked', () => {
-			this.hide('click');
-			expect(this.click).toggle().hide();
+			this.navLiLink1('click');
+			expect(this.click).hide();
 		});
 	});
 });
