@@ -1,14 +1,14 @@
 describe('Testing the functionality, adding js to index', ()=> {
 	//When the Nav Button is click, toggle hide/show for a nav link
-	describe('toggle nav links', () => {
-		let navLinks;
+	describe('nav link button clicks', () => {
+		let button;
 
 		beforeEach(() => {
-			navLinks = new navLink1();
+			button = new navLinkBtn();
 		});
 
 		it('should toggle hide when button is clicked', () => {
-			expect(navLinks.toggle()).hide();
+			expect(button.click());
 		});
 	});
 });
