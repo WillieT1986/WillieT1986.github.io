@@ -1,16 +1,3 @@
-// Nav Toggle Button
-function toggleNavLiLinks() {
-	const x = document.getElementById("navLiLink1");
-	const y = document.getElementById("navLiLink2");
-	if (x.style.display === "none" && y.style.display === "none") {
-		x.style.display = "block";
-		y.style.display = "block";
-	} else {
-		x.style.display = "none";
-		y.style.display = "none";
-	}
-}
-
 // About Me Image Carousel
 let slideIndex = 1;
 showDivs(slideIndex);
