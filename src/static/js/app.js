@@ -17,35 +17,6 @@ function showDivs(n) {
 	x[slideIndex-1].style.display = "block"; 
 }
 
-// Expand Button Functions for Project Descriptions
-// There has to be a way to refactor this into a single function.
-// Maybe someting similar to the Nav Links without them disappearing all at once.
-function expandButton1() {
-	const x = document.getElementById("toggleProj1");
-	if (x.style.display === "none") {
-		x.style.display = "block";
-	} else {
-		x.style.display = "none";
-	}
-}
-
-function expandButton2() {
-	const x = document.getElementById("toggleProj2");
-	if (x.style.display === "none") {
-		x.style.display = "block";
-	} else {
-		x.style.display = "none";
-	}
-}
-
-function expandButton3() {
-	const x = document.getElementById("toggleProj3");
-	if (x.style.display === "none") {
-		x.style.display = "block";
-	} else {
-		x.style.display = "none";
-	}
-}
 
 // Beginning of Modal JS <- Delete JS Modal Content after grading
 // Get the modal
