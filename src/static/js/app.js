@@ -16,11 +16,3 @@ function showDivs(n) {
 	}
 	x[slideIndex-1].style.display = "block"; 
 }
-
-//Beginning of the EventListener
-document.getElementById("dateBtn").addEventListener("click", displayDate);
-
-function displayDate() {
-	document.getElementById("demoDate").innerHTML = Date();
-}
-//End of the EventListener
