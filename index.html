@@ -6,8 +6,9 @@
 	<link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
 	<link rel="stylesheet" type="text/css" href="./src/static/css/style.css">
 </head>
-<body>
-	<div class="container">	
+<div class="container">	
+	<body>
+
 		<header> 			
 			<nav>
 				<ul>
@@ -18,6 +19,15 @@
 			</nav>
 		</header>		
 		<main>
+			<aside>
+				<article class="about-me-photo"> 					
+					<button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+					<img class="my-photo" src="./src/static/images/me.jpeg" alt="Photo of William" >
+					<img class="my-photo" src="./src/static/images/me2.jpg" alt="Photo of William and His Cat Tara" >
+					<img class="my-photo" src="./src/static/images/me3.jpg" alt="William Inside A Cave in Da Nang, Vietnam" >
+					<button class="display-right" onclick="plusDivs(+1)">&#10095;</button>
+				</article>	
+			</aside>
 			<h1>William Thompson Jr</h1>
 			<p>Skills: Java • Object Oriented Programming • Spring  • TDD • Structured Query Language (SQL) • Hibernate • JavaScript • jQuery • HTML5 • CSS3 • Flexbox • Git</p>
 			<p>Tools: Eclipse IDE & Sublime Text 3</p>	
@@ -42,11 +52,13 @@
 				</article>
 			</section>			
 
-		</div>
-	</main>		
-	<footer>
-		<small>© 2018</small>
-	</footer>
-</body>
+
+		</main>		
+
+		<footer>
+			<small>© 2018</small>
+		</footer>
+	</body>
+</div>
 <script src="./src/static/js/app.js"></script>
 </html>
