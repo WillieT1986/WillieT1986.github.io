@@ -1,7 +1,9 @@
-* {
+*{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	border-radius: 1rem;
+	border: 1rem red;
 }
 
 .container{
@@ -17,7 +19,7 @@ header {
 	align-items: center;
 	justify-content: center;
 	background-color: lightgray;
-	border-bottom: 1px solid black;
+	/*border-bottom: 1px solid black;*/
 }
 
 nav{
@@ -34,15 +36,11 @@ nav li {
 	margin: 0px 5px;
 }
 
-main{
-
-}
-
 .about-me {
 	display: flex;
 	justify-content: flex-start;
-	border-radius: 5px;
-	border: 1px solid black;
+	/*border-radius: 5px;*/
+	/*border: 1px solid black;*/
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
@@ -82,44 +80,11 @@ ul li {
 	margin: 3px;
 }
 
-.cards {
-	display: flex;
-	padding-top: 2px;
-}
-
-.cards button {
-	display: flex;
-	align-self: center;
-}
-
-.card {
-	display: flex;
-	flex-direction: column;
-	flex-basis: 0;
-	flex-grow: 1;
-	padding: 10px;
-	margin: 11px; 
-	border-radius: 5px;
-	border: 1px solid black;
-}
-
-.card p {
-	padding: 5px;
-	grid-row: center;
-}
-
-.project-image {
-	padding-top: 1rem;
-	margin: auto;
-	display: flex;
-	align-items: center;
-}
-
 footer {
 	display: flex;
 	grid-column: 1 / -1;	
 	align-items: center;
 	justify-content: center;
 	background-color: lightgray;
-	border-top: 1px solid black;
+	/*border-top: 1px solid black;*/
 }
