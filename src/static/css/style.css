@@ -1,4 +1,9 @@
 /*Beginning of index.html*/
+.index-header nav {
+	display: flex;
+	flex-direction: row;
+}
+
 .hp-section-one {
 	display: flex;
 	flex-direction: column;

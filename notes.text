@@ -1,16 +1,8 @@
 
 		<header> 			
-			<nav>
-				<ul>
-					<li id="navLiLink1"><a href="education.html">Education</a></li>
-					<li id="navLiLink1"><a href="e-resume.html">E-Resume</a></li>	
-					<li id="navLiLink1"><a href="skills.html">Skills</a></li>	
 
-					<li id="navLiLink2"><a href="git-projects.html">Github Projects</a></li>
-					<li id="navLiLink2"><a href="tools.html">Tools</a></li>
-				</ul>
-			</nav>
-		</header>		
+		</header>	
+
 		<main>
 			<h1>William Thompson Jr</h1>
 			<p>Skills: Java • Object Oriented Programming • Spring  • TDD • Structured Query Language (SQL) • Hibernate • JavaScript • jQuery • HTML5 • CSS3 • Flexbox • Git</p>
