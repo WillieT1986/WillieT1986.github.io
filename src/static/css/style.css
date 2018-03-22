@@ -1,7 +1,23 @@
 /*Beginning of index.html*/
-.index-header nav {
+header {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+nav{
+
+}
+
+nav a {
+	color: black;
+	font-weight: 250;
+	text-decoration: none;
+}
+
+nav li {
+	margin: 0.1rem;
 }
 
 .hp-section-one {
