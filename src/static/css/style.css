@@ -1,0 +1,29 @@
+/*Beginning of index.html*/
+.hp-section-one {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	margin: 1rem;
+}
+
+.hp-section-two {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-me-photo {
+	display: flex;
+}
+
+.about-me-photo button {
+	align-self: center;
+}
+
+.my-photo {
+	padding: 1rem;
+	margin: .5rem;
+}
+/*Ending of index.html*/
