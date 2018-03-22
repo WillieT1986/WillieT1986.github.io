@@ -7,19 +7,6 @@ header  {
 	padding: .5rem;
 }
 
-header img {
-	display: inline-flex;
-}
-
-.section-h2 {
-	display: flex;
-	flex-direction: row;
-}
-
-header p {
-	
-}
-
 .hp-section-one {
 	display: flex;
 	flex-direction: column;
@@ -97,5 +84,11 @@ header p {
 }
 /*Ending of Modal*/
 
+.hp-section-four {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: space-around;
+}
 
 /*Ending of index.html
