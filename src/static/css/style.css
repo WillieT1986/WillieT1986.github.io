@@ -1,10 +1,14 @@
-Beginning of index.html*/
+/*Beginning of index.html*/
 header  {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: : center;
 	padding: .5rem;
+}
+
+header p {
+	
 }
 
 .hp-section-one {
