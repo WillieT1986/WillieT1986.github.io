@@ -1,10 +1,16 @@
 /*Beginning of index.html*/
 header  {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: : center;
-	padding: .5rem;
+	justify-content: space-around;
+	align-self: : center;
+}
+
+header img {
+	margin-top: .5rem;	
+}
+
+header p {
+	margin-top: 1rem;
 }
 
 .hp-section-one {
@@ -87,8 +93,10 @@ header  {
 .hp-section-four {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	align-content: space-around;
+	justify-content:space-around;
+	align-self: center;
+	padding: 1rem;
+	margin: 1rem;
 }
 
 /*Ending of index.html
