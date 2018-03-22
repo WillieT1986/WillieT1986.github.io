@@ -1,23 +1,10 @@
 /*Beginning of index.html*/
-header {
+header  {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-content: center;
-}
-
-nav{
-
-}
-
-nav a {
-	color: black;
-	font-weight: 250;
-	text-decoration: none;
-}
-
-nav li {
-	margin: 0.1rem;
+	align-items: : center;
+	padding: .5rem;
 }
 
 .hp-section-one {
