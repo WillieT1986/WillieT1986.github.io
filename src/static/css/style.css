@@ -2,14 +2,12 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	border-radius: 1rem;
-	border: 1rem red;
 }
 
 .container{
 	width:100%;
 	display: grid;
-	grid-template-rows: 4rem auto 25px;
+	grid-template-rows: 3rem auto 25px;
 	height: 100vh;
 }
 
@@ -19,7 +17,7 @@ header {
 	align-items: center;
 	justify-content: center;
 	background-color: lightgray;
-	/*border-bottom: 1px solid black;*/
+	border-bottom: .05rem solid black;
 }
 
 nav{
@@ -82,9 +80,8 @@ ul li {
 
 footer {
 	display: flex;
-	grid-column: 1 / -1;	
 	align-items: center;
 	justify-content: center;
 	background-color: lightgray;
-	/*border-top: 1px solid black;*/
+	border-top: .05rem solid black;
 }
