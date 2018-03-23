@@ -89,13 +89,19 @@ header p {
 	justify-content: center;	
 }
 
+.modal-content-about-me-p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .modal-content-about-me p {
 	padding: 5px;
 }
 
 .modal-content-about-me-photo {
 	display: flex;
-	
+
 }
 
 /* The Close Button */
