@@ -1,8 +1,8 @@
 //Modals for project start
-var modal = document.getElementById('myModal');
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
+const modal = document.getElementById('myModal');
+const img = document.getElementById('myImg');
+const modalImg = document.getElementById("img01");
+const captionText = document.getElementById("caption");
 
 img.onclick = function(){
     modal.style.display = "block";
@@ -10,13 +10,13 @@ img.onclick = function(){
     captionText.innerHTML = this.alt;
 }
 
-var span = document.getElementsByClassName("close")[0];
+const span = document.getElementsByClassName("close")[0];
 
-span.onclick = function() { 
+span.onclick = () => { 
   modal.style.display = "none";
 }
 
-window.onclick = function(event) {
+window.onclick = event => {
     if (event.target == modal) {
         modal.style.display = "none";
     }
