@@ -1,17 +1,17 @@
 //Modal for home-page start
-var modal = document.getElementById('about-modal');
-var btn = document.getElementById("about-me-modal");
-var span = document.getElementsByClassName("close")[0];
+const modal = document.getElementById('about-modal');
+const btn = document.getElementById("about-me-modal");
+const span = document.getElementsByClassName("close")[0];
 
-btn.onclick = function() {
+btn.onclick = () => {
     modal.style.display = "block";
 }
 
-span.onclick = function() {
+span.onclick = () => {
     modal.style.display = "none";
 }
 
-window.onclick = function(event) {
+window.onclick = event => {
     if (event.target == modal) {
         modal.style.display = "none";
     }
