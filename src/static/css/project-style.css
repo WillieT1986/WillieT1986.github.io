@@ -12,6 +12,32 @@ header p {
 	margin-top: 1rem;
 }
 
+h1 {
+	display: flex;
+	justify-content: center;
+	margin: 5rem;
+}
+
 .calendar {
 	background: #F5F5F5;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.cards {
+	display: flex;
+
+
+
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 0;
+	flex-grow: 1;
+	padding: 10px;
+	margin: 11px; 
+	border-radius: 5px;
+	border: 1px solid black;
 }
