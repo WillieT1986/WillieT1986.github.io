@@ -26,9 +26,6 @@ h1 {
 
 .cards {
 	display: flex;
-
-
-
 }
 
 .card {
@@ -39,5 +36,17 @@ h1 {
 	padding: 10px;
 	margin: 11px; 
 	border-radius: 5px;
-	border: 1px solid black;
+	border: 0.125rem solid black;
+}
+
+.card p {
+	padding: 5px;
+	grid-row: center;
+}
+
+.project-image {
+	padding-top: 1rem;
+	margin: auto;
+	display: flex;
+	align-items: center;
 }
