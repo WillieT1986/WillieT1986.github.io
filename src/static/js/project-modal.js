@@ -1,7 +1,7 @@
 //Modals for project start
 const modal = document.getElementById('myModal');
-const img = document.getElementById('myImg');
-const modalImg = document.getElementById("img01");
+const img = document.getElementById('myImg', 'myImg2');
+const modalImg = document.getElementById("img01", "img02");
 const captionText = document.getElementById("caption");
 
 img.onclick = function(){
@@ -22,3 +22,5 @@ window.onclick = event => {
     }
 }
 //Modals for project end
+
+//Slacked Donny and email. Awaiting his reply...
