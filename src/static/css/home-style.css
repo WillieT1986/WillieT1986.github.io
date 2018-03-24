@@ -12,7 +12,7 @@ header p {
 	margin-top: 1rem;
 }
 
-.hp-section-one {
+.section-one {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -21,7 +21,7 @@ header p {
 	margin: 1rem;
 }
 
-.hp-section-two {
+.section-two {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -40,13 +40,18 @@ header p {
 	margin: .25rem;
 }
 
-.hp-section-three {
+.section-three {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-content: space-around;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	padding: 2rem;
 	margin: 1rem;
+}
+.section-three-p {
+	display: flex;
+	margin-top: 1rem;
+	margin-right: 1rem;
 }
 
 /*Beginning of Modal*/
@@ -100,7 +105,6 @@ header p {
 
 .modal-content-about-me-photo {
 	display: flex;
-
 	padding: 5px;
 
 }
@@ -121,7 +125,7 @@ header p {
 }
 /*Ending of Modal*/
 
-.hp-section-four {
+.section-four {
 	display: flex;
 	flex-direction: row;
 	justify-content:space-around;
