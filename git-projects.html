@@ -4,6 +4,7 @@
 	<title>My GitHub Projects</title>
 	<link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
 	<script src="./src/static/js/github-calendar.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="./src/static/css/layout.css">
 	<link rel="stylesheet" type="text/css" href="./src/static/css/project-style.css">
 </head>
@@ -40,12 +41,15 @@
 						them how many years they have left to retire, how much money they 
 						have in their bank account, the location that he or she will live and 
 					their mode of transportation.</p>
-					<img class="project-image" id="myImg" src="src/static/images/fortune-teller.jpg" alt="Fortune Teller" width="200px" height="172px">
+					
+					<img id="project-image" class="myImg" src="src/static/images/fortune-teller.jpg" alt="Fortune Teller" width="200px" height="172px">
+					
 					<div id="myModal" class="modal">
-						<span class="close">&times;</span>
+						<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
 						<img class="modal-content" id="img01">					
 						<div id="caption"></div>
 					</div>
+					
 					<p>Skills: Java | Git</p>
 					<p>Tools: Eclipse IDE</p>
 				</article>				
@@ -54,12 +58,15 @@
 					<h3><a href="https://github.com/WillieT1986/virtual-pet">Virtual Pet</a></h3>
 					<p>This was the weekend 2 project at WeCan{Code}IT.</p>
 					<p>Created a virtual pet similar to the one seen in the late 1990's. The virtual pet is named Hold. Hold will be able to inform its owner when it needs various tasks to be completed. For example, when Hold is either hungry or thirsty. It is up to the Owner of Hold to keep their virtual pet happy.</p>
-					<img class="project-image" id="myImg" src="./src/static/images/pet-1.jpg" alt="Virtual Pet version 1" width="200px" height="172px">
+				
+					<img id="project-image" class="myImg" src="./src/static/images/pet-1.jpg" alt="Virtual Pet version 1" width="200px" height="172px">
+					
 					<div id="myModal" class="modal">
-						<span class="close">&times;</span>
+						<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
 						<img class="modal-content" id="img01">					
 						<div id="caption"></div>
 					</div>
+				
 					<p>Skills: Java | TDD | Git</p>
 					<p>Tools: Eclipse IDE</p>
 				</article>				
@@ -68,12 +75,15 @@
 					<h3><a href="https://github.com/WillieT1986/virtual-pet-shelter">Virtual Pet Shelter</a></h3>
 					<p>This was the weekend 3 project at WeCan{Code}IT.</p>
 					<p>Project Description</p>
-					<img class="project-image" id="myImg" src="./src/static/images/pet-shelter.png" alt="Virtual Pet version 2" width="200px" height="172px">
+				
+					<img id="project-image" class="myImg" src="./src/static/images/pet-shelter.png" alt="Virtual Pet version 2" width="200px" height="172px">
+				
 					<div id="myModal" class="modal">
-						<span class="close">&times;</span>
+						<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
 						<img class="modal-content" id="img01">					
 						<div id="caption"></div>
 					</div>
+				
 					<p>Skills: Java | TDD | Git</p>
 					<p>Tools: Eclipse IDE</p>
 				</article>

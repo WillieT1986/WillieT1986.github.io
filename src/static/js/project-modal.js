@@ -1,18 +1,18 @@
 //Modals for project start
 const modal = document.getElementById('myModal');
-const img = document.getElementById('myImg', 'myImg2');
-const modalImg = document.getElementById("img01", "img02");
+const img = $('.myImg');
+const modalImg = $("#img01");
 const captionText = document.getElementById("caption");
-
-img.onclick = function(){
+$('.myImg').click(function(){
     modal.style.display = "block";
-    modalImg.src = this.src;
+    const newSrc = this.src;
+    modalImg.attr('src', newSrc);
     captionText.innerHTML = this.alt;
-}
+});
 
 const span = document.getElementsByClassName("close")[0];
 
-span.onclick = () => { 
+span.onclick = () => {
   modal.style.display = "none";
 }
 
