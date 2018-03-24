@@ -1,4 +1,3 @@
-/*Beginning of index.html*/
 header  {
 	display: flex;
 	justify-content: space-around;
@@ -102,6 +101,8 @@ header p {
 .modal-content-about-me-photo {
 	display: flex;
 
+	padding: 5px;
+
 }
 
 /* The Close Button */
@@ -128,5 +129,3 @@ header p {
 	padding: 1rem;
 	margin: 1rem;
 }
-
-/*Ending of index.html
