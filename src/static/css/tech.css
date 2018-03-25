@@ -28,9 +28,19 @@ h1 {
 .back-end h2 {
 	display: flex;
 	justify-content: center;
-
 }
 
+
+.frame-works {
+	padding: 1rem;
+	margin: 1rem;
+}
+
+.frame-works h2 {
+	display: flex;
+	justify-content: center;
+
+}
 .card {
 	display: flex;
 	justify-content: center;
@@ -41,16 +51,13 @@ h1 {
 }
 
 .card h2 {
-	
 }
 
 .card p {
-
 }
 
 .card img {
 	padding: 1.75rem;
-
 }
 
 .tech-image {
