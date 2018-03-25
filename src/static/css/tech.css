@@ -14,7 +14,10 @@ header p {
 
 .card {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
+	align-items: center;
+	margin-left: 30%; 
+	margin-right: 30%;
 	border-radius: 5px;
 	border: 1px solid black;
 }
