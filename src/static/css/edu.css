@@ -1,11 +1,10 @@
 header  {
 	display: flex;
 	justify-content: space-around;
-	align-content: center;
 }
 
 header img {
-	margin-top: .5rem;
+	margin-top: .5rem;	
 }
 
 header p {
@@ -15,9 +14,7 @@ header p {
 h1 {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	padding: 1rem;
-	margin: .5rem;
+	margin: 2.5rem;
 }
 
 .certs h2 {
