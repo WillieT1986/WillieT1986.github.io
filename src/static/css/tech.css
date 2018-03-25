@@ -20,13 +20,24 @@ h1 {
 	margin: .5rem;
 }
 
+.back-end {
+	padding: 1rem;
+	margin: 1rem;
+}
+
+.back-end h2 {
+	display: flex;
+	justify-content: center;
+
+}
+
 .card {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 5rem;
 	border-radius: 5px;
 	border: 1px solid black;
+	margin: 1rem;
 }
 
 .card h2 {
