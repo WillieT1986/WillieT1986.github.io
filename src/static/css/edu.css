@@ -1,14 +1,20 @@
 header  {
 	display: flex;
-	justify-content: space-around;
+	flex-direction: row;
+	justify-content: center;
+	align-self: center;
+
 }
 
 header img {
-	margin-top: .5rem;	
+	margin-top: 1rem;
+	margin-left: 8rem;
 }
 
 header p {
-	margin-top: 1rem;
+	display: inline-block;
+	margin-left: 1rem;
+
 }
 
 h1 {
