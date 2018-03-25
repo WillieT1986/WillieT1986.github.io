@@ -32,10 +32,6 @@ header p {
 	margin-top: 1rem;
 }
 
-main img {
-	display: flex;
-	justify-content: center;
-}
 h1 {
 	display: flex;
 	justify-content: center;
@@ -44,11 +40,21 @@ h1 {
 	margin: .5rem;
 }
 
-.military {
+.mil-section-one {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
+
+.mil-section-one h2{
+	display: flex;
+	justify-content: center;
+}
+
+.mil-sec-one-image {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;}
 
 footer {
 	display: flex;
