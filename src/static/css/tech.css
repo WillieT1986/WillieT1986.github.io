@@ -39,7 +39,6 @@ h1 {
 .frame-works h2 {
 	display: flex;
 	justify-content: center;
-
 }
 
 .front-end {
@@ -48,6 +47,16 @@ h1 {
 }
 
 .front-end h2 {
+	display: flex;
+	justify-content: center;
+}
+
+.tools {
+	padding: 1rem;
+	margin: 1rem;
+}
+
+.tools h2 {
 	display: flex;
 	justify-content: center;
 }
