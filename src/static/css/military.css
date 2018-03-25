@@ -40,6 +40,18 @@ h1 {
 	margin: .5rem;
 }
 
+.military {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+
+.mil-image {
+
+}
+
 footer {
 	display: flex;
 	align-items: center;
