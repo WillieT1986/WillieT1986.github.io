@@ -1,4 +1,3 @@
-//Modals for project start
 const modal = document.getElementById('myModal');
 const img = $('.myImg');
 const modalImg = $("#img01");
@@ -21,6 +20,3 @@ window.onclick = event => {
         modal.style.display = "none";
     }
 }
-//Modals for project end
-
-//Slacked Donny and email. Awaiting his reply...
