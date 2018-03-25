@@ -32,6 +32,10 @@ header p {
 	margin-top: 1rem;
 }
 
+main img {
+	display: flex;
+	justify-content: center;
+}
 h1 {
 	display: flex;
 	justify-content: center;
@@ -43,10 +47,6 @@ h1 {
 .military {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-}
-
-.military h1 {
 	justify-content: center;
 }
 
