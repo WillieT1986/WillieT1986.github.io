@@ -11,3 +11,26 @@ header img {
 header p {
 	margin-top: 1rem;
 }
+
+.card {
+	display: flex;
+	justify-content: flex-start;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.card h2 {
+	
+}
+
+.card p {
+
+}
+
+.card img {
+
+}
+
+.tech-image {
+	padding: 5px;
+}
