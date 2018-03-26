@@ -52,10 +52,6 @@ h1 {
 	padding: 1.75rem;
 }
 
-#edu-image {
-	padding: 5px;
-}
-
 ul {
 	display: flex;
 	flex-direction: column;
@@ -66,6 +62,13 @@ ul p {
 
 li	{
 	margin-left: 3rem;
+}
+
+#edu-image {
+	padding-top: 1rem;
+	margin: auto;
+	display: flex;
+	align-items: center;
 }
 
 /*Start of Image Modal*/
