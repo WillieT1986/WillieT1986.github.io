@@ -22,18 +22,23 @@
 
 	<main>
 		<h1>Education & Training</h1>
-		<!-- Beginning of Education Cards -->
 		<section class="certs">
 			<h2>Certifications</h2>
 			<section class="card">
 				<article>
-					<img class="edu-image" src="./src/static/images/image1.png" alt="eduName" width="200px" height="172px">
+					<img id="edu-image" class="myImg" src="./src/static/images/image1.png" alt="eduName" width="200px" height="172px">
+					<div id="myModal" class="modal">
+						<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+						<img class="modal-content" id="img01">					
+						<div id="caption"></div>
+					</div>
 				</article>	
 				<article class="">
 					<h3><a href="https://wecancodeit.org/">WeCan{Code}IT</a></h3>
 					<p>2645 North High Street <br>
 					Columbus, OH 43202</p>
-					<p>Certification: Full Stack Java</p>
+					<p>Full Stack Java <br>
+					Software Developer</p>
 				</article>	
 			</section>
 			<section class="card">
@@ -44,12 +49,11 @@
 					<h3><a href="https://www.albemarle.edu/">College of the Albemarle</a></h3>
 					<p>1208 N Road St<br>
 					Elizabeth City, NC 27909</p>
-					<p>Computer Engineering Technology Certification</p>
+					<p>Computer Engineering Technology <br>
+					PC Technician</p>
 				</article>
 			</section>
 		</section>
-		<!-- Ending of Education Cards -->
-
 	</main>
 	<footer>
 		<small>© 2018</small>
