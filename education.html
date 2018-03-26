@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Education & Training</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./src/static/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="./src/static/css/edu.css">
+</head>
+<body class="container">
+
+	<header>
+		<section>
+			<article>
+				<img width="188px" height="40px" src="./src/static/images/logo.jpg" alt="WeCan{Code}IT">
+			</article>
+			<article>
+				<p><a href="tech.html">Technical Inventory</a></p>
+				<p><a href="home-page.html">Home</a></p>
+				<p><a href="git-projects.html">GitHub Projects</a></p>
+			</article>	
+		</section>
+	</header>
+
+	<main>
+		<h1>Education & Training</h1>
+		<section class="certs">
+			<h2>Certifications</h2>
+			<section class="card">
+				
+				<article>
+					<img id="edu-image" class="myImg" src="src/static/images/image1.png" alt="Certificate Info" width="200px" height="172px">					
+					<div id="myModal" class="modal">
+						<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+						<img class="modal-content" id="img01">					
+						<div id="caption"></div>
+					</div>
+				</article>	
+				
+				<article>
+					<h3><a href="https://wecancodeit.org/">WeCan{Code}IT</a></h3>
+					<p>2645 North High Street <br>
+					Columbus, OH 43202</p>
+					<p>Full Stack Java <br>
+					Software Developer</p>
+					<p>Graduation on April 20th, 2018</p>
+				</article>	
+			</section>
+			
+			<section class="card">
+				<article>
+					<img id="edu-image" class="myImg" src="./src/static/images/coa-cert.jpg" alt="Certification in Computer Engineering Technology" width="200px" height="172px">
+					<div id="myModal" class="modal">
+						<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+						<img class="modal-content" id="img01">					
+						<div id="caption"></div>
+					</div>
+				</article>		
+				<article>
+					<h3><a href="https://www.albemarle.edu/">College of the Albemarle</a></h3>
+					<p>1208 N Road St<br>
+					Elizabeth City, NC 27909</p>
+					<p>Computer Engineering Technology <br>
+					PC Technician</p>
+					<p>Earned May 2013</p>
+				</article>
+			</section>
+		</section>
+	</main>
+	<footer>
+		<small>© 2018</small>
+	</footer>
+</body>
+<script src="./src/static/js/project-modal.js"></script>
+</html>

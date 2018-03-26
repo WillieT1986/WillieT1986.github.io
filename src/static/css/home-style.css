@@ -1,0 +1,137 @@
+header  {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-self: center;
+
+}
+
+header img {
+	margin-top: 1rem;
+	margin-left: 6.74rem;
+}
+
+header p {
+	display: inline-block;
+	margin-left: .5rem;
+
+}
+
+.section-one {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	margin: .5rem;
+}
+
+.section-two {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-me-photo {
+	display: flex;
+}
+
+.about-me-photo button {
+	align-self: center;
+}
+
+.my-photo {
+	padding: .5rem;
+	margin: .25rem;
+}
+
+.section-three {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	margin: 1rem;
+}
+.section-three-p {
+	display: flex;
+	margin-top: 1rem;
+	margin-right: 1.5rem;
+}
+
+/*Beginning of Modal*/
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+	background-color: lightblue;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+.modal-content-about-me {
+	display: flex;
+	justify-content: flex-start;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.modal-content-about-me h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+.modal-content-about-me-p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-content-about-me p {
+	padding: 5px;
+}
+
+.modal-content-about-me-photo {
+	display: flex;
+	padding: 5px;
+
+}
+
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+/*Ending of Modal*/
+
+.section-four {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-self: center;
+	padding: 1rem;
+	margin: 1rem;
+}
