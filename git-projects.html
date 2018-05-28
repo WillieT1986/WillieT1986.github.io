@@ -1,206 +1,200 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>My GitHub Projects</title>
-	<link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
-	<script src="./src/static/js/github-calendar.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="./src/static/css/layout.css">
-	<link rel="stylesheet" type="text/css" href="./src/static/css/project-style.css">
-</head>
-<body class="container">
-	<header>
-		<section>
-			<article>
-				<img width="188px" height="40px" src="./src/static/images/logo.jpg" alt="WeCan{Code}IT">
-			</article>
-			<article>
-				<p><a href="education.html">Education & Training</a></p>
-				<p><a href="index.html">Home</a></p>
-				<p><a href="tech.html">Technical Inventory</a></p>
-			</article>	
-		</section>
-	</header>
-	<main>
-		<h1>My GitHub</h1>
-		<section class="git-calendar">
-			<!-- Beginning of GitHub Calendar -->
-			<div class="calendar">
-				Loading the data just for you.
-			</div>
-			<script>
-				GitHubCalendar(".calendar", "WillieT1986");
-			</script>
-			<!-- End of GitHub Calendar -->
-		</section>
-		<!-- Beginning of WeCan{Code}IT Cards -->
-		<section class="section-wecan">
-			<h2>WeCan{Code}IT Projects</h2>
-			<section class="cards">
-				<article class="card">
-					<h3><a href="https://github.com/WillieT1986/fortune-teller">Fortune Teller</a></h3>
-					<p>The User will enter there First & Last name along with their Age, 
-						Birth Month, Favorite ROYGBIV color and Number of Siblings. 
-						Once the data is collected the program will greet the User and tell 
-						them how many years they have left to retire, how much money they 
-						have in their bank account, the location that he or she will live and 
-					their mode of transportation.</p>					
-					<img id="project-image" class="myImg" src="src/static/images/fortune-teller.jpg" alt="Fortune Teller" width="200px" height="172px">					
-					<div id="myModal" class="modal">
-						<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-						<img class="modal-content" id="img01">					
-						<div id="caption"></div>
-					</div>					
-					<p>Skills: <a href="tech.html#java">Java</a></p>
-					<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#git">Git</a></p>
-				</article>				
-				<article class="card">
-					<h3><a href="https://github.com/WillieT1986/virtual-pet">Virtual Pet</a></h3>
-					<p>Created a virtual pet similar to the one seen in the late 1990's. The virtual pet is named Hold. Hold will be able to inform its owner when it needs various tasks to be completed. For example, when Hold is either hungry or thirsty. It is up to the Owner of Hold to keep their virtual pet happy.</p>				
-					<img id="project-image" class="myImg" src="./src/static/images/pet-1.jpg" alt="Virtual Pet version 1" width="200px" height="172px">				
-					<p>Skills: <a href="tech.html#java">Java</a> | <a href="tech.html#tdd">TDD</a></p>
-					<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#git">Git</a></p>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>My GitHub Projects</title>
+		<link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
+		<script src="./src/static/js/github-calendar.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="./src/static/css/layout.css">
+		<link rel="stylesheet" type="text/css" href="./src/static/css/project-style.css">
+	</head>
+	<body class="container">
+		<header>
+			<section>
+				<article>
+					<img width="188px" height="40px" src="./src/static/images/logo.jpg" alt="WeCan{Code}IT">
 				</article>
-				<article class="card">
-					<h3><a href="https://github.com/WillieT1986/virtual-pet-shelter">Virtual Pet Shelter</a></h3>
-					<p>Created a Virtual Pet Shelter that houses Virtual Pets. The user has the ability to feed, water and play with a pet. The user also has the option to either Adopt out a pet or Intake new pets. </p>				
-					<img id="project-image" class="myImg" src="./src/static/images/pet-shelter.png" alt="Virtual Pet version 2" width="200px" height="172px">
-					<p>Skills: <a href="tech.html#java">Java</a> | <a href="tech.html#oop">OOP</a> | <a href="tech.html#tdd">TDD</a></p>
-					<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#git">Git</a></p>
-				</article>
+				<article>
+					<p><a href="education.html">Education & Training</a></p>
+					<p><a href="index.html">Home</a></p>
+					<p><a href="tech.html">Technical Inventory</a></p>
+				</article>	
 			</section>
+		</header>
+		<main>
+			<h1>My GitHub</h1>
+			<section class="git-calendar">
+				<!-- Beginning of GitHub Calendar -->
+				<div class="calendar">
+					Loading the data just for you.
+				</div>
+				<script>
+					GitHubCalendar(".calendar", "WillieT1986");
+				</script>
+				<!-- End of GitHub Calendar -->
+			</section>
+			<!-- Beginning of WeCan{Code}IT Cards -->
+			<section class="section-wecan">
+				<h2>WeCan{Code}IT Projects</h2>
+				<section class="cards">
+					<article class="card">
+						<h3><a href="https://github.com/WillieT1986/fortune-teller">Fortune Teller</a></h3>
+						<p>The User will enter there First & Last name along with their Age, 
+							Birth Month, Favorite ROYGBIV color and Number of Siblings. 
+							Once the data is collected the program will greet the User and tell 
+							them how many years they have left to retire, how much money they 
+							have in their bank account, the location that he or she will live and 
+						their mode of transportation.</p>					
+						<img id="project-image" class="myImg" src="src/static/images/fortune-teller.jpg" alt="Fortune Teller" width="200px" height="172px">					
+						<div id="myModal" class="modal">
+							<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+							<img class="modal-content" id="img01">					
+							<div id="caption"></div>
+						</div>					
+						<p>Skills: <a href="tech.html#java">Java</a></p>
+						<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#git">Git</a></p>
+					</article>				
+					<article class="card">
+						<h3><a href="https://github.com/WillieT1986/virtual-pet">Virtual Pet</a></h3>
+						<p>Created a virtual pet similar to the one seen in the late 1990's. The virtual pet is named Hold. Hold will be able to inform its owner when it needs various tasks to be completed. For example, when Hold is either hungry or thirsty. It is up to the Owner of Hold to keep their virtual pet happy.</p>				
+						<img id="project-image" class="myImg" src="./src/static/images/pet-1.jpg" alt="Virtual Pet version 1" width="200px" height="172px">				
+						<p>Skills: <a href="tech.html#java">Java</a> | <a href="tech.html#tdd">TDD</a></p>
+						<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#git">Git</a></p>
+					</article>
+					<article class="card">
+						<h3><a href="https://github.com/WillieT1986/virtual-pet-shelter">Virtual Pet Shelter</a></h3>
+						<p>Created a Virtual Pet Shelter that houses Virtual Pets. The user has the ability to feed, water and play with a pet. The user also has the option to either Adopt out a pet or Intake new pets. </p>				
+						<img id="project-image" class="myImg" src="./src/static/images/pet-shelter.png" alt="Virtual Pet version 2" width="200px" height="172px">
+						<p>Skills: <a href="tech.html#java">Java</a> | <a href="tech.html#oop">OOP</a> | <a href="tech.html#tdd">TDD</a></p>
+						<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#git">Git</a></p>
+					</article>
+				</section>
+				<section class="cards">
+					<article class="card">
+						<h3><a href="https://github.com/WillieT1986/virtual-pets-amok">Virtual Pets Amok</a></h3>
+						<p>In this iteration of Virtual Pet Shelter, the Virtual Shelter now has Dogs, Cats and Robot Dogs. The user will nee to manage the pets hunger, thirst, boredom, wast, happiness, oill and battery levels. Along with cleaning out the Shelter litter box. There are also Dog kennels that will need to be cleaned as well but the system will prompt the User when it is time to clean out each individual kennel. Adopting out and Intaking new pets are also still options. As the User, will you be able to manage this Shelter? Enjoy...</p>					
+						<img id="project-image" class="myImg" src="src/static/images/pets-amok.jpg" alt="Virtual Pets Amok!" width="200px" height="172px">			
+						<p>Skills: <a href="tech.html#java">Java</a> | <a href="tech.html#oop">OOP</a> | <a href="tech.html#tdd">TDD</a></p>
+						<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#git">Git</a></p>
+					</article>				
+					<article class="card">
+						<h3><a href="https://github.com/WillieT1986/reviews-site">Reviews Site</a></h3>
+						<p>Created a Reviews Site through Spring Boot + MVC app that displays a list of reviews allowing the user to click on an individual review to see its details.</p>					
+						<img id="project-image" class="myImg" src="src/static/images/review1.jpg" alt="Reviews Site version 1.0" width="200px" height="172px">				
+						<p>Skills: <a href="tech.html#java">Java</a> | <a href="tech.html#oop">OOP</a> | <a href="tech.html#tdd">TDD</a> | <a href="tech.html#spring">Spring</a> | <a href="tech.html#html">HTML5</a></p>
+						<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#subl">Sublime Text 3</a> | <a href="tech.html#git">Git</a></p>
+					</article>
+					<article class="card">
+						<h3><a href="http://www.wrthompsonjr.com">Github Portfolio: The Beginning</a></h3>
+						<p>The first iteration of my GitHub Protfolio site started here. It was just a simple site to introduce me to my first public site to show off my skills as an Apprentice Software Developer.</p>					
+						<img id="project-image" class="myImg" src="src/static/images/port-site1.png" alt="Portfolio 1.0" width="200px" height="172px">		
+						<p>Skills: <a href="tech.html#html">HTML5</a> | <a href="tech.html#css">CSS3</a></p>
+						<p>Tools: <a href="tech.html#subl">Sublime Text 3</a> | <a href="tech.html#git">Git</a></p>
+					</article>
+				</section>
+				<section class="cards">
+					<article class="card">
+						<h3><a href="https://github.com/WillieT1986/reviews-site-full-stack">Reviews Site Full Stack</a></h3>
+						<p>This is the second iteration to Review Site but now it is being made into a Full Stack Web Application. This site has a list of categories that for now, has only one category that holds several reivews. When the User clicks on the review it will show the details of the review. Now, tags have been added to the mix. Each review is associated with a tag and when the User clicks on a specific tag all the reviews associated with that tag will appear.</p>
+						<img id="project-image" class="myImg" src="src/static/images/review2.png" alt="Reviews Site version 2.0" width="200px" height="172px">				
+						<p>Skills: <a href="tech.html#java">Java</a> | <a href="tech.html#oop">OOP</a> | <a href="tech.html#tdd">TDD</a> | <a href="tech.html#spring">Spring</a> | <a href="tech.html#sql">SQL</a> | <a href="tech.html#jpa">Hibernate</a> | <a href="tech.html#html">HTML5</a> | <a href="tech.html#css">CSS3</a></p>
+						<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#subl">Sublime Text 3</a> | <a href="tech.html#git">Git</a></p>
+					</article>				
+					<article class="card">
+						<h3><a href="https:www.wrthompsonjr.com">GitHub Portfolio: Generation JScript</a></h3>
+						<p>Now that I have been shown JavaScript, it was time to add it to my portfolio. The logo was turned into a button that would toggle between hide and show. Buttons were created to expand and collapse the descriptions for the GitHub Projects. An image carousel was added to the about me to show more than one photo. A button that showed the date and time through an event listener was also added along with with a modal for the about me description. After it was graded I completely removed it all except for the image carousel. The image posted below is what it had looked like on my Samsung Note 8 device.</p>	
+						<p>Note: Jasmine was also used to try and attempt to test the JavaScript but learning Jasmine, as well as how to correctly test JavaScript is still a work in progress...</p>				
+						<img id="project-image" class="myImg" src="src/static/images/wkend8-image1.jpg" alt="Portfolio 2.0" width="200px" height="172px">	
+						<p>Skills: <a href="tech.html#html">HTML5</a> | <a href="tech.html#css">CSS3</a> | <a href="tech.html#js">JavaScript</a></p>
+						<p>Tools: <a href="tech.html#subl">Sublime Text 3</a> | <a href="tech.html#git">Git</a></p>
+					</article>
+					<article class="card">
+						<h3><a href="https://github.com/WillieT1986/reviews-the-next-generation">Reviews The Next Generation</a></h3>
+						<p>Third iteration for Reviews Site. This time, it was required that tags be added, as well as a comment section for each review site. When user access a review from one of the two Categories, there will be a comment section to leave comments. In the picture below I left a few comments to show how it works. The one part for this project that I could not figure out was how to utilize Ajax to add and remove a tag, and to add and remove a review from a tag. Beside that, the site functions as intended. However, I realize I could have used JQuery but was trying to avoid JQuery and use only JavaScript.</p>					
+						<img id="project-image" class="myImg" src="src/static/images/review-site3.png" alt="Reviews Site version 3.0" width="200px" height="172px">				
+						<p>Skills: <a href="tech.html#java">Java</a> | <a href="tech.html#oop">OOP</a> | <a href="tech.html#tdd">TDD</a> | <a href="tech.html#spring">Spring</a> | <a href="tech.html#sql">SQL</a> | <a href="tech.html#jpa">Hibernate</a> | <a href="tech.html#html">HTML5</a> | <a href="tech.html#css">CSS3</a> | <a href="tech.html#js">JavaScript</a> | <a href="tech.html#ajax">Ajax</a></p>
+						<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#subl">Sublime Text 3</a> | <a href="tech.html#git">Git</a></p>
+					</article>
+				</section>
+			</secion>
 			<section class="cards">
 				<article class="card">
-					<h3><a href="https://github.com/WillieT1986/virtual-pets-amok">Virtual Pets Amok</a></h3>
-					<p>In this iteration of Virtual Pet Shelter, the Virtual Shelter now has Dogs, Cats and Robot Dogs. The user will nee to manage the pets hunger, thirst, boredom, wast, happiness, oill and battery levels. Along with cleaning out the Shelter litter box. There are also Dog kennels that will need to be cleaned as well but the system will prompt the User when it is time to clean out each individual kennel. Adopting out and Intaking new pets are also still options. As the User, will you be able to manage this Shelter? Enjoy...</p>					
-					<img id="project-image" class="myImg" src="src/static/images/pets-amok.jpg" alt="Virtual Pets Amok!" width="200px" height="172px">			
-					<p>Skills: <a href="tech.html#java">Java</a> | <a href="tech.html#oop">OOP</a> | <a href="tech.html#tdd">TDD</a></p>
-					<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#git">Git</a></p>
-				</article>				
-				<article class="card">
-					<h3><a href="https://github.com/WillieT1986/reviews-site">Reviews Site</a></h3>
-					<p>Created a Reviews Site through Spring Boot + MVC app that displays a list of reviews allowing the user to click on an individual review to see its details.</p>					
-					<img id="project-image" class="myImg" src="src/static/images/review1.jpg" alt="Reviews Site version 1.0" width="200px" height="172px">				
-					<p>Skills: <a href="tech.html#java">Java</a> | <a href="tech.html#oop">OOP</a> | <a href="tech.html#tdd">TDD</a> | <a href="tech.html#spring">Spring</a> | <a href="tech.html#html">HTML5</a></p>
-					<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#subl">Sublime Text 3</a> | <a href="tech.html#git">Git</a></p>
-				</article>
-				<article class="card">
-					<h3><a href="http://www.wrthompsonjr.com">Github Portfolio: The Beginning</a></h3>
-					<p>The first iteration of my GitHub Protfolio site started here. It was just a simple site to introduce me to my first public site to show off my skills as an Apprentice Software Developer.</p>					
-					<img id="project-image" class="myImg" src="src/static/images/port-site1.png" alt="Portfolio 1.0" width="200px" height="172px">		
-					<p>Skills: <a href="tech.html#html">HTML5</a> | <a href="tech.html#css">CSS3</a></p>
+					<h3><a href="https:www.wrthompsonjr.com">My Portfolio Reconstructed</a></h3>
+					<p>This is the third iteration to my GitHub Portfolio. This covers all the front-end I have learned, or seen throughout my time in bootcamp. A domain name was purchased and linked to my github.io address while the entire site goes through an amazing transformation. </p>					
+					<img id="project-image" class="myImg" src="src/static/images/home.png" alt="My Portfolio" width="200px" height="172px">				
+					<p>Skills: <a href="tech.html#html">HTML5</a> | <a href="tech.html#css">CSS3</a> | <a href="tech.html#jquery">jQuery</a> | <a href="tech.html#js">JavaScript</a></p>
 					<p>Tools: <a href="tech.html#subl">Sublime Text 3</a> | <a href="tech.html#git">Git</a></p>
-				</article>
-			</section>
-			<section class="cards">
-				<article class="card">
-					<h3><a href="https://github.com/WillieT1986/reviews-site-full-stack">Reviews Site Full Stack</a></h3>
-					<p>This is the second iteration to Review Site but now it is being made into a Full Stack Web Application. This site has a list of categories that for now, has only one category that holds several reivews. When the User clicks on the review it will show the details of the review. Now, tags have been added to the mix. Each review is associated with a tag and when the User clicks on a specific tag all the reviews associated with that tag will appear.</p>
-					<img id="project-image" class="myImg" src="src/static/images/review2.png" alt="Reviews Site version 2.0" width="200px" height="172px">				
-					<p>Skills: <a href="tech.html#java">Java</a> | <a href="tech.html#oop">OOP</a> | <a href="tech.html#tdd">TDD</a> | <a href="tech.html#spring">Spring</a> | <a href="tech.html#sql">SQL</a> | <a href="tech.html#jpa">Hibernate</a> | <a href="tech.html#html">HTML5</a> | <a href="tech.html#css">CSS3</a></p>
-					<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#subl">Sublime Text 3</a> | <a href="tech.html#git">Git</a></p>
-				</article>				
-				<article class="card">
-					<h3><a href="https:www.wrthompsonjr.com">GitHub Portfolio: Generation JScript</a></h3>
-					<p>Now that I have been shown JavaScript, it was time to add it to my portfolio. The logo was turned into a button that would toggle between hide and show. Buttons were created to expand and collapse the descriptions for the GitHub Projects. An image carousel was added to the about me to show more than one photo. A button that showed the date and time through an event listener was also added along with with a modal for the about me description. After it was graded I completely removed it all except for the image carousel. The image posted below is what it had looked like on my Samsung Note 8 device.</p>	
-					<p>Note: Jasmine was also used to try and attempt to test the JavaScript but learning Jasmine, as well as how to correctly test JavaScript is still a work in progress...</p>				
-					<img id="project-image" class="myImg" src="src/static/images/wkend8-image1.jpg" alt="Portfolio 2.0" width="200px" height="172px">	
-					<p>Skills: <a href="tech.html#html">HTML5</a> | <a href="tech.html#css">CSS3</a> | <a href="tech.html#js">JavaScript</a></p>
-					<p>Tools: <a href="tech.html#subl">Sublime Text 3</a> | <a href="tech.html#git">Git</a></p>
-				</article>
-				<article class="card">
-					<h3><a href="https://github.com/WillieT1986/reviews-the-next-generation">Reviews The Next Generation</a></h3>
-					<p>Third iteration for Reviews Site. This time, it was required that tags be added, as well as a comment section for each review site. When user access a review from one of the two Categories, there will be a comment section to leave comments. In the picture below I left a few comments to show how it works. The one part for this project that I could not figure out was how to utilize Ajax to add and remove a tag, and to add and remove a review from a tag. Beside that, the site functions as intended. However, I realize I could have used JQuery but was trying to avoid JQuery and use only JavaScript.</p>					
-					<img id="project-image" class="myImg" src="src/static/images/review-site3.png" alt="Reviews Site version 3.0" width="200px" height="172px">				
-					<p>Skills: <a href="tech.html#java">Java</a> | <a href="tech.html#oop">OOP</a> | <a href="tech.html#tdd">TDD</a> | <a href="tech.html#spring">Spring</a> | <a href="tech.html#sql">SQL</a> | <a href="tech.html#jpa">Hibernate</a> | <a href="tech.html#html">HTML5</a> | <a href="tech.html#css">CSS3</a> | <a href="tech.html#js">JavaScript</a> | <a href="tech.html#ajax">Ajax</a></p>
-					<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#subl">Sublime Text 3</a> | <a href="tech.html#git">Git</a></p>
-				</article>
-			</section>
-		</secion>
-		<section class="cards">
-			<article class="card">
-				<h3><a href="https:www.wrthompsonjr.com">My Portfolio Reconstructed</a></h3>
-				<p>This is the third iteration to my GitHub Portfolio. This covers all the front-end I have learned, or seen throughout my time in bootcamp. A domain name was purchased and linked to my github.io address while the entire site goes through an amazing transformation. </p>					
-				<img id="project-image" class="myImg" src="src/static/images/home.png" alt="My Portfolio" width="200px" height="172px">				
-				<p>Skills: <a href="tech.html#html">HTML5</a> | <a href="tech.html#css">CSS3</a> | <a href="tech.html#jquery">jQuery</a> | <a href="tech.html#js">JavaScript</a></p>
-				<p>Tools: <a href="tech.html#subl">Sublime Text 3</a> | <a href="tech.html#git">Git</a></p>
-			</article>	
-			<article class="card">
-				<h3><a href="https://github.com/watch-your-garden-grow/watch-your-garden-grow">Final Project: In Progress</a></h3>
-				<p>During the last few weeks of class. A group of 7 under a Scrum Master are working diligently to create an app utilizing everything that was taught during the 10 weeks of instruction. This will be updated slightly over the next couple weeks.</p>					
-				<img id="project-image" class="myImg" src="src/static/images/image1.png" alt="FinalProject" width="200px" height="172px">	
-				<p>Skills: <a href="tech.html#java">Java</a> | <a href="tech.html#oop">OOP</a> | <a href="tech.html#tdd">TDD</a> | <a href="tech.html#spring">Spring</a> | <a href="tech.html#sql">SQL</a> | <a href="tech.html#jpa">Hibernate</a> | <a href="tech.html#html">HTML5</a> | <a href="tech.html#css">CSS3</a></p>
-				<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#subl">Sublime Text 3</a> | <a href="tech.html#git">Git</a></p>
-				<p>Team consisted of 7 with 1 Scrum Master</p>
-			</article>	
-		</section>
-		<!-- Ending of WeCan{Code}IT Project Cards -->
-		<!-- Beginning of Other Project Cards -->
-		<section class="section-other">
-			<h2>Other Projects/Future Projects</h2>
-			<section section class="cards">
-				<article class="card">
-					<h3><a href="">Future Project</a></h3>
-					<p>Something might go here</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>					
-					<img id="project-image" class="myImg" src="src/static/images/image1.png" alt="ProjectName" width="200px" height="172px">					
-					<div id="myModal" class="modal">
-						<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-						<img class="modal-content" id="img01">					
-						<div id="caption"></div>
-					</div>					
-					<p>Skills: skill1 | skill2 | skill3</p>
-					<p>Tools: Tools1 | Tools2 | Tools3</p>
-				</article>
-				<article class="card">
-					<h3><a href="">Future Project</a></h3>
-					<p>Something might go here</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>					
-					<img id="project-image" class="myImg" src="src/static/images/image1.png" alt="ProjectName" width="200px" height="172px">					
-					<div id="myModal" class="modal">
-						<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-						<img class="modal-content" id="img01">					
-						<div id="caption"></div>
-					</div>					
-					<p>Skills: skill1 | skill2 | skill3</p>
-					<p>Tools: Tools1 | Tools2 | Tools3</p>
 				</article>	
 				<article class="card">
-					<h3><a href="">Future Project</a></h3>
-					<p>Something might go here</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>					
-					<img id="project-image" class="myImg" src="src/static/images/image1.png" alt="ProjectName" width="200px" height="172px">					
-					<div id="myModal" class="modal">
-						<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-						<img class="modal-content" id="img01">					
-						<div id="caption"></div>
-					</div>					
-					<p>Skills: skill1 | skill2 | skill3</p>
-					<p>Tools: Tools1 | Tools2 | Tools3</p>
-				</article>							
+					<h3><a href="https://github.com/watch-your-garden-grow/watch-your-garden-grow">Final Project: In Progress</a></h3>
+					<p>During the last few weeks of class. A group of 7 under a Scrum Master are working diligently to create an app utilizing everything that was taught during the 10 weeks of instruction. This will be updated slightly over the next couple weeks.</p>					
+					<img id="project-image" class="myImg" src="src/static/images/image1.png" alt="FinalProject" width="200px" height="172px">	
+					<p>Skills: <a href="tech.html#java">Java</a> | <a href="tech.html#oop">OOP</a> | <a href="tech.html#tdd">TDD</a> | <a href="tech.html#spring">Spring</a> | <a href="tech.html#sql">SQL</a> | <a href="tech.html#jpa">Hibernate</a> | <a href="tech.html#html">HTML5</a> | <a href="tech.html#css">CSS3</a></p>
+					<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#subl">Sublime Text 3</a> | <a href="tech.html#git">Git</a></p>
+					<p>Team consisted of 7 with 1 Scrum Master</p>
+				</article>	
 			</section>
-		</section>
-		<!-- Ending of Other Project Cards -->
-	</main>
-	<footer>
-		<small>© 2018</small>
-	</footer>
-</body>
+			<!-- Ending of WeCan{Code}IT Project Cards -->
+			<!-- Beginning of Other Project Cards -->
+			<section class="section-other">
+				<h2>Other Projects/Future Projects</h2>
+				<section section class="cards">
+					<article class="card">
+						<h3><a href="">Future Project</a></h3>
+						<p>Something might go here</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>					
+						<img id="project-image" class="myImg" src="src/static/images/image1.png" alt="ProjectName" width="200px" height="172px">					
+						<div id="myModal" class="modal">
+							<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+							<img class="modal-content" id="img01">					
+							<div id="caption"></div>
+						</div>					
+						<p>Skills: skill1 | skill2 | skill3</p>
+						<p>Tools: Tools1 | Tools2 | Tools3</p>
+					</article>
+					<article class="card">
+						<h3><a href="https://github.com/SurvivingCodingBootCamp">Blog: Surviving Coding Bootcamp</a></h3>
+						<p>This is a side project that I am assisting some friends with. Those of us taking part in this all went through the same Coding Bootcamp together. This is a fun little project to help keep out skills sharp and to practice what we have come to love - Programming.</p>					
+						<img id="project-image" class="myImg" src="src/static/images/image1.png" alt="ProjectName" width="200px" height="172px">					
+						<div id="myModal" class="modal">
+							<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+							<img class="modal-content" id="img01">					
+							<div id="caption"></div>
+						</div>					
+					<p>Skills: <a href="tech.html#java">Java</a> | <a href="tech.html#oop">OOP</a> | <a href="tech.html#tdd">TDD</a> | <a href="tech.html#spring">Spring</a> | <a href="tech.html#jpa">Hibernate</a> | <a href="tech.html#html">HTML5</a> | <a href="tech.html#css">CSS3</a></p>
+					<p>Tools: <a href="tech.html#eclipse">Eclipse IDE</a> | <a href="tech.html#subl">Sublime Text 3</a> | <a href="tech.html#git">Git</a></p>
+					</article>	
+					<article class="card">
+						<h3><a href="">Future Project</a></h3>
+						<p>Something might go here</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>					
+						<img id="project-image" class="myImg" src="src/static/images/image1.png" alt="ProjectName" width="200px" height="172px">					
+						<div id="myModal" class="modal">
+							<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+							<img class="modal-content" id="img01">					
+							<div id="caption"></div>
+						</div>					
+						<p>Skills: skill1 | skill2 | skill3</p>
+						<p>Tools: Tools1 | Tools2 | Tools3</p>
+					</article>							
+				</section>
+			</section>
+			<!-- Ending of Other Project Cards -->
+		</main>
+		<footer>
+			<small>© 2018</small>
+		</footer>
+	</body>
 
-<script src="./src/static/js/project-modal.js"></script>
-</html>
+	<script src="./src/static/js/project-modal.js"></script>
+	</html>
