@@ -1,9 +1,117 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Education & Training</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./src/static/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="./src/static/css/edu.css">
 </head>
-<body>
+<body class="container">
 
+	<header>
+		<section>
+			<article>
+				<img width="188px" height="40px" src="./src/static/images/logo.jpg" alt="WeCan{Code}IT">
+			</article>
+			<article>
+				<p><a href="tech.html">Technical Inventory</a></p>
+				<p><a href="index.html">Home</a></p>
+				<p><a href="git-projects.html">GitHub Projects</a></p>
+			</article>	
+		</section>
+	</header>
+
+	<main>
+		<h1>Education & Training</h1>
+		<section class="certs">
+			<h2>Certifications</h2>
+			<section class="card">
+				
+				<article>
+					<img id="edu-image" class="myImg" src="src/static/images/wcci-cert.jpg" alt="Certificate in Software Development" width="200px" height="172px">					
+					<div id="myModal" class="modal">
+						<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+						<img class="modal-content" id="img01">					
+						<div id="caption"></div>
+					</div>
+				</article>	
+				
+				<article>
+					<h3><a href="https://wecancodeit.org/">WeCan{Code}IT</a></h3>
+					<p>2645 North High Street <br>
+					Columbus, OH 43202</p>
+					<p>Full Stack Java <br>
+					Software Developer</p>
+					<p>*** April 2018 ***</p>
+				</article>	
+			</section>
+			
+			<section class="card">
+				<article>
+					<img id="edu-image" class="myImg" src="./src/static/images/coa-cert.jpg" alt="Certification in Computer Engineering Technology" width="200px" height="172px">
+				</article>		
+				<article>
+					<h3><a href="https://www.albemarle.edu/">College of the Albemarle</a></h3>
+					<p>1208 N Road St<br>
+					Elizabeth City, NC 27909</p>
+					<p>Computer Engineering Technology <br>
+					PC Technician</p>
+					<p>*** May 2013 ***</p>
+				</article>
+			</section>
+
+
+			<h2>Online Learning</h2>
+			<section class="card">
+				<article>
+					<img id="edu-image" class="myImg" src="src/static/images/treehouse.png" alt="Profile Photo from Team Treehouse that color codes languages that I have finished on the site with Java being the largest." width="200px" height="172px">
+				</article>	
+				<article>
+					<h3><a href="https://teamtreehouse.com/williamthompson8">Team Treehouse</a></h3>
+					<p>Team Treehouse is an online learning course that I take advantage of during my free time to gain some extra knowledge and broaden my views within the programming world.</p>
+				</article>	
+			</section>
+
+			<h2>Books</h2>
+			<section class="card">
+				<article>
+					<img id="edu-image" class="myImg" src="src/static/images/headfirstjava.png" alt="Head First Java 2nd Edition" width="200px" height="172px">
+				</article>	
+				<article>
+					<h3><a href="https://www.amazon.com/Head-First-Java-Brain-Friendly-Guide-ebook/dp/B009KCUX3S">Head First Java</a></h3>
+					<p>Teaches the basics of Java and Object Oriented Programming.</p>
+					<p>Reading Status: <em>Used in Class</em></p>
+				</article>	
+			</section>
+
+			<section class="card">
+				<article>
+					<img id="edu-image" class="myImg" src="src/static/images/murach.jpg" alt="Murach's Java Programming 5th Edition" width="200px" height="172px">
+				</article>	
+				<article>
+					<h3><a href="https://www.murach.com/shop/murach-s-java-programming-5th-edition-detail">Murach's Java Programming 5th Edition</a></h3>
+					<p>An excellent training & reference book on Core Java, Object Oriented Programming (OOP), GUI Programming and Database Programming. Great source when learning to study Java via IDE or old school Notepad & Command Line.</p>
+					<p>Reading Status: <em>Currently Reading</em></p>
+				</article>	
+			</section>
+
+			<section class="card">
+				<article>
+					<img id="edu-image" class="myImg" src="src/static/images/jscript.jpg" alt="JavaScript: The Good Parts" width="200px" height="172px">
+				</article>	
+				<article>
+					<h3><a href="https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=sr_1_1?ie=UTF8&qid=1523555665&sr=8-1&keywords=javascript+the+good+parts">JavaScript: The Good Parts</a></h3>
+					<p>Has words of wisdom to start off and then leads into a more in depth description of definitions and how to better understand JavaScript.</p>
+					<p>Reading Status: <em>Used As Reference</em></p>
+				</article>	
+			</section>
+
+		</section>
+	</section>
+</main>
+<footer>
+	<small>© 2018</small>
+</footer>
 </body>
+<script src="./src/static/js/project-modal.js"></script>
 </html>
