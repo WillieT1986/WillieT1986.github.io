@@ -48,7 +48,14 @@ h2 {
 }
 
 .card h3 {
-    margin: 1rem;
+    margin-top: 1rem;
+}
+
+.back {
+    text-align: center;
+    font-size: .7rem;
+    padding-right: 2.5rem;
+
 }
 
 .card p {
