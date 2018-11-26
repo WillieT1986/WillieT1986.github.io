@@ -39,7 +39,8 @@ h2 {
     justify-content: center;
     border-radius: 1rem;
     border: 0.125rem solid black;
-    background: snow;  
+    background: #cfdbe6;  
+    /* https://html-color.codes/hex/cfdbe6 */
     margin-top: 2.5rem;  
     margin-left: 30rem;
     margin-right: 30rem;
