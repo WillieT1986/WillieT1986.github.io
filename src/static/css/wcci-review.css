@@ -66,6 +66,25 @@ h2 {
     text-indent: 2.5rem;
 }
 
+.wcciTable {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: .4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: .5rem;
+    font-size: .8rem;
+}
+
+.wcciTable li {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: .21rem;
+}
+
 .table2 {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
