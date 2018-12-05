@@ -102,6 +102,27 @@ h2 {
     margin-left: 1.5rem;
 }
 
+.imgCard {
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    border: 0.125rem solid black;
+}
+
+#wcci-image {   
+    padding-top: 1rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.imgCard p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-indent: 0rem;
+    margin-top: 1rem;
+}
 
 
 /*
