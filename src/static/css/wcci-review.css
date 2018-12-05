@@ -21,7 +21,14 @@ header p {
 h1 {
 	display: flex;
 	justify-content: center;
-	margin: 2.5rem;
+	margin-top: 2.5rem;
+    margin-bottom: .25rem;
+}
+
+.author {
+    text-align: center;
+    font-size: .8rem;
+    margin-bottom: 2.5rem;
 }
 
 h2 {
