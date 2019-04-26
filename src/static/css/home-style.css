@@ -3,7 +3,6 @@ header  {
 	flex-direction: row;
 	justify-content: center;
 	align-self: center;
-
 }
 
 header img {
@@ -22,14 +21,22 @@ header p {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 1rem;
-	margin: .5rem;
+	margin-top: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding-bottom: 1rem;
 }
 
 .section-two {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-bottom: .5rem;
+	padding-bottom: 1rem;
 }
 
 .about-me-photo {
@@ -50,8 +57,12 @@ header p {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 2rem;
-	margin: 1rem;
+	margin-top: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-bottom: .5rem;
+	padding-bottom: 1rem;
 }
 .section-three-p {
 	display: flex;
@@ -126,12 +137,3 @@ header p {
 	cursor: pointer;
 }
 /*Ending of Modal*/
-
-.section-four {
-	display: flex;
-	flex-direction: row;
-	justify-content:space-around;
-	align-self: center;
-	padding: 1rem;
-	margin: 1rem;
-}
