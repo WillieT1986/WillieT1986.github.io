@@ -13,7 +13,6 @@ header img {
 header p {
 	display: inline-block;
 	margin-left: .5rem;
-
 }
 
 .section-one {
@@ -85,42 +84,43 @@ header p {
 }
 
 .modal-content {
-	background-color: lightblue;
-	margin: 15% auto;
-	padding: 20px;
-	border: 1px solid #888;
-	width: 80%;
+	margin: 5% auto;
+	width: 50%;
+	border-radius: 0.25rem;
+	/*border: 0.20rem solid black;
+	background-color: lightgray;*/
 }
 
 .modal-content-about-me {
 	display: flex;
-	justify-content: flex-start;
-	border-radius: 5px;
-	border: 1px solid black;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	padding: 1rem;
+	border-radius: .5rem;
+	border: 0.20rem solid black;
+	background-color: lightgray;
 }
 
 .modal-content-about-me h2 {
 	display: flex;
-	align-items: center;
-	justify-content: center;	
+	justify-content: center;
 }
 
 .modal-content-about-me-p {
 	display: flex;
-	align-items: center;
 	justify-content: center;
 }
 
 .modal-content-about-me p {
-	padding: 5px;
+	padding: 0.25rem;
 }
 
 .modal-content-about-me-photo {
 	display: flex;
-	padding: 5px;
-
+	margin: auto;
+	padding: .5rem;
 }
 
 .close {
@@ -130,8 +130,7 @@ header p {
 	font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
 	color: black;
 	text-decoration: none;
 	cursor: pointer;
