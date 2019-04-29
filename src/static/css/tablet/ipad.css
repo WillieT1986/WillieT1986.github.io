@@ -1,0 +1,103 @@
+/* ----------- iPad 1, 2 and Mini ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 48rem) 
+  and (max-device-width: 64rem) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 48rem) 
+  and (max-device-width: 64rem) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 48rem) 
+  and (max-device-width: 64rem) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- iPad Mini 3, Air, mini 4, Air 2, Pro 9.7, Pro 9.7 (2017) and Pro 9.7 (2018) ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 48rem) 
+  and (max-device-width: 64rem) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 48rem) 
+  and (max-device-width: 64rem) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 48rem) 
+  and (max-device-width: 64rem) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- iPad Pro 10.5 (2017) ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 52.125rem) 
+  and (max-device-width: 69.5rem)
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 52.125rem) 
+  and (max-device-width: 52.125rem) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 69.5rem) 
+  and (max-device-width: 69.5rem) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 64rem) 
+  and (max-device-width: 85.375rem)
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 64rem) 
+  and (max-device-width: 64rem) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 85.375rem) 
+  and (max-device-width: 85.375rem) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}

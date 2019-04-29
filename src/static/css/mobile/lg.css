@@ -1,0 +1,23 @@
+/* ----------- LG G3, G4 and G5 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 20rem) 
+  and (max-device-width: 40rem)
+  and (-webkit-min-device-pixel-ratio: 4) {
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 20rem) 
+  and (max-device-width: 40rem)
+  and (-webkit-min-device-pixel-ratio: 4)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 20rem) 
+  and (max-device-width: 40rem)
+  and (-webkit-min-device-pixel-ratio: 4)
+  and (orientation: landscape) {
+}

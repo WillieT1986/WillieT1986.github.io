@@ -1,0 +1,95 @@
+/* ----------- Series 3 (38mm) ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 12.3125rem) 
+  and (max-device-width: 8.5rem) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 12.3125rem) 
+  and (max-device-width: 8.5rem) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 12.3125rem) 
+  and (max-device-width: 8.5rem) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- Series 3 (42mm) ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 12.1875rem) 
+  and (max-device-width: 9.75rem) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 12.1875rem) 
+  and (max-device-width: 9.75rem) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 12.1875rem) 
+  and (max-device-width: 9.75rem) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- Series 4 (40mm) ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 12.3125rem) 
+  and (max-device-width: 10.125rem) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 12.3125rem) 
+  and (max-device-width: 10.125rem) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 12.3125rem) 
+  and (max-device-width: 10.125rem) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* ----------- Series 4 (44mm) ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 14rem) 
+  and (max-device-width: 11.5rem) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 14rem) 
+  and (max-device-width: 11.5rem) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 14rem) 
+  and (max-device-width: 11.5rem) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
