@@ -1,0 +1,65 @@
+/* ----------- Microsoft Surface ----------- */
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 48rem) 
+  and (max-device-width: 85.375rem)
+  and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* Portrait */
+@media 
+  (max-device-width: 48rem) 
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* Landscape */
+@media 
+  (max-device-width: 85.375rem) 
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Microsoft Surface pro, and Pro 2 ----------- */
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 45rem) 
+  and (max-device-width: 80rem)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Portrait */
+@media 
+  (max-device-width: 45rem) 
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1.5) { 
+}
+
+/* Landscape */
+@media 
+  (max-device-width: 80rem) 
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1.5) { 
+}
+
+/* ----------- Microsoft Surface Pro 3 ----------- */
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 64rem) 
+  and (max-device-width: 90rem)
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Portrait */
+@media 
+  (max-device-width: 64rem) 
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1.5) { 
+}
+
+/* Landscape */
+@media 
+  (max-device-width: 90rem) 
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1.5) { 
+}
