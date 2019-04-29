@@ -1,40 +1,40 @@
 /* ----------- Galaxy Tab 2 ----------- */
 /* Portrait and Landscape */
 @media 
-  (min-device-width: 800px) 
-  and (max-device-width: 1280px) {
+  (min-device-width: 50rem) 
+  and (max-device-width: 80rem) {
 }
 
 /* Portrait */
 @media 
-  (max-device-width: 800px) 
+  (max-device-width: 50rem) 
   and (orientation: portrait) { 
 }
 
 /* Landscape */
 @media 
-  (max-device-width: 1280px) 
+  (max-device-width: 80rem) 
   and (orientation: landscape) { 
 }
 
 /* ----------- Galaxy Tab S ----------- */
 /* Portrait and Landscape */
 @media 
-  (min-device-width: 800px) 
-  and (max-device-width: 1280px)
+  (min-device-width: 50rem) 
+  and (max-device-width: 80rem)
   and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 /* Portrait */
 @media 
-  (max-device-width: 800px) 
+  (max-device-width: 50rem) 
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 2) { 
 }
 
 /* Landscape */
 @media 
-  (max-device-width: 1280px) 
+  (max-device-width: 80rem) 
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 2) { 
 }

@@ -1,16 +1,16 @@
 /* ----------- Nexus 7 ----------- */
 /* Portrait and Landscape */
 @media screen 
-  and (device-width: 601px) 
-  and (device-height: 906px) 
+  and (device-width: 37.5625rem) 
+  and (device-height: 56.625rem) 
   and (-webkit-min-device-pixel-ratio: 1.331) 
   and (-webkit-max-device-pixel-ratio: 1.332) {
 }
 
 /* Portrait */
 @media screen 
-  and (device-width: 601px) 
-  and (device-height: 906px) 
+  and (device-width: 37.5625rem) 
+  and (device-height: 56.625rem) 
   and (-webkit-min-device-pixel-ratio: 1.331) 
   and (-webkit-max-device-pixel-ratio: 1.332) 
   and (orientation: portrait) {
@@ -18,8 +18,8 @@
 
 /* Landscape */
 @media screen 
-  and (device-width: 601px) 
-  and (device-height: 906px) 
+  and (device-width: 37.5625rem) 
+  and (device-height: 56.625rem) 
   and (-webkit-min-device-pixel-ratio: 1.331) 
   and (-webkit-max-device-pixel-ratio: 1.332) 
   and (orientation: landscape) {
@@ -28,16 +28,16 @@
 /* ----------- Nexus 9 ----------- */
 /* Portrait and Landscape */
 @media screen 
-  and (device-width: 1536px) 
-  and (device-height: 2048px) 
+  and (device-width: 96rem) 
+  and (device-height: 128rem) 
   and (-webkit-min-device-pixel-ratio: 1.331) 
   and (-webkit-max-device-pixel-ratio: 1.332) {
 }
 
 /* Portrait */
 @media screen 
-  and (device-width: 1536px) 
-  and (device-height: 2048px) 
+  and (device-width: 96rem) 
+  and (device-height: 128rem) 
   and (-webkit-min-device-pixel-ratio: 1.331) 
   and (-webkit-max-device-pixel-ratio: 1.332) 
   and (orientation: portrait) {
@@ -45,8 +45,8 @@
 
 /* Landscape */
 @media screen 
-  and (device-width: 1536px) 
-  and (device-height: 2048px) 
+  and (device-width: 96rem) 
+  and (device-height: 128rem) 
   and (-webkit-min-device-pixel-ratio: 1.331) 
   and (-webkit-max-device-pixel-ratio: 1.332) 
   and (orientation: landscape) {
