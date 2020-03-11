@@ -5,6 +5,47 @@
 }
 
 .container{
+
+}
+
+/*This is for the Header Section*/
+header {
+	margin-left: 10rem; /* Same as the width of the sidenav */
+	font-size: 1.75rem; /* Increased text to enable scrolling */
+	padding: 0rem 0.625rem;
+}
+
+/*This is for the Navigation Bar*/
+.sidenav {
+	height: 100vh;
+	width: auto;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 1.25rem;
+}
+
+.sidenav a {
+	padding: 0.375rem 0.5rem 0.375rem 1rem;
+	text-decoration: none;
+	font-size: 1.56rem;
+	color: #818181;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+
+/*This is for the Main Section*/
+main {
+	margin-left: 10rem; /* Same as the width of the sidenav */
+	font-size: 1.75rem; /* Increased text to enable scrolling */
+	padding: 0rem 0.625rem;
 	display: grid;
 	grid-template-rows: 3.7rem auto 1.5rem;
 	width:100%;
@@ -12,15 +53,36 @@
 	background: lightblue;
 }
 
-header {
-	background-color: lightgray;
-	border-bottom: .05rem solid black;
+
+/*This is for the Body Section*/
+body {
+	font-family: "Lato", sans-serif;
 }
 
+/*This is for the Footer Section*/
 footer {
+	margin-left: 10rem; /* Same as the width of the sidenav */
+	font-size: 1.75rem; /* Increased text to enable scrolling */
+	padding: 0rem 0.625rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	background-color: lightgray;
 	border-top: .05rem solid black;
 }
+
+
+
+
+/*header {
+	background-color: lightgray;
+	border-bottom: .05rem solid black;
+}*/
+
+/*footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgray;
+	border-top: .05rem solid black;
+}*/
