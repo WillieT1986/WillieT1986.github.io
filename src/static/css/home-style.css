@@ -1,138 +1,192 @@
-header  {
+.container-2 {
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
-	align-self: center;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
 
-header img {
-	margin-top: 1rem;
-	margin-left: 6.74rem;
+/*Navigation Bar*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: #616161;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
-header p {
-	display: inline-block;
-	margin-left: .5rem;
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-.section-one {
+.navbar .navlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar .navsoc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-img-layout {
+    margin: .25rem;
+}
+
+.navbar section li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.navbar .navlinks a {
+    color: white;
+    padding: .5rem 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+}
+
+.navbar .navlinks li:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+.navbar .navsoc a {
+    color: white;
+    margin: .5rem .5rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+}
+
+/*Main Screen*/
+.main {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin-top: 2rem;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	padding-bottom: auto;
-}
-
-.section-two {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	margin-bottom: .5rem;
-	padding-bottom: 1rem;
-}
-
-.about-me-photo {
-	display: flex;
-}
-
-.about-me-photo button {
-	align-self: center;
+	padding: 2rem;
 }
 
 .my-photo {
-	padding: .5rem;
-	margin: .25rem;
+	align-self: center;
+	height: 450px;
+	width: 450px;
 }
 
-.section-three {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+h2 {
+	align-self: center;
 	margin-top: 1rem;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+}
+
+h3 {
+	align-self: center;
+	margin-bottom: 1.25rem;
+}
+
+p {
+	margin-left: 5rem;
+	margin-right: 5rem;
 	margin-bottom: .5rem;
-	padding-bottom: 1rem;
-}
-.section-three-p {
-	display: flex;
-	margin-top: 1rem;
-	margin-right: 1.5rem;
 }
 
-/*Beginning of Modal*/
-.modal {
+.main .atop {
+	align-self: center;
+	margin-top: 5rem;
 	display: none;
-	position: fixed;
-	z-index: 1;
-	left: 0;
-	top: 0;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: gray;
+	border-top: .05rem solid black;
+	height: 2%;
 	width: 100%;
-	height: 100%;
-	overflow: auto;
-	background-color: rgb(0,0,0);
-	background-color: rgba(0,0,0,0.4);
+	bottom: 0;
+	position: fixed;
 }
 
-.modal-content {
-	margin: 5% auto;
-	width: 50%;
-	border-radius: 0.25rem;
-	/*border: 0.20rem solid black;
-	background-color: lightgray;*/
+/*Vertical View*/
+@media screen and (max-height: 900px) and (min-height: 346px) {
+    .navbar {
+        background: gray;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .navbar .navlinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+	.main {
+		padding: 0;
+		width: 100%;
+	}
+
+	.my-photo {
+		padding-top: 1rem;
+		width: 100%;
+	}
+
+	p {
+		padding-top: .75rem;
+	}
+
+	.main .atop {
+		display: block;
+		margin-bottom: 2rem;
+	}
+
+	footer {
+		position: relative;
+	}
 }
 
-.modal-content-about-me {
-	display: flex;
-	flex-direction: column;
-	margin-left: auto;
-	margin-right: auto;
-	width: 75%;
-	padding: 1rem;
-	border-radius: .5rem;
-	border: 0.20rem solid black;
-	background-color: lightgray;
-}
+/*Horizontal View*/
+@media screen and (max-width: 900px) and (min-width: 346px) {
+    .navbar {
+        background: gray;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
 
-.modal-content-about-me h2 {
-	display: flex;
-	justify-content: center;
-}
+    .navbar .navlinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-.modal-content-about-me-p {
-	display: flex;
-	justify-content: center;
-}
+	.main {
+		padding: 0;
+		width: 100%;
+	}
 
-.modal-content-about-me p {
-	padding: 0.25rem;
-}
+	.my-photo {
+		padding-top: 1rem;
+	}
 
-.modal-content-about-me-photo {
-	display: flex;
-	margin: auto;
-	padding: .5rem;
-}
+	p {
+		padding-top: .75rem;
+	}
 
-.close {
-	color: #aaa;
-	float: right;
-	font-size: 28px;
-	font-weight: bold;
-}
+	.main .atop {
+		display: block;
+		margin-bottom: 2rem;
+	}
 
-.close:hover, .close:focus {
-	color: black;
-	text-decoration: none;
-	cursor: pointer;
+	footer {
+		position: relative;
+		align-items: center;
+		height: 1.5rem;
+		font-size: 1.25rem;
+	}
 }
-/*Ending of Modal*/

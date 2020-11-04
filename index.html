@@ -2,72 +2,43 @@
 <html>
 <head>
 	<title>WR Thompson Jr Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./src/static/css/layout.css">	
 	<link rel="stylesheet" type="text/css" href="./src/static/css/home-style.css">
-	<link rel="stylesheet" type="text/css" href="./src/static/css/mobile/*">
-	<link rel="stylesheet" type="text/css" href="./src/static/css/tablet/*">
-	<link rel="stylesheet" type="text/css" href="./src/static/css/wearable/*">
 </head>
 <body class="container">
-	<header>
-		<section>
-			<article>
-				<img width="188px" height="40px" src="./src/static/images/logo.jpg" alt="WeCan{Code}IT">
-			</article>
-			<article>
-				<p><a href="education.html">Education & Training</a></p>
-				<p><a href="tech.html">Technical Inventory</a></p>
-				<p><a href="git-projects.html">GitHub Projects</a></p>
-			</article>	
-		</section>
-	</header>
 	<main>
-		<section class="section-one">
-			<h1>William R Thompson Jr</h1>
-			<p>Software Developer</p>
-		</section>
-		<section class="section-two">
-			<article class="about-me-photo">
-				<button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
-				<img class="my-photo" src="./src/static/images/me.jpeg" alt="Photo of William" >
-				<img class="my-photo" src="./src/static/images/me2.jpg" alt="Photo of William and His Cat Tara" >
-				<img class="my-photo" src="./src/static/images/me3.jpg" alt="William Inside A Cave in Da Nang, Vietnam" >
-				<button class="display-right" onclick="plusDivs(+1)">&#10095;</button>
-			</article>
-		</section>
-		<section class="section-three">
-			<!-- Trigger/Open The Modal -->
-			<button id="about-me-modal" >About Me</button>
-			<!-- The Modal -->
-			<div id="about-modal" class="modal">
-				<!-- Modal content -->
-				<div class="modal-content">
-					<span class="close">&times;</span>
-					<section class="modal-content-about-me">
-						<article class="modal-content-about-me-photo">
-							<img src="./src/static/images/me.jpeg" alt="Photo of William" >
-						</article>
-						<article>
-							<h2>William R Thompson Jr</h2>
-							<p class="modal-content-about-me-p">Junior Software Developer</p>
-							<p>Welcome, <br>
-							I’m an aspiring Developer that learned to code from WeCanCodeIT, an accelerated Software Development program that teaches Full Stack Java with focus on test driven development.</p>
-							<p>Served my time in the U.S. Military. I am a Marine, an 0311. When I left my beloved Corps the only thing I thought I could do was either Security or Law Enforcement. Not once did I ever think about anything else on a computer besides playing Games and building them for Games.</p>
-							<p>My first experience with coding was back in High School between 2001 and 2005 where we mainly utilized HTML and CSS, and I didn’t really like it. Then again, in 2013 for my Computer Engineering Certificate, I had to take a class on C++. Again, I didn't like it. </p>
-							<p>It wasn’t until 2017,  when I took some time off work to visit my Fiance in Vietnam that I researched coding bootcamps and discovered that WeCan{Code}IT took the Post 9/11 GI Bill so I applied and was accepted. I took this opportunity to continue to learn about the software side of computers and found happiness coding in Java while building my code through test driving and pair programming.</p>
-						</article>
+		<section class="container-2">
+			<nav class="navbar">
+				<ul>
+					<section class="navlinks">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="education.html">Educational Background</a></li>
+						<li><a href="git-projects.html">Projects</a></li>
+						<li><a href="tech.html">Tech Stack</a></li>
 					</section>
-				</div>
-			</div>
-			<p class="section-three-p"><img src="./src/static/images/cat.png" alt="github" width="25px" height="20px"><a href="https://www.instagram.com/williet1986/">Tara the Cat</a></p>
-			<p class="section-three-p"><img src="./src/static/images/link.png" alt="github" width="25px" height="20px"><a href="https://www.linkedin.com/in/thompsonjrwr/">LinkedIn</a></p>
-			<p class="section-three-p"><a href="wcci-review.html">WeCan{Code}IT: A Coding BootCamp Review</a></p>
-		</section>
+					<section class="navsoc">
+						<li><a href="https://www.linkedin.com/in/thompsonjrwr/"><img class="nav-img" src="./src/static/images/navbar/link.png" alt="github" width="38px" height="33px"></a></li>
+
+						<li><a href="https://www.instagram.com/williet1986/"><img src="./src/static/images/navbar/insta.png" alt="github" width="38px" height="33px"></a></li>
+					</section>
+				</ul>
+			</nav>
+			<section class="main"> 
+				<img class="my-photo" src="./src/static/images/index/me.jpg" alt="Photo of William" >
+				<h2>William R Thompson Jr</h2>
+				<h3>Software Developer</h3>
+				<p>First and foremost, I am a Marine Rifleman who honorably served between 2005 to 2009 who has switched gears to utilize the skills learned in the Marine Corps to aid my knowledge and growth in the World of Development.</p>
+				<p>Before I picked up an interest in coding I was diagnosing and building my own desktop computers for gaming. In fact, programming never even crossed my mind until Pokemon Go from Niantic came out and within the small group of players I was one of few who had the technical knowledge to remotely create a small scale scanner while utilizing my own PC as the server to run it. It was while patiently wiring up that scanner to detect rare species of Pokemon and using Discord and Twitter feeds to send us notifications that I began to see behind all that complicated code that another life awaited me.</p>
+				<p>It wasn’t until 2017 when I decided to make a career change and see if I could have what it takes to become a professional programmer. Around Fall, I found what is known as a Coding Bootcamp that I decided to research. I thought “If they accept the Post 9/11 GI Bill then I might as well give it a try.” That is when I came across We Can Code IT, an accelerated Software Development program that teaches Full Stack Java with focus on test driven development. I wrote a thorough review on this program <a href="wcci-review.html">HERE</a>. </p>
+				<p>My free time is usually held up by planning mods around my car, gaming via PC or Console, binge watching Anime, to even light research on miscellaneous topics, perfecting my marksmanship at the shooting range, and even spending a small walk with my cat Tara that likes to ride around on my shoulders.</p>
+
+				<a class="atop" href="index.html">TOP</a>		
+		</section> 
 	</main>
 	<footer>
-		<small>&copy 2018</small>
+		&copy 2018
 	</footer>
 </body>
-<script src="./src/static/js/app.js"></script>
-<script src="./src/static/js/modal.js"></script>
 </html>

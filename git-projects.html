@@ -2,43 +2,40 @@
 <html>
 <head>
 	<title>My GitHub Projects</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
 	<script src="./src/static/js/github-calendar.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="./src/static/css/layout.css">
 	<link rel="stylesheet" type="text/css" href="./src/static/css/project-style.css">
-	<link rel="stylesheet" type="text/css" href="./src/static/css/mobile/*">
-	<link rel="stylesheet" type="text/css" href="./src/static/css/tablet/*">
-	<link rel="stylesheet" type="text/css" href="./src/static/css/wearable/*">
 </head>
 <body class="container">
-	<header>
-		<section>
-			<article>
-				<img width="188px" height="40px" src="./src/static/images/logo.jpg" alt="WeCan{Code}IT">
-			</article>
-			<article>
-				<p><a href="education.html">Education & Training</a></p>
-				<p><a href="index.html">Home</a></p>
-				<p><a href="tech.html">Technical Inventory</a></p>
-			</article>	
-		</section>
-	</header>
 	<main>
+		<nav class="nav-common">
+			<ul>
+				<section class="navlinks-common">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="education.html">Educational Background</a></li>
+					<li><a href="tech.html">Tech Stack</a></li>
+				</section>
+				<section  class="nav-layout-img" >						
+					<li><a href="https://www.linkedin.com/in/thompsonjrwr/"><img class="nav-img-layout" src="./src/static/images/navbar/link.png" alt="github" width="35px" height="30px"></a></li>
+					<li><a href="https://www.instagram.com/williet1986/"><img class="nav-img" src="./src/static/images/navbar/insta.png" alt="github" width="35px" height="30px"></a></li>
+				</section>
+			</ul>
+		</nav>
 		<h1>My GitHub</h1>
 		<section class="git-calendar">
 			<!-- Beginning of GitHub Calendar -->
-			<div class="calendar">
-				Loading the data just for you.
-			</div>
-			<script>
-				GitHubCalendar(".calendar", "WillieT1986");
-			</script>
+			<div class="calendar">Loading the data just for you.</div>
+			<script>GitHubCalendar(".calendar", "WillieT1986");</script>
 			<!-- End of GitHub Calendar -->
 		</section>
 		<!-- Beginning of WeCan{Code}IT Cards -->
-			<h2>WeCan{Code}IT Projects</h2>
-			<p id="h2p">Spring Class 2018</p>
+			<h2>WeCan{Code}IT Projects<br>
+				Spring 2018</h2>
+			<p id="h2p"><br><a href="#bottom">Skip To Personal Projects</a></p> 
 			<section class="cards">
 				<article class="card">
 					<h3><a href="https://github.com/WillieT1986/fortune-teller">Fortune Teller</a></h3>
@@ -48,99 +45,133 @@
 						them how many years they have left to retire, how much money they 
 						have in their bank account, the location that he or she will live and 
 					their mode of transportation.</p>					
-					<img id="project-image" class="myImg" src="src/static/images/fortune-teller.jpg" alt="Fortune Teller" width="200px" height="172px">					
-					<div id="myModal" class="modal">
+					<img id="project-image" class="myImg" src="src/static/images/github/fortune-teller.jpg" alt="Fortune Teller" width="200px" height="172px"><div id="myModal" class="modal">
 						<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
 						<img class="modal-content" id="img01">					
 						<div id="caption"></div>
 					</div>					
 					<p class="skills">Skills: <a href="tech.html#java">Java</a></p>
 					<p class="tools">Tools: <a href="tech.html#eclipse">Eclipse IDE</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#git">Git</a></p>
-				</article>				
+					<a class="top" href="git-projects.html">Top</a>
+				</article>		
 				<article class="card">
 					<h3><a href="https://github.com/WillieT1986/virtual-pet">Virtual Pet</a></h3>
 					<p>Created a virtual pet similar to the one seen in the late 1990's. The virtual pet is named Hold. Hold will be able to inform its owner when it needs various tasks to be completed. For example, when Hold is either hungry or thirsty. It is up to the Owner of Hold to keep their virtual pet happy.</p>				
-					<img id="project-image" class="myImg" src="./src/static/images/pet-1.jpg" alt="Virtual Pet version 1" width="200px" height="172px">				
+					<img id="project-image" class="myImg" src="./src/static/images/github/pet-1.jpg" alt="Virtual Pet version 1" width="200px" height="172px">				
 					<p class="skills">Skills: <a href="tech.html#java">Java</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a></p>
 					<p class="tools">Tools: <a href="tech.html#eclipse">Eclipse IDE</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#git">Git</a></p>
+					<a class="top" href="git-projects.html">Top</a>
 				</article>
 				<article class="card">
 					<h3><a href="https://github.com/WillieT1986/virtual-pet-shelter">Virtual Pet Shelter</a></h3>
 					<p>Created a Virtual Pet Shelter that houses Virtual Pets. The user has the ability to feed, water and play with a pet. The user also has the option to either Adopt out a pet or Intake new pets. </p>				
-					<img id="project-image" class="myImg" src="./src/static/images/pet-shelter.png" alt="Virtual Pet version 2" width="200px" height="172px">
+					<img id="project-image" class="myImg" src="./src/static/images/github/pet-shelter.png" alt="Virtual Pet version 2" width="200px" height="172px">
 					<p class="skills">Skills: <a href="tech.html#java">Java</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a></p>
 					<p class="tools">Tools: <a href="tech.html#eclipse">Eclipse IDE</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#git">Git</a></p>
+					<a class="top" href="git-projects.html">Top</a>
 				</article>
 				<article class="card">
 					<h3><a href="https://github.com/WillieT1986/virtual-pets-amok">Virtual Pets Amok</a></h3>
-					<p>In this iteration of Virtual Pet Shelter, the Virtual Shelter now has Dogs, Cats and Robot Dogs. The user will nee to manage the pets hunger, thirst, boredom, wast, happiness, oill and battery levels. Along with cleaning out the Shelter litter box. There are also Dog kennels that will need to be cleaned as well but the system will prompt the User when it is time to clean out each individual kennel. Adopting out and Intaking new pets are also still options. As the User, will you be able to manage this Shelter? Enjoy...</p>					
-					<img id="project-image" class="myImg" src="src/static/images/pets-amok.jpg" alt="Virtual Pets Amok!" width="200px" height="172px">			
+					<p>In this iteration of Virtual Pet Shelter, the Virtual Shelter now has Dogs, Cats and Robot Dogs. The user will nee to manage the pets hunger, thirst, boredom, wast, happiness, oill and battery levels. Along with cleaning out the Shelter litter box.<br> 
+					<br>There are also Dog kennels that will need to be cleaned as well but the system will prompt the User when it is time to clean out each individual kennel. Adopting out and Intaking new pets are also still options. As the User, will you be able to manage this Shelter? Enjoy...</p>					
+					<img id="project-image" class="myImg" src="src/static/images/github/pets-amok.jpg" alt="Virtual Pets Amok!" width="200px" height="172px">
 					<p class="skills">Skills: <a href="tech.html#java">Java</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a></p>
 					<p class="tools">Tools: <a href="tech.html#eclipse">Eclipse IDE</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#git">Git</a></p>
-				</article>				
+					<a class="top" href="git-projects.html">Top</a>
+				</article>		
 				<article class="card">
 					<h3><a href="https://github.com/WillieT1986/reviews-site">Reviews Site</a></h3>
-					<p>Created a Reviews Site through Spring Boot + MVC app that displays a list of reviews allowing the user to click on an individual review to see its details.</p>					
-					<img id="project-image" class="myImg" src="src/static/images/review1.jpg" alt="Reviews Site version 1.0" width="200px" height="172px">				
+					<p>Created a Reviews Site through Spring Boot + MVC app that displays a list of reviews allowing the user to click on an individual review to see its details.</p>		
+					<img id="project-image" class="myImg" src="src/static/images/github/review1.jpg" alt="Reviews Site version 1.0" width="200px" height="172px">				
 					<p class="skills">Skills: <a href="tech.html#java">Java</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#spring">Spring</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#html">HTML5</a></p>
 					<p class="tools">Tools: <a href="tech.html#eclipse">Eclipse IDE</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#subl">Sublime Text 3</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#git">Git</a></p>
+					<a class="top" href="git-projects.html">Top</a>
 				</article>
 				<article class="card">
 					<h3><a href="http://www.wrthompsonjr.com">Github Portfolio: The Beginning</a></h3>
-					<p>The first iteration of my GitHub Protfolio site started here. It was just a simple site to introduce me to my first public site to show off my skills as an Apprentice Software Developer.</p>					
-					<img id="project-image" class="myImg" src="src/static/images/port-site1.png" alt="Portfolio 1.0" width="200px" height="172px">		
+					<p>The first iteration of my GitHub Protfolio site started here. It was just a simple site to introduce me to my first public site to show off my skills as an Apprentice Software Developer.</p>
+					<img id="project-image" class="myImg" src="src/static/images/github/port-site1.png" alt="Portfolio 1.0" width="200px" height="172px">		
 					<p class="skills">Skills: <a href="tech.html#html">HTML5</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#css">CSS3</a></p>
 					<p class="tools">Tools: <a href="tech.html#subl">Sublime Text 3</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#git">Git</a></p>
+					<a class="top" href="git-projects.html">Top</a>
 				</article>
 				<article class="card">
 					<h3><a href="https://github.com/WillieT1986/reviews-site-full-stack">Reviews Site Full Stack</a></h3>
 					<p>This is the second iteration to Review Site but now it is being made into a Full Stack Web Application. This site has a list of categories that for now, has only one category that holds several reivews. When the User clicks on the review it will show the details of the review. Now, tags have been added to the mix. Each review is associated with a tag and when the User clicks on a specific tag all the reviews associated with that tag will appear.</p>
-					<img id="project-image" class="myImg" src="src/static/images/review2.png" alt="Reviews Site version 2.0" width="200px" height="172px">				
+					<img id="project-image" class="myImg" src="src/static/images/github/review2.png" alt="Reviews Site version 2.0" width="200px" height="172px">				
 					<p class="skills">Skills: <a href="tech.html#java">Java</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#spring">Spring</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#sql">SQL</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#jpa">Hibernate</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#html">HTML5</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#css">CSS3</a></p>
 					<p class="tools">Tools: <a href="tech.html#eclipse">Eclipse IDE</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#subl">Sublime Text 3</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#git">Git</a></p>
-				</article>				
+					<a class="top" href="git-projects.html">Top</a>
+				</article>		
 				<article class="card">
 					<h3><a href="https:www.wrthompsonjr.com">GitHub Portfolio: Generation JScript</a></h3>
-					<p>Now that I have been shown JavaScript, it was time to add it to my portfolio. The logo was turned into a button that would toggle between hide and show. Buttons were created to expand and collapse the descriptions for the GitHub Projects. An image carousel was added to the about me to show more than one photo. A button that showed the date and time through an event listener was also added along with with a modal for the about me description. After it was graded I completely removed it all except for the image carousel. The image posted below is what it had looked like on my Samsung Note 8 device.</p>	
+					<p>Now that I have been shown JavaScript, it was time to add it to my portfolio. The logo was turned into a button that would toggle between hide and show. Buttons were created to expand and collapse the descriptions for the GitHub Projects. An image carousel was added to the about me to show more than one photo. A button that showed the date and time through an event listener was also added along with with a modal for the about me description. After it was graded I completely removed it all except for the image carousel.<br>
+					<br>The image posted below is what it had looked like on my Samsung Note 8 device.</p>	
 					<p>Note: Jasmine was also used to try and attempt to test the JavaScript but learning Jasmine, as well as how to correctly test JavaScript is still a work in progress...</p>				
-					<img id="project-image" class="myImg" src="src/static/images/wkend8-image1.jpg" alt="Portfolio 2.0" width="200px" height="172px">	
+					<img id="project-image" class="myImg" src="src/static/images/github/wkend8-image1.jpg" alt="Portfolio 2.0" width="200px" height="172px">	
 					<p class="skills">Skills: <a href="tech.html#html">HTML5</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#css">CSS3</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#js">JavaScript</a></p>
 					<p class="tools">Tools: <a href="tech.html#subl">Sublime Text 3</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#git">Git</a></p>
+					<a class="top" href="git-projects.html">Top</a>
 				</article>
 				<article class="card">
 					<h3><a href="https://github.com/WillieT1986/reviews-the-next-generation">Reviews The Next Generation</a></h3>
-					<p>Third iteration for Reviews Site. This time, it was required that tags be added, as well as a comment section for each review site. When user access a review from one of the two Categories, there will be a comment section to leave comments. In the picture below I left a few comments to show how it works. The one part for this project that I could not figure out was how to utilize Ajax to add and remove a tag, and to add and remove a review from a tag. Beside that, the site functions as intended. However, I realize I could have used JQuery but was trying to avoid JQuery and use only JavaScript.</p>					
-					<img id="project-image" class="myImg" src="src/static/images/review-site3.png" alt="Reviews Site version 3.0" width="200px" height="172px">				
+					<p>Third iteration for Reviews Site. This time, it was required that tags be added, as well as a comment section for each review site. When user access a review from one of the two Categories, there will be a comment section to leave comments. In the picture below I left a few comments to show how it works. <br>
+						<br>The one part for this project that I could not figure out was how to utilize Ajax to add and remove a tag, and to add and remove a review from a tag. Beside that, the site functions as intended. However, I realize I could have used JQuery but was trying to avoid JQuery and use only JavaScript.</p>					
+					<img id="project-image" class="myImg" src="src/static/images/github/review-site3.png" alt="Reviews Site version 3.0" width="200px" height="172px">				
 					<p class="skills">Skills: <a href="tech.html#java">Java</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#spring">Spring</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#sql">SQL</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#jpa">Hibernate</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#html">HTML5</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#css">CSS3</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#js">JavaScript</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#ajax">Ajax</a></p>
 					<p class="tools">Tools: <a href="tech.html#eclipse">Eclipse IDE</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#subl">Sublime Text 3</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#git">Git</a></p>
+					<a class="top" href="git-projects.html">Top</a>
 				</article>
 				<article class="card">
 					<h3><a href="https:www.wrthompsonjr.com">My Portfolio Reconstructed</a></h3>
 					<p>This is the third iteration to my GitHub Portfolio. This covers all the front-end I have learned, or seen throughout my time in bootcamp. A domain name was purchased and linked to my github.io address while the entire site goes through an amazing transformation. </p>					
-					<img id="project-image" class="myImg" src="src/static/images/home.png" alt="My Portfolio" width="200px" height="172px">				
+					<img id="project-image" class="myImg" src="src/static/images/github/home.png" alt="My Portfolio" width="200px" height="172px">				
 					<p class="skills">Skills: <a href="tech.html#html">HTML5</a> | <a href="tech.html#css">CSS3</a> | <a href="tech.html#jquery">jQuery</a> | <a href="tech.html#js">JavaScript</a></p>
 					<p class="tools">Tools: <a href="tech.html#subl">Sublime Text 3</a> | <a href="tech.html#git">Git</a></p>
+					<a class="top" href="git-projects.html">Top</a>
 				</article>	
 				<article class="card">
 					<h3><a href="https://github.com/watch-your-garden-grow/watch-your-garden-grow">Final Project: Watch Your Garden Grow</a></h3>
-					<p>During the last few weeks of class. A group of 7 under a Scrum Master are working diligently to create an app utilizing everything that was taught during the 10 weeks of instruction while in an Agile enviroment.</p>
-					<p>Users are able to input their zip code and have returned to them a list of plants that are suitable to be planted in their area. The users are then able to select their desired plants, then generate a planting report which provides the best dates to plant each one depending on the plant's specification and the last frost date for the user's zip code.</p>	
-					<img id="project-image" class="myImg" src="src/static/images/final.jpg" alt="FinalProject" width="200px" height="172px">	
+					<p>During the last few weeks of class. A group of 7 under a Scrum Master are working diligently to create an app utilizing everything that was taught during the 10 weeks of instruction while in an Agile enviroment.<br></p>
+					<p><br>Users are able to input their zip code and have returned to them a list of plants that are suitable to be planted in their area. The users are then able to select their desired plants, then generate a planting report which provides the best dates to plant each one depending on the plant's specification and the last frost date for the user's zip code.</p>	
+					<img id="project-image" class="myImg" src="src/static/images/github/final.jpg" alt="FinalProject" width="200px" height="172px">	
 					<p class="skills">Skills: <a href="tech.html#java">Java</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#spring">Spring</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#sql">SQL</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#jpa">Hibernate</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#html">HTML5</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#css">CSS3</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#js">JavaScript</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#ajax">Ajax</a></p>
 					<p class="tools">Tools: <a href="tech.html#eclipse">Eclipse IDE</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#subl">Sublime Text 3</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#git">Git</a></p>
 					<p>Dev Team: 7 Students</p>
 					<p>Scrum Master: Instructor <a href="https://www.linkedin.com/in/alan-kostrick-a24159bb/">Alan</a></p>
+					<a class="top" href="git-projects.html">Top</a>
 				</article>	
 			</section>	
 		<!-- Ending of WeCan{Code}IT Project Cards -->
 		<!-- Beginning of Other Project Cards -->
-			<h2>Other Projects/Future Projects</h2>
+			<h2 id="bottom">Personal Projects</h2>
 			<section section class="cards">
+				<article class="card">
+					<h3><a href="">Portfolio Website Refresh!</a></h3>
+					<p>I felt an entire refresh was needed since the creation of this website that came out of my coding boot camp. You can find more info on WeCanCodeIT on the home page where I provide a link to a very thorough review.<br>
+						<br>Anyways,  with some free time here and there, and lots research and patience. This website was redesigned with Mobile views in mind and for the most part been reworked thoroughly. It still isn't perfect but before and after Pictures will be provided.<br>
+				    <br>You can check it out by clicking on the image below.</p>
+					<a href="refresh.html"><img id="project-image" class="myImg" src="src/static/images/temp.png" alt="Portfolio Refresh" width="200px" height="172px">	</a>
+					<p class="skills">Skills: <a href="tech.html#html">HTML5</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#css">CSS3</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#jquery">jQuery</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#js">JavaScript</a></p>
+					<p class="tools">Tools: <a href="tech.html#subl">Sublime Text 3</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#git">Git</a></p>
+					<a class="top" href="git-projects.html">Top</a>
+				</article>	
+				<article class="card">
+					<h3><a href="https://github.com/WillieT1986/greenlawn">Green Lawn Cemetery</a></h3>
+					<p>I was showing my Vietnamese Fiancee around town today and decided to show her the Family Graves located in Green Lawn Cemetery. Having a hard time remembering exactly where their tombstones laid but eventually found them. As we walked by anonymous tombstones, my Fiancee found it confusing telling who's who by just what is engraved in stone. It would have been a confusing question to any other person but having visited her Family in Vietnam on a small Rice Farm it made sense to why she would ask me that.</p>	
+					<p>In Vietnam, their graves are not in the ground but above ground where it has very detailed info about who lays to rest, as well as a picture of who lies there. The only time I did not see a picture were the ones probably before they had cameras in Vietnam but the earlier generations all had photos of who it was. However, I did point out that some tombstones did indeed have a picture but not all.</p>	
+					<p>So it got me thinking, why not have an online database of those laid to rest in Green Lawn Cemetery? Especially with Ancestry and Genealogy on the rise.</p>			
+					<img id="project-image" class="myImg" src="src/static/images/github/greenlawn.png" alt="Green Lawn Cemetery" width="200px" height="172px">				
+					<p class="skills">Skills:<a href="tech.html#java">Java</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#spring">Spring</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#sql">SQL</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#jpa">Hibernate</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#html">HTML5</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#css">CSS3</a></p>
+					<p class="tools">Tools:<a href="tech.html#eclipse">Eclipse IDE</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#subl">Sublime Text 3</a> &nbsp;<strong>|</strong>&nbsp;<a href="tech.html#git">Git</a></p>
+					<p>Track its progress publicly on &nbsp;<a href="https://trello.com/b/L4AIzlnp/green-lawn">Trello</a></p>
+					<a class="top" href="git-projects.html">Top</a>
+				</article>		
 				<article class="card">
 					<h3><a href="">Portfolio Updating</a></h3>
 					<p>While visiting my fiance Xuyen in Vietnam from Nov. to Dec. 2018, I was studying along side her during some down time while also assisting her studies with the English language. This nice down time allowed me to work on my portfolio site.</p>
 					<p>This site will never technally be completed as I learn new things, or become curious and will want to add future projects, as well as tweak this site as needed. Last big update was the review on WeCan{Code}IT.</p>					
-					<img id="project-image" class="myImg" src="src/static/images/park2.jpg" alt="William & Xuyen, Ho Chi Minh City, Vietnam studying Code & English." width="200px" height="172px">					
+					<img id="project-image" class="myImg" src="src/static/images/github/park2.jpg" alt="William & Xuyen, Ho Chi Minh City, Vietnam studying Code & English." width="200px" height="172px">	
 					<div id="myModal" class="modal">
 						<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
 						<img class="modal-content" id="img01">					
@@ -148,29 +179,15 @@
 					</div>					
 					<p class="skills">Skills: <a href="tech.html#html">HTML5</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#css">CSS3</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#jquery">jQuery</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#js">JavaScript</a></p>
 					<p class="tools">Tools: <a href="tech.html#subl">Sublime Text 3</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#git">Git</a></p>
+					<a class="top" href="git-projects.html">Top</a>
 				</article>
 				<article class="card">
 					<h3><a href="https://github.com/WillieT1986/babysitter-kata">Babysitter Kata</a></h3>
-					<p>This was an interesting Kata from Pillar Technologies. I had about 1 week to do this and it was definitely a memory refresher. I learned new things from this Kata, as well as learned a lot of what I need to learn to boot! This Kata taught me that I need to research and learn how to work with times. As in am/pm/24h. This kata simulates a babysitter working and getting paid for one night. The rules are pretty straight forward.</p>					
-					<img id="project-image" class="myImg" src="src/static/images/image1.png" alt="Babysitter Kata" width="200px" height="172px">					
-					<div id="myModal" class="modal">
-						<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-						<img class="modal-content" id="img01">					
-						<div id="caption"></div>
-					</div>					
+					<p>This was an interesting Kata from Pillar Technologies. I had about 1 week to do this and it was definitely a memory refresher. I learned new things from this Kata, as well as learned a lot of what I need to learn to boot! This Kata taught me that I need to research and learn how to work with times. As in am/pm/24h. This kata simulates a babysitter working and getting paid for one night. The rules are pretty straight forward. If you're interested in this kata it can be found on my github. The README.md file has the instructions.</p>		
 					<p class="skills">Skills: <a href="tech.html#java">Java</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a></p>
 					<p class="tools">Tools: <a href="tech.html#eclipse">Eclipse IDE</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#subl">Sublime Text 3</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#git">Git</a></p>
+					<a class="top" href="git-projects.html">Top</a>
 				</article>
-				<article class="card">
-					<h3><a href="https://github.com/WillieT1986/greenlawn">Green Lawn Cemetery</a></h3>
-					<p>I was showing my Vietnamese Fiancee around town today and decided to show her the Family Graves located in Green Lawn Cemetery. Having a hard time remembering exactly where their tombstones laid but eventually found them. As we walked by anonymous tombstones, my Fiancee found it confusing telling who's who by just what is engraved in stone. It would have been a confusing question to any other person but having visited her Family in Vietnam on a small Rice Farm it made sense to why she would ask me that.</p>	
-					<p>In Vietnam, their graves are not in the ground but above ground where it has very detailed info about who lays to rest, as well as a picture of who lies there. The only time I did not see a picture were the ones probably before they had cameras in Vietnam but the earlier generations all had photos of who it was. However, I did point out that some tombstones did indeed have a picture but not all.</p>	
-					<p>So it got me thinking, why not have an online database of those laid to rest in Green Lawn Cemetery? Especially with Ancestry and Genealogy on the rise.</p>			
-					<img id="project-image" class="myImg" src="src/static/images/greenlawn.png" alt="Green Lawn Cemetery" width="200px" height="172px">				
-					<p class="skills">Skills:<a href="tech.html#java">Java</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#spring">Spring</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#sql">SQL</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#jpa">Hibernate</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#html">HTML5</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#css">CSS3</a></p>
-					<p class="tools">Tools:<a href="tech.html#eclipse">Eclipse IDE</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#subl">Sublime Text 3</a> &nbsp;<strong>|</strong>&nbsp;<a href="tech.html#git">Git</a></p>
-					<p>Track its progress publicly on &nbsp;<a href="https://trello.com/b/L4AIzlnp/green-lawn">Trello</a></p>
-				</article>					
 			</section>
 		<!-- Ending of Other Project Cards -->
 	</main>
