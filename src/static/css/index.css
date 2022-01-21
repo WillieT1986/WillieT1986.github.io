@@ -1,69 +1,8 @@
-.container-2 {
+.section {
 	display: flex;
-	justify-content: center;
+	align-items: center;
 	flex-direction: column;
 	flex-wrap: wrap;
-}
-
-/*Navigation Bar*/
-.navbar {
-    display: flex;
-    justify-content: center;
-    background: #616161;
-}
-
-.navbar ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.navbar .navlinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.navbar .navsoc {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.nav-img-layout {
-    margin: .25rem;
-}
-
-.navbar section li {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.navbar .navlinks a {
-    color: white;
-    padding: .5rem 1.5rem;
-    text-decoration: none;
-    text-align: center;
-    font-size: 22px;
-}
-
-.navbar .navlinks li:hover {
-    background-color: darkgray;
-    color: black;
-}
-
-.navbar .navsoc a {
-    color: white;
-    margin: .5rem .5rem;
-    text-decoration: none;
-    text-align: center;
-    font-size: 22px;
-}
-
-/*Main Screen*/
-.main {
-	display: flex;
-	flex-direction: column;
 	padding: 2rem;
 }
 
@@ -71,15 +10,18 @@
 	align-self: center;
 	height: 450px;
 	width: 450px;
+	padding-top: 2rem;
 }
 
 h2 {
 	align-self: center;
+	padding-top: 3rem;
 	margin-top: 1rem;
 }
 
 h3 {
 	align-self: center;
+	padding-bottom: 2rem;
 	margin-bottom: 1.25rem;
 }
 
@@ -87,20 +29,14 @@ p {
 	margin-bottom: .5rem;
 }
 
-.main .atop {
+.section .atop {
 	align-self: center;
 	margin-top: 5rem;
 	display: none;
+	font-size: 1rem;
 }
 
 footer {
-	display: flex;
-	justify-content: center;
-	background-color: gray;
-	border-top: .05rem solid black;
-	height: 2%;
-	width: 100%;
-	bottom: 0;
 	position: fixed;
 }
 
@@ -119,6 +55,13 @@ footer {
         margin-right: 30%;
         margin-bottom: .5rem;
         }
+
+	footer {
+		position: relative;
+		align-items: center;
+		height: 1.5rem;
+		font-size: 1.25rem;
+	}
 }
 
 /*Vertical View*/
@@ -154,6 +97,7 @@ footer {
 	.main .atop {
 		display: block;
 		margin-bottom: 2rem;
+		font-size: 1rem;
 	}
 
 	footer {
@@ -162,12 +106,11 @@ footer {
 }
 
 /*Horizontal View*/
-@media screen and (max-width: 900px) and (min-width: 346px) {
+@media screen and (max-width: 977px) and (min-width: 346px) {
     .navbar {
         background: gray;
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
     }
 
     .navbar .navlinks {
@@ -190,9 +133,10 @@ footer {
 		padding-top: .75rem;
 	}
 
-	.main .atop {
+	.section .atop {
 		display: block;
 		margin-bottom: 2rem;
+		font-size: 1rem;
 	}
 
 	footer {
