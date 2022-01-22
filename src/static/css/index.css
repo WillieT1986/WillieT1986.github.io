@@ -64,8 +64,8 @@ footer {
 	}
 }
 
-/*Vertical View*/
-@media screen and (max-height: 900px) and (min-height: 346px) {
+/* Vertical View - 950 to 346 */
+@media screen and (max-height: 950px) and (min-height: 346px) {
     .navbar {
         background: gray;
         margin-left: auto;
@@ -105,7 +105,14 @@ footer {
 	}
 }
 
-/*Horizontal View*/
+/* Horizontal View 2160 - to 1308*/
+@media screen and (max-width: 2160px) and (min-width: 1308px) {
+    footer {
+            position: fixed;
+        }
+}
+
+/*Horizontal View - 977 to 346*/
 @media screen and (max-width: 977px) and (min-width: 346px) {
     .navbar {
         background: gray;

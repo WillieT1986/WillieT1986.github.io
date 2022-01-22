@@ -46,8 +46,8 @@ a {
 	display: none;
 }
 
-/*Vertical View*/
-@media screen and (max-height: 900px) and (min-height: 346px) {
+/* Vertical View - 950 to 346 */
+@media screen and (max-height: 950px) and (min-height: 346px) {
 	.navbar {
 		background: gray;
 		margin-left: auto;
@@ -102,7 +102,7 @@ a {
 }
 
 
-/*Horizontal View*/
+/* Horizontal View - 977 to 346 */
 @media screen and (max-width: 977px) and (min-width: 346px) {
 	.navbar {
 		background: gray;
