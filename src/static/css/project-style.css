@@ -1,62 +1,3 @@
-/*Navigation Bar*/
-.nav-common {
-    display: flex;
-    justify-content: center;
-    background: #616161;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-}
-
-.nav-common ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-common .navlinks-common {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.nav-common .nav-layout-img {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.nav-img-layout {
-    margin: .25rem;
-}
-
-.nav-common section li {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.nav-common .navlinks-common a {
-    color: white;
-    padding: .5rem 1.5rem;
-    text-decoration: none;
-    text-align: center;
-    font-size: 22px;
-}
-
-.nav-common .navlinks-common li:hover {
-    background-color: darkgray;
-    color: black;
-}
-
-.nav-common .nav-layout-img a {
-    color: white;
-    margin: .5rem .5rem;
-    text-decoration: none;
-    text-align: center;
-    font-size: 22px;
-}
-
-/*Title*/
 h1 {
 	display: flex;
 	justify-content: center;
@@ -73,20 +14,19 @@ h1 {
 	border: 1px solid black;
 }
 
-/*Subtitle*/
 h2 {
 	display: flex;
 	justify-content: center;
     text-align: center;
 }
 
-#h2p {
+.h2p {
     display: flex;
     justify-content: center;
     margin: .5rem;
 }
 
-/*Cards*/
+/* Cards */
 .cards {
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(22.5rem, .5fr));
@@ -140,226 +80,100 @@ h2 {
     display: none;
 }
 
-/*Start of Image Modal*/
-.myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
+/* Vertical View - 950 to 346 */
+@media screen and (max-height: 950px) and (min-height: 346px) {
+	.navbar {
+		background: gray;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
 
-.myImg:hover {
-    opacity: 0.7;
-}
+	.navbar .navlinks {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
-}
+	h1 {
+		font-size: 2.25rem;
+	}
 
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-}
-
-#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 900px;
-   	max-height: 400px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
-.modal-content, #caption {
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)}
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-    from {transform:scale(0)}
-    to {transform:scale(1)}
-}
-
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-} 
-
-/*Vertical View*/
-@media screen and (max-height: 900px) and (min-height: 346px) {
-    .nav-common {
-        display: flex;
-        justify-content: center;
-        background: gray;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
+    .calendar {
+        display: 75%;
     }
 
-    .nav-common .navlinks-common {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: 0;
-    }
+	h2 {
+		padding-bottom: 1rem;
+	}
+
+	.cards {
+		display: flex;
+		flex-direction: column;
+		width: 25rem;
+	}
+
+	.top {
+		display: block;
+	}
+
+	.modal-content {
+		width: 100%;
+		height: auto;
+	}
+
+	footer {
+		position: relative;
+	}
+}
+
+/* Horizontal View - 977 to 346 */
+@media screen and (max-width: 977px) and (min-width: 346px) {
+	.navbar {
+		background: gray;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.navbar .navlinks {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 
     h1 {
-        padding-top: 2rem;
-        padding-bottom: 1rem;
-        font-size: 3.5rem;
+    	font-size: 2.25rem;
     }
 
     h2 {
-        font-size: 2rem;
+    	padding-bottom: 1rem;
     }
 
-    #h2p {
-        font-size: 2rem;
+    .calendar {
+        width: 75%;
     }
 
-    .cards a { 
-        text-decoration: none;
+    .cards {
+    	display: flex;
+    	flex-direction: column;
+    	width: 25rem;
+    	width
     }
 
-    .cards .card {
-        width: 170%;
-        margin-bottom: 2.5rem;
-        padding: .5rem;
+    .top {
+    	display: block;
     }
 
-    .card h3 {
-        font-size: 2rem;
-        margin-top: .5rem;
-    }
-
-    .card p {
-        font-size: 1.5rem;
-    }
-
-    #img01 {
-        width: auto;
-        height: auto;
-    }
-
-    #h2p {
-        font-size: 1.75rem;
-    }
-
-    .modal-content {
-        width: 100%;
-        height: auto;
-    }
-
-    footer {
-        height: 3rem;
-        font-size: 2.5rem;
-    }
-}
-
-/*Horizontal View*/
-@media screen and (max-width: 900px) and (min-width: 346px) {
-    .nav-common {
-        display: flex;
-        justify-content: center;
-        background: gray;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-
-    .nav-common .navlinks-common {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: 0;
-    }
-
-    h1 {
-        padding-top: 2rem;
-        padding-bottom: 1rem;
-        font-size: 3.5rem;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-
-    #h2p {
-        font-size: 2rem;
-    }
-
-    .cards a { 
-        text-decoration: none;
-    }
-
-    .cards .card {
-        width: 170%;
-        margin-bottom: 2.5rem;
-        padding: .5rem;
-    }
-
-    .card h3 {
-        font-size: 2rem;
-        margin-top: .5rem;
-    }
-
-    .card p {
-        font-size: 1.5rem;
-    }
-
-    #img01 {
-        width: auto;
-        height: auto;
-    }
-
-    .cards .card .top {
-        display: block;
-    }
-
-    #h2p {
-        font-size: 1rem;
-    }
-     
      .modal-content {
         width: 100%;
     }
 
-    footer {
-        height: 3rem;
-        font-size: 2.5rem;
+	footer {
+		position: relative;
+		align-items: center;
+		height: 1.5rem;
+		font-size: 1.25rem;
+	}
 }

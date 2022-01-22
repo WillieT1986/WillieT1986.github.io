@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Technical Inventory</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./src/static/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="./src/static/css/tech.css">
+</head>
+<body class="container">
+	<main>
+		<nav class="nav-common">
+			<ul>
+				<section class="navlinks-common">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="education.html">Educational Background</a></li>
+					<li><a href="git-projects.html">Projects</a></li>
+				</section>
+				<section  class="nav-layout-img" >						
+					<li><a href="https://www.linkedin.com/in/thompsonjrwr/"><img class="nav-img-layout" src="./src/static/images/navbar/link.png" alt="github" width="35px" height="30px"></a></li>
+					<li><a href="https://www.instagram.com/williet1986/"><img class="nav-img" src="./src/static/images/navbar/insta.png" alt="github" width="35px" height="30px"></a></li>
+				</section>
+			</ul>
+		</nav>
+		<h1>Technical Inventory</h1>
+		<h2>Backend</h2>
+		<section class="card">	
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/java.png" alt="Example Code of Java" width="200px" height="172px">
+				<div id="myModal" class="modal">
+					<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+					<img class="modal-content" id="img01">					
+					<div id="caption"></div>
+				</div>	
+			</article>
+			<article>
+				<h3 id="java">Java</h3>
+				<p>Java is a general-purpose computer-programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of computer architecture. <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Source</a></p>
+				<p>Download Latest Java Version <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Here</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>
+		</section>		
+		<section class="card">	
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/php.png" alt="Example Code of PHP from W3 Schools PHP" width="200px" height="172px">
+				<div id="myModal" class="modal">
+					<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+					<img class="modal-content" id="img01">					
+					<div id="caption"></div>
+				</div>	
+			</article>
+			<article>
+				<h3 id="php">PHP</h3>
+				<p>PHP is the primary language currently is use in my current position.<br>
+				<br>From W3 Schools, PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages, is a widely-used, free, and efficient alternative to competitors such as Microsoft's ASP. <a href="https://www.w3schools.com/php/default.asp">Source</a><br>
+				<br> As of 11/3/2020, PHP 7.4.12 is the latest stable release with PHP 8 currentlyin its  10th testing phase as of 10/29/2020. <a href="https://www.php.net/archive/2020.php#2020-10-29-2">PHP 8 Info</a></p>
+				<p>Download Latest PHP Version <a href="https://www.php.net/downloads">Here</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>
+		</section>	
+		<section class="card">
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/tdd.png" alt="Test Driven Development aka TDD in Elcipse running JUnit." width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="tdd">Test Driven Development - TDD</h3>
+				<p>1. You are not allowed to write any production code unless it is to make a failing unit test pass.</p>
+				<p>2. You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.</p>
+				<p>3. You are not allowed to write any more production code than is sufficient to pass the one failing unit test.</p>
+				<p>You must begin by writing a unit test for the functionality that you intend to write. But by rule 2, you can't write very much of that unit test. As soon as the unit test code fails to compile, or fails an assertion, you must stop and write production code. But by rule 3 you can only write the production code that makes the test compile or pass, and no more. <a href="http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd">Source</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>	
+		</section>			
+		<section class="card">	
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/oop.png" alt="Example of Object Oriented Programming" width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="oop">Object Oriented Programming - OOP</h3>
+				<p>Object-oriented programming (OOP) is a programming paradigm based on the concept of "objects", which may contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods. A feature of objects is that an object's procedures can access and often modify the data fields of the object with which they are associated (objects have a notion of "this" or "self"). In OOP, computer programs are designed by making them out of objects that interact with one another. There is significant diversity of OOP languages, but the most popular ones are class-based, meaning that objects are instances of classes, which typically also determine their type. <a href="https://en.wikipedia.org/wiki/Object-oriented_programming">Source</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>	
+		</section>			
+		<section class="card">	
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/sql.png" alt="SQL example used from Project: Reviews The Next Generation" width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="sql">Structured Query Language - SQL</h3>
+				<p>Is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS). In comparison to older read/write APIs like ISAM or VSAM, SQL offers two main advantages:</p>
+				<p>First, it introduced the concept of accessing many records with one single command.</p>
+				<p>Second, it eliminates the need to specify how to reach a record, e.g. with or without an index.</p>
+				<a class="getstart" href="https://en.wikipedia.org/wiki/SQL#SQL_Standards_Documents">Source</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>	
+		</section>
+		<h2>Frameworks</h2>		
+		<section class="card">	
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/spring.png" alt="This is Spring" width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="spring">Spring MVC</h3>
+				<p>The Spring Web model-view-controller (MVC) framework is designed around a DispatcherServlet that dispatches requests to handlers, with configurable handler mappings, view resolution, locale and theme resolution as well as support for uploading files. </p>
+				<p>The default handler is based on the @Controller and @RequestMapping annotations, offering a wide range of flexible handling methods. With the introduction of Spring 3.0, the @Controller mechanism also allows you to create RESTful Web sites and applications, through the @PathVariable annotation and other features.</p>
+				<p><a class="getstart" href="https://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/mvc.html">Source</a></p>
+				<p><a class="getstart" href="https://spring.io/guides/gs/serving-web-content/">Getting Started</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>
+		</section>	
+		<section class="card">
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/hibernate.png" alt="This is Hibernate" width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="jpa">Hibernate JPA</h3>
+				<p>The Java Persistence API (JPA) is a Java specification for accessing, persisting, and managing data between Java objects / classes and a relational database. JPA was defined as part of the EJB 3.0 specification as a replacement for the EJB 2 CMP Entity Beans specification. JPA is now considered the standard industry approach for Object to Relational Mapping (ORM) in the Java Industry. <a href="https://en.wikibooks.org/wiki/Java_Persistence/What_is_JPA%3F">Source</a></p>
+				<p><a class="getstart" href="https://spring.io/guides/gs/accessing-data-jpa/">Getting Started</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>	
+		</section>
+		<section class="card">	
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/laravel.png" alt="This is Laravel" width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="laravel">Laravel</h3>
+				<p>The Laravel framework for PHP is one of thee most popular frameworks to which there is even a certification in Laravel by Laravel which proves to Companies that a Developer who holds a Laravel Certification knows their framework and is proof of their credibility.<br>
+				<br> Per Laravel, "Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things." <a class="getstart" href="https://laravel.com/">Source</a></p>
+				<p><a class="getstart" href="https://certification.laravel.com/">Laravel Certification</a></p>
+				<p><a class="getstart" href="https://laravel.com/docs/8.x/installation">Getting Started</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>
+		</section>	
+		<section class="card">
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/codeigniter.png" alt="This is CodeIgniter" width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="codeigniter">CodeIgniter</h3>
+				<p>CodeIgniter is one of many PHP Frameworks and is so powerful that it leaves a tiny foot print, for those who needs a toolkit designed for its simplicity and elegance to create full featured web apps.<br>
+				<be>As stated on CodeIgniter. <a href="http://codeigniter.com/">Source</a></p>
+				<p><a class="getstart" href="http://codeigniter.com/docs">Getting Started</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>	
+		</section>
+		<h2>Frontend</h2>	
+		<section class="card">	
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/html.png" alt="Example Code of HTML5" width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="html">HTML5</h3>
+				<p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current major version of the HTML standard. It was published in October 2014 by the World Wide Web Consortium (W3C) to improve the language with support for the latest multimedia, while keeping it both easily readable by humans and consistently understood by computers and devices such as web browsers, parsers, etc. HTML5 is intended to subsume not only HTML 4, but also XHTML 1 and DOM Level 2 HTML. </p>
+				<p>HTML5 includes detailed processing models to encourage more interoperable implementations; it extends, improves and rationalizes the markup available for documents, and introduces markup and application programming interfaces (APIs) for complex web applications. For the same reasons, HTML5 is also a candidate for cross-platform mobile applications, because it includes features designed with low-powered devices in mind. <a href="https://en.wikipedia.org/wiki/HTML5">Source</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>
+		</section>	
+		<section class="card">	
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/css3.png" alt="Example Code of CSS3" width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="css">CSS3</h3>
+				<p>CSS3 is the latest evolution of the Cascading Style Sheets language and aims at extending CSS2.1. It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions or animations, as well as new layouts like multi-columns, flexible box or grid layouts. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3">Source</a></p>
+				<p>Practice CSS Grid with <a href="http://cssgridgarden.com/">Grid Garden</a></p>
+				<p>Practice CSS Flexbox by killing <a href="https://geddski.teachable.com/p/flexbox-zombies">Zombies</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>	
+		</section>	
+		<section class="card">	
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/es6.png" alt="Example Code of JScript using ES6 Standard. Const and () => { Are Apart of ES6." width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="js">JavaScript (ES6)</h3>
+				<p>JavaScript (JS) is a programming language mostly used to dynamically script webpages on the client side, but it is also often utilized on the server-side, using packages such as Node.js.</p>
+				<p>JavaScript should not be confused with the Java programming language. Both "Java" and "JavaScript" are trademarks or registered trademarks of Oracle in the U.S. and other countries. However, the two programming languages are significantly different in their syntax, semantics, and uses. <a href="https://developer.mozilla.org/en-US/docs/Glossary/JavaScript">Source</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>
+		</section>	
+		<section class="card">	
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/jquery.png" alt="Example Code Using jQuery. The $ Sign Represents jQuery and will only work with this line at the top of the html pages under the title tags within src= https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="jquery">jQuery</h3>
+				<p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript. <a href="https://jquery.com/">Source</a></p>
+				<p>Download jQuery <a href="https://jquery.com/download/">Here</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>
+		</section>	
+		<section class="card">
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/ajax.png" alt="Ajax as shown on W3 Schools" width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="ajax">Ajax</h3>
+				<p>AJAX stands for Asynchronous JavaScript And XML. In a nutshell, it is the use of the XMLHttpRequest object to communicate with servers. It can send and receive information in various formats, including JSON, XML, HTML, and text files. AJAX’s most appealing characteristic is its "asynchronous" nature, which means it can communicate with the server, exchange data, and update the page without having to refresh the page.</p>
+				<p>The two major features of AJAX allow you to do the following:</p>
+				<p>  1. Make requests to the server without reloading the page.</p>
+				<p>  2. Receive and work with data from the server</p>
+				<p><a class="getstart" href="https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started">Source</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>	
+		</section>
+		<h2>Tools</h2>	
+		<section class="card">	
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/eclipse.png" alt="This is Eclipse IDE for Java" width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="eclipse">Eclipse IDE</h3>
+				<p>Eclipse is an integrated development environment (IDE) used in computer programming, and is the most widely used Java IDE. It contains a base workspace and an extensible plug-in system for customizing the environment. Eclipse is written mostly in Java and its primary use is for developing Java applications, but it may also be used to develop applications in other programming languages via plug-ins. <a class="getstart" href="https://en.wikipedia.org/wiki/Eclipse_(software)">Source</a></p>
+				<p>Download Eclipse IDE <a href="https://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/oxygen3">Here</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>
+		</section>	
+		<section class="card">	
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/intellij.png" alt="This is IntelliJ IDEA for Java" width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="intellij">IntelliJ IDEA</h3>
+				<p>Per Jet Brains, Every aspect of IntelliJ IDEA has been designed to maximize developer productivity. Together, intelligent coding assistance and ergonomic design make development not only productive but also enjoyable. <a class="getstart" href="https://www.jetbrains.com/idea/">Source</a></p>
+				<p>Download Latest Version of IntelliJ IDEA <a href="https://www.jetbrains.com/idea/download/#section=windows">Here</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>
+		</section>
+		<section class="card">	
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/storm.png" alt="This is PHP Storm for PHP" width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="phpstorm">PHP Storm</h3>
+				<p>PHP Storm is my goto IDE for PHP. It handles everything from writing PHP, to the frameworks like Laravel and CodeIgniter. Not only that, I can utilize any revision controls such as GIT or SVN. This little IDE is great for all PHP Programmers out there who is looking for an elegant IDE design and is what I use for work.</p>
+				<p>Per Jet Brains, PhpStorm is perfect for working with Symfony, Laravel, Drupal, WordPress, Zend Framework, Magento, Joomla!, CakePHP, Yii, and other frameworks. The editor actually 'gets' your code and deeply understands its structure, supporting all the PHP language features for modern and legacy projects. It provides the best code completion, refactorings, on-the-fly error prevention, and more. <a class="getstart" href="https://www.jetbrains.com/phpstorm/">Source</a></p>
+				<p>Download Latest Version of IntelliJ IDEA <a href="https://www.jetbrains.com/phpstorm/">Here</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>
+		</section>
+		<section class="card">
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/subl.png" alt="Sublime 3 Test Editor" width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="subl">Sublime Text 3</h3>
+				<p>Sublime Text is a proprietary cross-platform source code editor with a Python application programming interface (API). It natively supports many programming languages and markup languages, and functions can be added by users with plugins, typically community-built and maintained under free-software licenses. <a href="https://en.wikipedia.org/wiki/Sublime_Text">Source</a></p>
+				<p>Download Sublime 3 <a href="https://www.sublimetext.com/3">Here</a></p>
+				<a class="top" href="tech.html">Top</a>
+			</article>
+		</section>	
+		<section class="card">	
+			<article>
+				<img class="myImg" src="./src/static/images/techincal/git.png" alt="Git Bash Command Line" width="200px" height="172px">
+			</article>
+			<article>
+				<h3 id="git">Git</h3>
+				<p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. <a href="https://git-scm.com/">Source</a></p>
+				<p>Download Git <a href="https://git-scm.com/download/win">Here</a> (Should be a Pop Up window)</p>
+				<a class="top" href="tech.html">Top</a>
+			</article>	
+		</section>	
+	</main>
+</body>
+<footer>
+	<small>&copy 2018</small>
+</footer>
+<script src="./src/static/js/project-modal.js"></script>
+</html>

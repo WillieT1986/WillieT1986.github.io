@@ -1,0 +1,155 @@
+.section {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 2rem;
+}
+
+.my-photo {
+	align-self: center;
+	height: 450px;
+	width: 450px;
+	padding-top: 2rem;
+}
+
+h2 {
+	align-self: center;
+	padding-top: 3rem;
+	margin-top: 1rem;
+}
+
+h3 {
+	align-self: center;
+	padding-bottom: 2rem;
+	margin-bottom: 1.25rem;
+}
+
+p {
+	margin-bottom: .5rem;
+}
+
+.section .atop {
+	align-self: center;
+	margin-top: 5rem;
+	display: none;
+	font-size: 1rem;
+}
+
+footer {
+	position: fixed;
+}
+
+/* 4k Monitor View lol */
+@media screen and (max-height: 3840px) and (min-height: 900px) {
+    p {
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: .5rem;
+        }
+}
+
+@media screen and (max-width: 2160px) and (min-width: 900px) {
+    p {
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: .5rem;
+        }
+
+	footer {
+		position: relative;
+		align-items: center;
+		height: 1.5rem;
+		font-size: 1.25rem;
+	}
+}
+
+/* Vertical View - 950 to 346 */
+@media screen and (max-height: 950px) and (min-height: 346px) {
+    .navbar {
+        background: gray;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .navbar .navlinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+	.main {
+		padding: 0;
+		width: 100%;
+	}
+
+	.my-photo {
+		padding-top: 1rem;
+		width: 100%;
+	}
+
+	p {
+		padding-top: .75rem;
+	}
+
+	.main .atop {
+		display: block;
+		margin-bottom: 2rem;
+		font-size: 1rem;
+	}
+
+	footer {
+		position: relative;
+	}
+}
+
+/* Horizontal View 2160 - to 1308*/
+@media screen and (max-width: 2160px) and (min-width: 1308px) {
+    footer {
+            position: fixed;
+        }
+}
+
+/*Horizontal View - 977 to 346*/
+@media screen and (max-width: 977px) and (min-width: 346px) {
+    .navbar {
+        background: gray;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar .navlinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+	.main {
+		padding: 0;
+		width: 100%;
+	}
+
+	.my-photo {
+		padding-top: 1rem;
+	}
+
+	p {
+		padding-top: .75rem;
+	}
+
+	.section .atop {
+		display: block;
+		margin-bottom: 2rem;
+		font-size: 1rem;
+	}
+
+	footer {
+		position: relative;
+		align-items: center;
+		height: 1.5rem;
+		font-size: 1.25rem;
+	}
+}
