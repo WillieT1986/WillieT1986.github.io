@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./src/static/css/layout.css">
-    <link rel="stylesheet" type="text/css" href="src/static/css/index.css">
+    <link rel="stylesheet" type="text/css" href="src/static/css/resume.css">
+    <link rel="stylesheet" type="text/css" href="src/static/css/modal.css">
 </head>
     <body class="container">
         <main>
-            <section class="container-2">
-                <nav class="navbar">
+            <nav class="navbar">
                 <ul>
                     <section class="navlinks">
                         <li><a href="education.html">Education & Training</a></li>
@@ -29,15 +29,195 @@
                         <li><a href="https://www.tiktok.com/@williet1986"><img src="./src/static/images/navbar/tiktok.png" alt="tiktok" width="38px" height="33px"></a></li>
                     </section>
                 </ul>
-                </nav>
-                    <section class="main">
-                        <h2>This Page Is Being Worked On</h2>
-                        <a class="atop" href="index.html">TOP</a>
-                    </section>
+            </nav>
+
+            <h1>Digital Resume</h1>
+
+            <!--    This is where I will have a pdf version of the resume readily to be downloaded...         -->
+            <section class="downloadPDF">
+                <article>
+                    <img class="myImg" src="src/static/images/github/image1.png"
+                         alt="Certificate in Software Development" width="200px" height="172px">
+                    <div id="myModal" class="modal">
+                        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                </article>
+                <article>
+                    <p>A PDF Format of this Resume can be downloaded <a href="">Here</a></p>
+                </article>
             </section>
+
+            <!--   This section will be the entire resume border itself         -->
+            <section class="digitalResume">
+
+                <!--    Name & Info            -->
+                <section class="partOne">
+                    <h2>My Name</h2>
+                    <a>Location</a>
+                    <a>000-000-0000</a>
+                    <a>E-Mail</a>
+                    <a>LinkedIn</a>
+                    <a>Portfolio</a>
+                </section>
+
+
+                <!--    Introduction            -->
+                <section class="partTwo">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, alias aliquam amet consequuntur culpa dolore exercitationem facilis impedit inventore iste molestiae non placeat praesentium ratione rem reprehenderit, vero voluptatibus?</p>
+                </section>
+
+                <!--    Technical Inventory            -->
+                <section class="partThree">
+                    <h2>Technical Inventory</h2>
+                    <article>
+                        <p><a href="tech.html#java">Java</a> &nbsp;<strong>*</strong>&nbsp; <a
+                                href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a></p>
+                    </article>
+                </section>
+
+                <!--    Education & Training            -->
+                <section class="partFour">
+                    <h2>Education & Training</h2>
+                        <article>
+                            <img class="myImg edu-image" src="src/static/images/github/pet-1.jpg"
+                                 alt="Certificate in Software Development" width="100px" height="86px">
+                            <p>Name of Institution, City, State
+                            </br><strong>Diploma Type, Name of Course, </strong> Month Year - Month Year</p>
+                        </article>
+                        <article>
+                            <img class="myImg edu-image" src="src/static/images/github/pet-1.jpg"
+                                 alt="Certificate in Software Development" width="100px" height="86px">
+                            <p>Name of Institution, City, State
+                                </br><strong>Diploma Type, Name of Course, </strong> Month Year - Month Year</p>
+                        </article>
+                </section>
+
+                <!--    Projects            -->
+                <section class="partFive">
+                    <h2>Projects</h2>
+                    <article>
+                        <img class="myImg edu-image" src="src/static/images/github/pet-1.jpg"
+                             alt="Certificate in Software Development" width="100px" height="86px">
+                        <p></br><strong>Name of the Project, </strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus dignissimos, earum eligendi error est, fuga hic illum magnam molestias nisi obcaecati qui quos ratione recusandae repellat similique vel voluptatibus!
+                        </br> <a href="tech.html#java">Java</a> &nbsp;<strong>*</strong>&nbsp; <a
+                                    href="tech.html#oop">OOP</a> &nbsp;<strong>*</strong>&nbsp; <a href="tech.html#tdd">TDD</a> </p>
+                    </article>
+
+                    <article>
+                        <img class="myImg edu-image" src="src/static/images/github/pet-1.jpg"
+                             alt="Certificate in Software Development" width="100px" height="86px">
+                        <p></br><strong>Name of the Project, </strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus dignissimos, earum eligendi error est, fuga hic illum magnam molestias nisi obcaecati qui quos ratione recusandae repellat similique vel voluptatibus!
+                            </br> <a href="tech.html#java">Java</a> &nbsp;<strong>|</strong>&nbsp; <a
+                                    href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a> </p>
+                    </article>
+
+                    <article>
+                        <img class="myImg edu-image" src="src/static/images/github/pet-1.jpg"
+                             alt="Certificate in Software Development" width="100px" height="86px">
+                        <p></br><strong>Name of the Project, </strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus dignissimos, earum eligendi error est, fuga hic illum magnam molestias nisi obcaecati qui quos ratione recusandae repellat similique vel voluptatibus!
+                            </br> <a href="tech.html#java">Java</a> &nbsp;<strong>*</strong>&nbsp; <a
+                                    href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a> </p>
+                    </article>
+
+                    <article>
+                        <img class="myImg edu-image" src="src/static/images/github/pet-1.jpg"
+                             alt="Certificate in Software Development" width="100px" height="86px">
+                        <p></br><strong>Name of the Project, </strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus dignissimos, earum eligendi error est, fuga hic illum magnam molestias nisi obcaecati qui quos ratione recusandae repellat similique vel voluptatibus!
+                            </br> <a href="tech.html#java">Java</a> &nbsp;<strong>*</strong>&nbsp; <a
+                                    href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a> </p>
+                    </article>
+
+                    <article>
+                        <img class="myImg edu-image" src="src/static/images/github/pet-1.jpg"
+                             alt="Certificate in Software Development" width="100px" height="86px">
+                        <p></br><strong>Name of the Project, </strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus dignissimos, earum eligendi error est, fuga hic illum magnam molestias nisi obcaecati qui quos ratione recusandae repellat similique vel voluptatibus!
+                            </br> <a href="tech.html#java">Java</a> &nbsp;<strong>*</strong>&nbsp; <a
+                                    href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a> </p>
+                    </article>
+                </section>
+
+                <!--    Project Links (Think of a better name)            -->
+                <section class="partSix">
+                    <h2>YouTube Video's</h2>
+                    <article>
+                        <p><a href="">YouTube Video Link</a></p>
+                    </article>
+                </section>
+
+                <!--    Military Experience            -->
+                <section class="partSeven">
+                    <h2>Military Experience</h2>
+                    <article>
+                        <img class="myImg edu-image" src="src/static/images/github/pet-1.jpg"
+                             alt="Certificate in Software Development" width="100px" height="86px">
+                        <ul>
+                            <p>Branch of Service
+                            </br><strong>MOS, </strong> Month Year - Month Year
+                            </br>
+                            </br> <li style="list-style:disc;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                            </br> <li style="list-style:disc;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                            </br> <li style="list-style:disc;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                            </br> <li style="list-style:disc;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                                </br> <li style="list-style:disc; margin-left:4em"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                                </br> <li style="list-style:disc; margin-left:4em"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                                </br> <li style="list-style:disc; margin-left:4em"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                            </p>
+                        </ul>
+                    </article>
+
+
+                </section>
+
+
+                <!--    Technical Experience            -->
+                <section class="partEight">
+                    <h2>Technical Experience</h2>
+                    <article>
+                        <ul>
+                            <p>Name of Employment
+                                </br><strong>Role,  </strong> Month Year - Month Year
+                                </br>
+                                </br> <li style="list-style:disc;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                                </br> <li style="list-style:disc;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                                </br> <li style="list-style:disc;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                                </br> <li style="list-style:disc;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                                </br> <li style="list-style:disc;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                                </br> <li style="list-style:disc;" class="bulletSpacer"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                            </p>
+                        </ul>
+
+                        <ul>
+                            <p>Name of Employment
+                                </br><strong>Role,  </strong> Month Year - Month Year
+                                </br>
+                                </br> <li style="list-style:disc;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                                </br> <li style="list-style:disc;" class="bulletSpacer"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                            </p>
+                        </ul>
+
+                        <ul>
+                            <p>Name of Employment
+                                </br><strong>Role,  </strong> Month Year - Month Year
+                                </br>
+                                </br> <li style="list-style:disc;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                                </br> <li style="list-style:disc; margin-left:4em"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                                </br> <li style="list-style:disc; margin-left:4em"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                            </p>
+                        </ul>
+
+                    </article>
+                </section>
+
+
+            </section>
+
         </main>
-    <footer>
-        &copy 2018
-    </footer>
+
+        <footer>
+            &copy 2018
+        </footer>
     </body>
 </html>

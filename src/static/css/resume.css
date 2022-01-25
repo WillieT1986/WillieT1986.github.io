@@ -1,0 +1,270 @@
+h1 {
+	display: flex;
+	justify-content: center;
+	margin-top: 1.75rem;
+	margin-bottom: 1rem;
+}
+
+/* Digital Resume PDF Download */
+.downloadPDF {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.downloadPDF img {
+    margin-bottom: 1rem;
+}
+
+/* Main Body of Digital PDF */
+.digitalResume {
+    background: white;
+    border-radius: 5px;
+    border: 3px solid black;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    width: 75%;
+}
+
+/* Name & Info */
+.partOne {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: .5rem;
+}
+
+.partOne h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.partOne a {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Introduction */
+.partTwo {
+    margin-bottom: 2rem;
+    padding-bottom: .5rem;
+}
+
+.partTwo h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.partTwo p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* Technical Inventory */
+.partThree {
+    margin-bottom: 3rem;
+}
+
+.partThree h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+    border-bottom: 3px dotted #095484;
+}
+
+.partThree article {
+    margin-left: 6%;
+    margin-right: 5%;
+    margin-bottom: .5rem;
+}
+
+
+/* Education & Training */
+.partFour {
+    margin-bottom: 3rem;
+}
+
+.partFour h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+    border-bottom: 3px dotted #095484;
+}
+
+.partFour article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 5%;
+    margin-bottom: .5rem;
+}
+
+.partFour img {
+    margin-right: 1rem;
+}
+
+
+/* Projects */
+.partFive {
+    margin-bottom: 3rem;
+}
+
+.partFive h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+    border-bottom: 3px dotted #095484;
+}
+
+.partFive article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 5%;
+    margin-bottom: .5rem;
+}
+
+.partFive img {
+    margin-right: 1rem;
+}
+
+/* Project Links (Think of a better name) */
+.partSix {
+    margin-bottom: 3rem;
+}
+
+.partSix h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+    border-bottom: 3px dotted #095484;
+}
+
+.partSix article {
+    margin-left: 6%;
+    margin-right: 5%;
+    margin-bottom: .5rem;
+}
+
+
+/* Military Experience */
+.partSeven {
+    margin-bottom: 3rem;
+}
+
+.partSeven h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+    border-bottom: 3px dotted #095484;
+}
+
+.partSeven article {
+    display: flex;
+    flex-direction: row;
+    margin-left: 6%;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+}
+
+.partSeven img {
+    margin-right: 1rem;
+}
+
+.partSeven li {
+    margin-left: 1rem;
+}
+
+
+/* Technical Experience */
+.partEight {
+   margin-bottom: 3rem;
+}
+
+.partEight h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+    border-bottom: 3px dotted #095484;
+}
+
+.partEight article {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+}
+
+.partEight li {
+   margin-left: 2rem;
+}
+
+.bulletSpacer {
+    margin-bottom: 2rem;
+}
+
+
+/* Vertical View - 950 to 346 */
+@media screen and (max-height: 950px) and (min-height: 346px) {
+	.navbar {
+		background: gray;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+
+	.navbar .navlinks {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.modal-content {
+		width: 100%;
+		height: auto;
+	}
+
+	footer {
+		position: relative;
+	}
+}
+
+
+/* Horizontal View - 977 to 346 */
+@media screen and (max-width: 977px) and (min-width: 346px) {
+	.navbar {
+		background: gray;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.navbar .navlinks {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+     .modal-content {
+        width: 100%;
+    }
+
+	footer {
+		position: relative;
+		align-items: center;
+		height: 1.5rem;
+		font-size: 1.25rem;
+	}
+}
