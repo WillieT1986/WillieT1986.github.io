@@ -4,9 +4,10 @@
     <title>Digital Resume</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./src/static/css/layout.css">
-    <link rel="stylesheet" type="text/css" href="src/static/css/resume.css">
-    <link rel="stylesheet" type="text/css" href="src/static/css/modal.css">
+    <link rel="stylesheet" type="text/css" href="./src/static/css/resume.css">
+    <link rel="stylesheet" type="text/css" href="./src/static/css/modal.css">
 </head>
     <body class="container">
         <main>
@@ -30,9 +31,7 @@
                     </section>
                 </ul>
             </nav>
-
             <h1>Digital Resume</h1>
-
             <!--    This is where I will have a pdf version of the resume readily to be downloaded...         -->
             <section class="downloadPDF">
                 <article>
@@ -48,122 +47,174 @@
                     <p>A PDF Format of this Resume can be downloaded <a href="">Here</a></p>
                 </article>
             </section>
-
             <!--   This section will be the entire resume border itself         -->
             <section class="digitalResume">
-
                 <!--    Name & Info            -->
                 <section class="partOne">
-                    <h2>My Name</h2>
-                    <a>Location</a>
-                    <a>000-000-0000</a>
-                    <a>E-Mail</a>
-                    <a>LinkedIn</a>
-                    <a>Portfolio</a>
+                    <h2>William R Thompson Jr</h2>
+                    <section class="section2">
+                        <a href="https://goo.gl/maps/XpZVPkB1NoMra2LE9" target="_blank" rel="noopener noreferrer">Columbus, OH</a>
+                        <a href="mailto:wrthompsonjr86@gmail.com" target="_blank" rel="noopener noreferrer">E-Mail</a>
+                        <a href="https://www.linkedin.com/in/thompsonjrwr/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://www.wrthompsonjr.com" target="_blank" rel="noopener noreferrer">Personal Portfolio</a>
+                        <a href="https://github.com/WillieT1986" target="_blank" rel="noopener noreferrer">Github</a>
+                        <a href="https://www.youtube.com/playlist?list=PLzGlakU7co_bjBvCza0I5QrEcBGRjXYfY" target="_blank" rel="noopener noreferrer">YouTube Coding Videos'</a>
+                    </section>
                 </section>
-
-
                 <!--    Introduction            -->
                 <section class="partTwo">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, alias aliquam amet consequuntur culpa dolore exercitationem facilis impedit inventore iste molestiae non placeat praesentium ratione rem reprehenderit, vero voluptatibus?</p>
+                    <h3>Junior Software Developer</h3>
+                    <p>I am an aspiring Software Developer who enjoys crafting web applications from the ground up. I bring a disciplined mindset toward tech solutions and am looking to join a company that will allow me to grow my skills and show me the way.</p>
                 </section>
-
                 <!--    Technical Inventory            -->
                 <section class="partThree">
                     <h2>Technical Inventory</h2>
-                    <article>
-                        <p><a href="tech.html#java">Java</a> &nbsp;<strong>*</strong>&nbsp; <a
-                                href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a></p>
+                    <article class="grid-container">
+                        <a href="tech.html#java" class="grid-item">Java</a>
+                        <a href="tech.html#php" class="grid-item">PHP</a>
+                        <a href="tech.html#js" class="grid-item">JavaScript</a>
+                        <a href="tech.html#eclipse" class="grid-item">Eclipse IDE</a>
+                        <a class="grid-item">Gradle</a>
+                        <a href="tech.html#spring" class="grid-item">Spring MVC</a>
+                        <a href="tech.html#laravel" class="grid-item">Laravel MVC</a>
+                        <a href="tech.html#jquery" class="grid-item">JQuery</a>
+                        <a href="tech.html#intellij" class="grid-item">IntelliJ IDE</a>
+                        <a class="grid-item">Maven</a>
+                        <a href="tech.html#jpa" class="grid-item">Java Persistence - JPA</a>
+                        <a href="tech.html#codeigniter" class="grid-item">CodeIgniter MVC</a>
+                        <a href="tech.html#ajax" class="grid-item">AJAX</a>
+                        <a href="tech.html#phpstorm" class="grid-item">PHP Storm IDE</a>
+                        <a href="tech.html#git" class="grid-item">Git</a>
+                        <a class="grid-item">Thymeleaf</a>
+                        <a href="tech.html#sql" class="grid-item">SQL</a>
+                        <a href="tech.html#html" class="grid-item">HTML5</a>
+                        <a class="grid-item">Notepad ++</a>
+                        <a class="grid-item">Subversion</a>
+                        <a href="tech.html#tdd" class="grid-item">Test Driven Development - TDD</a>
+                        <a class="grid-item">PostgreSQL</a>
+                        <a href="tech.html#css" class="grid-item">CSS3</a>
+                        <a href="tech.html#subl" class="grid-item">Sublime Text 3</a>
+                        <a href="tech.html#oop" class="grid-item">Object Oriented Programming - OOP</a>
                     </article>
                 </section>
-
                 <!--    Education & Training            -->
                 <section class="partFour">
                     <h2>Education & Training</h2>
                         <article>
-                            <img class="myImg edu-image" src="src/static/images/github/pet-1.jpg"
+                            <img class="myImg edu-image" src="src/static/images/education/wcci-cert.jpg"
                                  alt="Certificate in Software Development" width="100px" height="86px">
-                            <p>Name of Institution, City, State
-                            </br><strong>Diploma Type, Name of Course, </strong> Month Year - Month Year</p>
+                            <p><a href="https://wecancodeit.org/" target="_blank" rel="noopener noreferrer">We Can Code IT</a>, Columbus, OH
+                            </br><strong>Certificate, Software Developer, </strong> January 2018 - April 2018</p>
                         </article>
                         <article>
-                            <img class="myImg edu-image" src="src/static/images/github/pet-1.jpg"
+                            <img class="myImg edu-image" src="src/static/images/education/coa-cert.jpg"
                                  alt="Certificate in Software Development" width="100px" height="86px">
-                            <p>Name of Institution, City, State
-                                </br><strong>Diploma Type, Name of Course, </strong> Month Year - Month Year</p>
+                            <p><a href="https://www.albemarle.edu/" target="_blank" rel="noopener noreferrer">College of the Albemarle</a>, Elizabeth City, NC
+                                </br><strong>Certificate, Computer Engineering Technology, </strong> January 2011 - May 2013</p>
+                        </article>
+                        <article>
+                            <img class="myImg edu-image" src="src/static/images/owens.jpg"
+                                 alt="Certificate in Software Development" width="100px" height="86px">
+                            <p><a href="https://www.owens.edu/" target="_blank" rel="noopener noreferrer">Owens Community College</a>, Findlay, OH
+                                </br><strong>Course Work, </strong> August 2009 - December 2010</p>
                         </article>
                 </section>
-
                 <!--    Projects            -->
                 <section class="partFive">
                     <h2>Projects</h2>
                     <article>
-                        <img class="myImg edu-image" src="src/static/images/github/pet-1.jpg"
-                             alt="Certificate in Software Development" width="100px" height="86px">
-                        <p></br><strong>Name of the Project, </strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus dignissimos, earum eligendi error est, fuga hic illum magnam molestias nisi obcaecati qui quos ratione recusandae repellat similique vel voluptatibus!
-                        </br> <a href="tech.html#java">Java</a> &nbsp;<strong>*</strong>&nbsp; <a
-                                    href="tech.html#oop">OOP</a> &nbsp;<strong>*</strong>&nbsp; <a href="tech.html#tdd">TDD</a> </p>
+                        <img class="myImg edu-image" src="src/static/images/github/image-1.jpg"
+                             alt="Green Lawn Interactive 2.0" width="100px" height="86px">
+                        <p></br><strong>Green Lawn Interactive 2.0: </strong> A re-write and continuation of Green Lawn Interactive. Updating to the latest programming language versions (ie: Java 11 to 17), noting and updating depreciations, as well as pushing the application further from being just a Demo Application to being something more while streaming it online at Twitch Tv and uploading those VODs over to YouTube to share with the world and to aspire others into becoming Programmers
+                            </br> <a href="tech.html#java">Java 17</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="https://junit.org/junit5/">JUnit 5</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#spring">Spring 5.3.15</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#sql">SQL</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#html">HTML5</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#css">CSS3</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#js">JavaScript</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#jquery">JQuery 3.5.1</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#git">Git</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#intellij">IntelliJ IDE</a>
+                        </p>
                     </article>
-
                     <article>
-                        <img class="myImg edu-image" src="src/static/images/github/pet-1.jpg"
-                             alt="Certificate in Software Development" width="100px" height="86px">
-                        <p></br><strong>Name of the Project, </strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus dignissimos, earum eligendi error est, fuga hic illum magnam molestias nisi obcaecati qui quos ratione recusandae repellat similique vel voluptatibus!
-                            </br> <a href="tech.html#java">Java</a> &nbsp;<strong>|</strong>&nbsp; <a
-                                    href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a> </p>
+                        <img class="myImg edu-image" src="src/static/images/github/greenlawn.png"
+                             alt="Green Lawn Interactive" width="100px" height="86px">
+                        <p></br><strong>Green Lawn Interactive, </strong> A Full Stack Java web application that will allow a User to search for a Grave Site by clicking on a Cemetery Section that will show graves listed as cards so once click on it will show a more detailed page about that specific grave site. This is my current and still in progress project.
+                            </br> <a href="tech.html#java">Java 11</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="https://junit.org/junit5/">JUnit 4</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#spring">Spring 5.3.15</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#sql">SQL</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#html">HTML5</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#css">CSS3</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#js">JavaScript</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#jquery">JQuery 2.1.1</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#git">Git</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#eclipse">Eclipse IDE</a>
+                        </p>
                     </article>
-
                     <article>
-                        <img class="myImg edu-image" src="src/static/images/github/pet-1.jpg"
-                             alt="Certificate in Software Development" width="100px" height="86px">
-                        <p></br><strong>Name of the Project, </strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus dignissimos, earum eligendi error est, fuga hic illum magnam molestias nisi obcaecati qui quos ratione recusandae repellat similique vel voluptatibus!
-                            </br> <a href="tech.html#java">Java</a> &nbsp;<strong>*</strong>&nbsp; <a
-                                    href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a> </p>
+                        <img class="myImg edu-image" src="src/static/images/github/pets-amok.jpg"
+                             alt="Virtual Pet Shelter Amok" width="100px" height="86px">
+                        <p></br><strong>Virtual Pet Shelter Amok, </strong>  User will take care of a variety of pets and robotic pets. User interaction consists of maintaining stats and waste along with adopting out pets and taking in pets.
+                            </br> <a href="tech.html#java">Java 8</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="https://junit.org/tdd/">TDD</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#git">Git</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#eclipse">Eclipse IDE</a>
+                        </p>
                     </article>
-
                     <article>
-                        <img class="myImg edu-image" src="src/static/images/github/pet-1.jpg"
-                             alt="Certificate in Software Development" width="100px" height="86px">
-                        <p></br><strong>Name of the Project, </strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus dignissimos, earum eligendi error est, fuga hic illum magnam molestias nisi obcaecati qui quos ratione recusandae repellat similique vel voluptatibus!
-                            </br> <a href="tech.html#java">Java</a> &nbsp;<strong>*</strong>&nbsp; <a
-                                    href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a> </p>
+                        <img class="myImg edu-image" src="src/static/images/github/review-site3.png"
+                             alt="Reviews The Next Generation" width="100px" height="86px">
+                        <p></br><strong>Reviews The Next Generation, </strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus dignissimos, earum eligendi error est, fuga hic illum magnam molestias nisi obcaecati qui quos ratione recusandae repellat similique vel voluptatibus!
+                            </br> <a href="tech.html#java">Java 8</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="https://junit.org/junit5/">TDD</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#spring">Spring 4.3</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#sql">SQL</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#html">HTML5</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#css">CSS3</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#git">Git</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#subl">Sublime Text 3</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#eclipse">Eclipse IDE</a>
+                        </p>
                     </article>
-
                     <article>
-                        <img class="myImg edu-image" src="src/static/images/github/pet-1.jpg"
-                             alt="Certificate in Software Development" width="100px" height="86px">
-                        <p></br><strong>Name of the Project, </strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque delectus dignissimos, earum eligendi error est, fuga hic illum magnam molestias nisi obcaecati qui quos ratione recusandae repellat similique vel voluptatibus!
-                            </br> <a href="tech.html#java">Java</a> &nbsp;<strong>*</strong>&nbsp; <a
-                                    href="tech.html#oop">OOP</a> &nbsp;<strong>|</strong>&nbsp; <a href="tech.html#tdd">TDD</a> </p>
+                        <img class="myImg edu-image" src="src/static/images/github/final.jpg"
+                             alt="Watch Your Garden Grow" width="100px" height="86px">
+                        <p></br><strong>Name of the Project, </strong> Worked with a team that created a Full Stack Java web application that allows the User to enter in their zip code that accesses their plant hardiness zone and shows the User a list of plants for their zip code. A user will be able to add a plant to a plant report that will assist the User in planning their Garden.
+                            </br> <a href="tech.html#java">Java 8</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="https://junit.org/junit5/">TDD</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#spring">Spring 4.3</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#sql">SQL</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#subl" class="grid-item">Sublime Text 3</a>
+                                <a href="tech.html#html">HTML5</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#css">CSS3</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#git">Git</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#subl">Sublime Text 3</a> &nbsp;<strong>|</strong>&nbsp;
+                                <a href="tech.html#eclipse">Eclipse IDE</a>
+                        </p>
                     </article>
                 </section>
 
-                <!--    Project Links (Think of a better name)            -->
-                <section class="partSix">
-                    <h2>YouTube Video's</h2>
-                    <article>
-                        <p><a href="">YouTube Video Link</a></p>
-                    </article>
-                </section>
 
                 <!--    Military Experience            -->
-                <section class="partSeven">
+                <section class="partSix">
                     <h2>Military Experience</h2>
                     <article>
                         <img class="myImg edu-image" src="src/static/images/github/pet-1.jpg"
-                             alt="Certificate in Software Development" width="100px" height="86px">
+                             alt="United States Marine Corps" width="100px" height="86px">
                         <ul>
-                            <p>Branch of Service
-                            </br><strong>MOS, </strong> Month Year - Month Year
+                            <p>United States Marine Corps
+                            </br><strong>0311 - Rifleman, </strong> September 2005 - August 2009
                             </br>
-                            </br> <li style="list-style:disc;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
-                            </br> <li style="list-style:disc;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
-                            </br> <li style="list-style:disc;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
-                            </br> <li style="list-style:disc;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
-                                </br> <li style="list-style:disc; margin-left:4em"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
-                                </br> <li style="list-style:disc; margin-left:4em"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
-                                </br> <li style="list-style:disc; margin-left:4em"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at et iure totam! Alias, architecto dignissimos ea exercitationem itaque maxime, necessitatibus nisi non quae quasi quod saepe sit, ut vel.</li>
+                            </br> <li style="list-style:disc;"> Selected to serve as the Scribe for the Battalion Sergeant Major due to technical competency and ability to complete high-stress tasks & missions.</li>
+                            </br> <li style="list-style:disc;"> Held a Secret Clearance to assist with reports of classified meetings.</li>
+                            </br> <li style="list-style:disc;"> Instructed International Soldiers on how to utilize different positions within their own squads.</li>
+                            </br> <li style="list-style:disc;"> Medals include:</li>
+                                </br> <li style="list-style:disc; margin-left:4em"> Marine Corps Good Conduct Medal</li>
+                                </br> <li style="list-style:disc; margin-left:4em"> Iraq Campaign Medal (w/ 1 Bronze Star)</li>
+                                </br> <li style="list-style:disc; margin-left:4em"> Sea Service Deployment Ribbon (2nd Award)</li>
                             </p>
                         </ul>
                     </article>
@@ -173,7 +224,7 @@
 
 
                 <!--    Technical Experience            -->
-                <section class="partEight">
+                <section class="partSeven">
                     <h2>Technical Experience</h2>
                     <article>
                         <ul>
@@ -220,4 +271,5 @@
             &copy 2018
         </footer>
     </body>
+<script src="./src/static/js/project-modal.js"></script>
 </html>
