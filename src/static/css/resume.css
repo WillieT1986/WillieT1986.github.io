@@ -203,17 +203,28 @@ h1 {
 }
 
 .partSeven article {
+    display: flex;
+    flex-direction: row;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 1rem;
+}
+
+.summary {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.jp {
+    margin-top: .5rem;
 }
 
 .partSeven li {
    margin-left: 2rem;
 }
 
-.bulletSpacer {
-    margin-bottom: 2rem;
+.partSeven img {
+    margin-right: 3rem;
 }
 
 
