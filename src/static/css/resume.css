@@ -255,6 +255,137 @@ h1 {
 }
 
 
+/* Horizontal View - 2532 to 2347 */
+@media screen and (max-width: 2532px) and (min-width: 2347px) {
+    .section2 {
+        margin-left: 23%;
+        margin-right: 23%;
+        margin-bottom: .5rem;
+    }
+}
+
+/* Horizontal View - 2346 to 2264 */
+@media screen and (max-width: 2346px) and (min-width: 2264px) {
+    .section2 {
+        margin-left: 22%;
+        margin-right: 22%;
+        margin-bottom: .5rem;
+    }
+}
+
+/* Horizontal View - 2263 to 1816 */
+@media screen and (max-width: 2263px) and (min-width: 1816px) {
+    .section2 {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: .5rem;
+    }
+}
+
+/* Horizontal View - 2263 to 1766 */
+@media screen and (max-width: 1815px) and (min-width: 1766px) {
+    .section2 {
+        margin-left: 14%;
+        margin-right: 14%;
+        margin-bottom: .5rem;
+    }
+}
+
+/* Horizontal View - 1765 to 1719 */
+@media screen and (max-width: 1765px) and (min-width: 1719px) {
+    .section2 {
+        margin-left: auto;
+        margin-right: 13%;
+        margin-bottom: .5rem;
+    }
+}
+
+/* Horizontal View - 1718 to 1675 */
+@media screen and (max-width: 1718px) and (min-width: 1675px) {
+    .section2 {
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: .5rem;
+    }
+}
+
+/* Horizontal View - 1674 to 1766 */
+@media screen and (max-width: 1674px) and (min-width: 978px) {
+    .partOne h2 {
+        margin-right: 40%;
+    }
+
+    .section2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-content: center;
+        margin-bottom: .5rem;
+    }
+}
+
+/* Horizontal View - 1310 to 1255 */
+@media screen and (max-width: 1310px) and (min-width: 1255px) {
+    .partOne h2 {
+        margin-right: 40%;
+    }
+
+    .section2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-content: center;
+        margin-bottom: .5rem;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+/* Horizontal View - 1254 to 1069 */
+@media screen and (max-width: 1254px) and (min-width: 1069px) {
+    .partOne h2 {
+        margin-left: 25%;
+        margin-right: 25%;
+        width: auto;
+    }
+
+    .section2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-content: center;
+        margin-bottom: .5rem;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+/* Horizontal View - 1068 to 1069 */
+/* THIS IS WHERE I LEFT OFF */
+@media screen and (max-width: 1068px) and (min-width: 978px) {
+    .partOne h2 {
+        margin-left: 25%;
+        margin-right: 25%;
+        width: auto;
+    }
+
+    .section2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-content: center;
+        margin-bottom: .5rem;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+
 /* Horizontal View - 977 to 346 */
 @media screen and (max-width: 977px) and (min-width: 346px) {
 	.navbar {
