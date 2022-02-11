@@ -87,7 +87,7 @@ footer {
 
 	.my-photo {
 		padding-top: 1rem;
-		width: 100%;
+		width: 25%;
 	}
 
 	p {
@@ -113,7 +113,7 @@ footer {
 }
 
 /*Horizontal View - 977 to 346*/
-@media screen and (max-width: 977px) and (min-width: 346px) {
+@media screen and (max-width: 978px) and (min-width: 345px) {
     .navbar {
         background: gray;
         margin-left: auto;
@@ -133,6 +133,7 @@ footer {
 	}
 
 	.my-photo {
+		width: 75%;
 		padding-top: 1rem;
 	}
 
