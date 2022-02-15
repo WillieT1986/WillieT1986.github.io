@@ -43,10 +43,6 @@ h2 {
     padding: 1.50rem
 }
 
-.card a {
-    text-decoration: none;
-}
-
 .card .top {
     display: none;
     justify-content: center;
