@@ -191,7 +191,7 @@ h2 {
         align-items: center;
     }
 
-     .modal-content {
+    .modal-content {
         width: 100%;
     }
 
@@ -199,4 +199,5 @@ h2 {
         margin-top: 1rem;
         height: 2rem;
         font-size: 2rem;
+    }
 }

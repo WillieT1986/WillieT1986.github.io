@@ -31,8 +31,6 @@ h2 {
 
 .card p {
 	margin-bottom: .25rem;
-    padding-left: auto;
-    padding-right: auto;
     width: 98%;
     padding-bottom: .25rem;
 }
@@ -119,17 +117,17 @@ h2 {
 /* Horizontal View - 977 to 346 */
 @media screen and (max-width: 977px) and (min-width: 346px) {
     .navbar {
-    		background: gray;
-    		margin-left: auto;
-    		margin-right: auto;
-    	}
+        background: gray;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-    	.navbar .navlinks {
-    		display: flex;
-    		flex-direction: column;
-    		justify-content: center;
-    		align-items: center;
-    	}
+    .navbar .navlinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
     h1 {
         font-size: 2.25rem;
@@ -169,7 +167,7 @@ h2 {
         text-align: center;
     }
 
-     .modal-content {
+    .modal-content {
         width: 100%;
     }
 
@@ -177,4 +175,5 @@ h2 {
         margin-top: 1rem;
         height: 2rem;
         font-size: 2rem;
+    }
 }
