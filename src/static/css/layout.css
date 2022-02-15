@@ -67,6 +67,10 @@
 	font-size: 22px;
 }
 
+main a {
+	text-decoration: none;
+}
+
 footer {
 	display: flex;
 	justify-content: center;
