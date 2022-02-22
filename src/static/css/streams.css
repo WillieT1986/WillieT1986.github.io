@@ -1,0 +1,56 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    display: flex;
+    margin: .5rem 2rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.projects p {
+    margin: .5rem 1rem;
+}
+
+.cards {
+    margin: 1rem 5rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.cards p {
+    margin: .5rem 2rem;
+}
+
+.cards2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+
+}
+
+.cards3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards3 iframe {
+    margin: 1rem 1rem;
+    width: 500px;
+    height: 300px;
+
+}
+
+footer {
+    position: relative;
+}
