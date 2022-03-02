@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coding Streams</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./src/static/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="src/static/css/index.css">
+</head>
+
+    <body class="container">
+        <main>
+            <section class="container-2">
+                <nav class="navbar">
+                    <ul>
+                        <section class="navlinks">
+                            <li><a href="education.html">Education & Training</a></li>
+                            <li><a href="tech.html">Technical Knowledge</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="resume.html">Digital Resume</a></li>
+                            <li><a href="git-projects.html">Coding Projects</a></li>
+                        </section>
+                        <section class="navsoc">
+                            <li><a href="https://www.linkedin.com/in/thompsonjrwr/"><img class="nav-img" src="./src/static/images/navbar/link.png" alt="linkedin" width="38px" height="33px"></a></li>
+                            <li><a href="https://github.com/WillieT1986"><img src="./src/static/images/navbar/github.png" alt="github" width="38px" height="33px"></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCJnDyGw4I7U6oHIqYqTHlGA/about"><img src="./src/static/images/navbar/youtube.png" alt="youtube" width="38px" height="33px"></a></li>
+                            <li><a href="https://www.instagram.com/williet1986/"><img src="./src/static/images/navbar/twitch.png" alt="twitch tv" width="38px" height="33px"></a></li>
+                            <li><a href="https://twitter.com/WillieT1986"><img src="./src/static/images/navbar/twitter.png" alt="twitter" width="38px" height="33px"></a></li>
+                            <li><a href="https://www.instagram.com/williet1986/"><img src="./src/static/images/navbar/insta.png" alt="instagram" width="38px" height="33px"></a></li>
+                            <li><a href="https://www.tiktok.com/@williet1986"><img src="./src/static/images/navbar/tiktok.png" alt="tiktok" width="38px" height="33px"></a></li>
+                        </section>
+                    </ul>
+                </nav>
+
+                <section class="main">
+                    <h2>This Page Is Being Worked On</h2>
+                    <h2>Here is a sample of what to expect</h2>
+
+                    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/C9OP7-lkfmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+                    <a class="atop" href="index.html">TOP</a>
+                </section>
+            </section>
+        </main>
+        <footer>
+            &copy 2018
+        </footer>
+    </body>
+</html>
