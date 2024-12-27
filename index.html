@@ -1,72 +1,743 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
     <title>WR Thompson Jr Portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="./src/static/css/layout.css">
-    <link rel="stylesheet" type="text/css" href="./src/static/css/index.css">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="src/img/favicon.png" rel="icon">
+    <link href="src/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="src/static/vendor/aos/aos.css" rel="stylesheet">
+    <link href="src/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="src/static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="src/static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="src/static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="src/static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- GitHub Calendar File -->
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+
+    <!-- Template Main CSS File -->
+    <link href="src/static/css/style.css" rel="stylesheet">
+
+    <!-- ======================================================================================
+    * Template Name: iPortfolio
+    * Updated: May 30 2023 with Bootstrap v5.3.0
+    * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================================================= -->
 </head>
+
 <body class="container">
-<main>
-    <nav class="navbar">
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <div class="interactive-item">
+          <img src="src/static/img/profile-img.png" alt="" class="img-fluid rounded-circle">
+        </div>
+        <h1 class="text-light"><a href="index.html">William</a></h1>
+        <div class="social-links mt-3 text-center">
+            <a href="https://www.linkedin.com/in/thompsonjrwr " class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://www.instagram.com/williet1986/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+            <a href="https://github.com/WillieT1986" class="github" target="_blank"><i class="bx bxl-github"></i></a>
+            <a href="https://www.youtube.com/channel/UCJnDyGw4I7U6oHIqYqTHlGA/about" class="youtube" target="_blank"><i class="bx bxl-youtube"></i></a>
+            <a href="https://www.twitch.tv/warmad2" class="twitch" target="_blank"><i class="bx bxl-twitch"></i></a>
+            <a href="https://www.tiktok.com/@williet1986" class="tiktok" target="_blank"><i class="bx bxl-tiktok"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
         <ul>
-            <section class="navlinks">
-                <li><a href="education.html">Education & Training</a></li>
-                <li><a href="tech.html">Technical Knowledge</a></li>
-                <li><a href="resume.html">Digital Resume</a></li>
-                <li><a href="streams.html">Coding Streams</a></li>
-                <li><a href="git-projects.html">Coding Projects</a></li>
-            </section>
-            <section class="navsoc">
-                <li><a href="https://www.linkedin.com/in/thompsonjrwr/"><img class="nav-img"
-                                                                             src="./src/static/images/navbar/link.png"
-                                                                             alt="linkedin" width="38px" height="33px"></a>
-                </li>
-                <li><a href="https://github.com/WillieT1986"><img src="./src/static/images/navbar/github.png"
-                                                                  alt="github" width="38px" height="33px"></a></li>
-                <li><a href="https://www.instagram.com/williet1986/"><img src="./src/static/images/navbar/twitch.png"
-                                                                          alt="twitch tv" width="38px"
-                                                                          height="33px"></a></li>
-                <li><a href="https://twitter.com/WillieT1986"><img src="./src/static/images/navbar/twitter.png"
-                                                                   alt="twitter" width="38px" height="33px"></a></li>
-                <li><a href="https://www.instagram.com/williet1986/"><img src="./src/static/images/navbar/insta.png"
-                                                                          alt="instagram" width="38px"
-                                                                          height="33px"></a></li>
-                <li><a href="https://www.youtube.com/channel/UCJnDyGw4I7U6oHIqYqTHlGA/about"><img
-                        src="./src/static/images/navbar/youtube.png" alt="youtube" width="38px" height="33px"></a></li>
-                <li><a href="https://www.tiktok.com/@williet1986"><img src="./src/static/images/navbar/tiktok.png"
-                                                                       alt="tiktok" width="38px" height="33px"></a></li>
-            </section>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
+          <!--
+          <li id="live-indicator"><a href="#live-streaming" class="nav-link scrollto"><i class="bx bxs-video"></i><span>Live Streaming</span><span id="live-dot"></span> -->
+            <!-- Live indicator will now appear to the right of the text -->
+          <!-- </a></li> -->
+        
         </ul>
-    </nav>
-    <section class="section">
-        <img class="my-photo" src="./src/static/images/index/me.jpg" alt="Photo of William">
-        <h2>William R Thompson Jr</h2>
-        <h3>Junior Software Developer</h3>
-        <p>First and foremost, I am a Marine Rifleman who honorably served between 2005 to 2009 who has switched gears
-            to utilize the skills learned in the Marine Corps to aid my knowledge and growth in the World of
-            Development.</p>
-        <p>Before I picked up an interest in coding I was diagnosing and building my own desktop computers for gaming.
-            In fact, programming never even crossed my mind until Pokemon Go from Niantic came out and within the small
-            group of players I was one of few who had the technical knowledge to remotely create a small scale scanner
-            while utilizing my own PC as the server to run it. It was while patiently wiring up that scanner to detect
-            rare species of Pokemon and using Discord and Twitter feeds to send us notifications that I began to see
-            behind all that complicated code that another life awaited me.</p>
-        <p>It wasn’t until 2017 when I decided to make a career change and see if I could have what it takes to become a
-            professional programmer. Around Fall, I found what is known as a Coding Bootcamp that I decided to research.
-            I thought “If they accept the Post 9/11 GI Bill then I might as well give it a try.” That is when I came
-            across We Can Code IT, an accelerated Software Development program that teaches Full Stack Java with focus
-            on test driven development. I wrote a thorough review on this program <a href="wcciReview.html">HERE</a>.
-        </p>
-        <p>My free time is usually held up by planning mods around my car, gaming via PC or Console, binge watching
-            Anime, to even light research on miscellaneous topics, perfecting my marksmanship at the shooting range, and
-            even spending a small walk with my cat Tara that likes to ride around on my shoulders.</p>
-        <a class="atop" href="index.html">TOP</a>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>W.R. Thompson Jr</h1>
+      <p>I'm A <span class="typed" data-typed-items="US Marine, Hobbyist programmer, Casual Streamer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main>
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>
+            I'm a proud Marine Rifleman who honorably served from 2005 to 2009. My time in the Marine Corps instilled discipline, adaptability, and a lifelong commitment to growth—qualities I’ve carried into my journey in the world of technology and development.
+          </p></br>
+          <p class="fst-italic">
+            My passion for tech began long before I discovered programming. As a gamer, I enjoyed diagnosing and building custom gaming PCs. It wasn’t until the release of Pokémon Go that I got my first taste of programming. Within my local gaming community, I leveraged my technical skills to create a small-scale scanner, using my personal PC as a server to identify rare Pokémon and send notifications via Discord and Twitter. That experience opened my eyes to the potential of coding and planted the seed for a new career path.
+          </p></br>
+          <p class="fst-italic">
+            In 2017, I decided to take the leap into professional software development. I enrolled in We Can Code IT, an accelerated coding bootcamp that accepts the Post-9/11 GI Bill. There, I honed my skills in Full Stack Java development with a focus on test-driven development. You can read my detailed review of the program <a href="wcciReview.html">HERE</a>.
+          </p></br>
+          <p>
+            When I’m not coding, I enjoy gaming on both PC and VR, binge-watching anime, and researching new topics. I also love perfecting my marksmanship at the shooting range and taking strolls with my cat, Tara, who has a knack for riding on my shoulders.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="src/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Hobbyist Streamer &amp; Gamer</h3>
+             <p class="fst-italic">
+              When I'm not coding, I’m diving into the world of PC and VR gaming, streaming on Twitch and YouTube. Gaming isn't just a pastime—it's a chance for me to connect with my audience, explore new technologies, and push the boundaries of virtual experiences. I enjoy a variety of games, including first-person shooters (Halo Infinite, Call of Duty), strategy games (StarCraft II, Total War: Warhammer III), and immersive VR experiences (Population One, Beat Saber). My high-end PC, Meta Quest 3, and Kat VR Treadmill create an engaging, interactive setup that lets viewers feel like they’re right there with me in the action.
+             </p>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <h3>PC Setup</h3>
+                <ul>
+                  <li><i class="bi bi-box"></i> <strong>Case:</strong> <span>Hyte Y70</span></li>
+                  <li><i class="bi bi-motherboard"></i> <strong>Motherboard:</strong> <span>Z690-E</span></li>
+                  <li><i class="bi bi-cpu"></i> <strong>CPU:</strong> <span>i9-12900K</span></li>
+                  <li><i class="bi bi-fan"></i> <strong>CPU Cooler:</strong> <span>SilverStone IceMyst 360</span></li>
+                  <li><i class="bi bi-gpu-card"></i> <strong>GPU:</strong> <span>GeForce RTX 4090</span></li>
+                  <li><i class="bi bi-memory"></i> <strong>RAM:</strong> <span>64GB (2 x 32GB) DDR5-6000</span></li>
+                  <li><i class="bi bi-hdd"></i> <strong>Boot Drive:</strong> <span>Samsung 980 Pro SSD 1TB M.2</span></li>
+                  <li><i class="bi bi-hdd-stack"></i> <strong>Storage Drive:</strong> <span>Samsung 980 Pro SSD 2TB M.2</span></li>
+                  <li><i class="bi bi-plug"></i> <strong>PSU:</strong> <span>Corsair HX1000</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <h3>VR Setup</h3>
+                <ul>
+                  <li><i class="bi bi-headset"></i> <strong>Headset:</strong> <span>Meta Quest 3 512mb</span></li>
+                  <li><i class="bi bi-gear"></i> <strong>Headset Strap:</strong> <span>BoboVR S3 Pro</span></li>
+                  <li><i class="bi bi-battery-charging"></i> <strong>Batteries:</strong> <span>3x B100 Battery Pack</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>VR Treadmill:</strong> <span>KatVR C2 Core</span></li>
+                </ul>
+
+                <h3>Misc</h3>
+                <ul>
+                  <li><i class="bi bi-headphones"></i> <strong>Headset:</strong> <span>Steelseries Nova Pro</span></li>
+                  <li><i class="bi bi-camera"></i> <strong>Webcam:</strong> <span>2021 Casecube 2k 1080P</span></li>
+                  
+                </ul>
+
+              </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Highlights from my journey as a Marine veteran, developer, gamer, and content creator.</p>
+        </div>
+
+        <!-- First Row -->
+        <div class="row no-gutters">
+
+          <!-- Fact: Marine Corps Service -->
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-flag"></i>
+              <span data-purecounter-start="0" data-purecounter-end="4" class="purecounter"></span>
+              <p><strong>Years of Service</strong> in the Marine Corps</p>
+            </div>
+          </div>
+
+          <!-- Fact: Coding Projects -->
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-code-slash"></i>
+              <span data-purecounter-start="0" data-purecounter-end="14" class="purecounter"></span>
+              <p><strong>Coding Projects</strong> completed</p>
+            </div>
+          </div>
+
+          <!-- Fact: Hours Learning -->
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-lightbulb"></i>
+              <span data-purecounter-start="0" data-purecounter-end="770" class="purecounter"></span>
+              <p><strong>Hours Learning</strong> coding and technology</p>
+            </div>
+          </div>
+
+          <!-- Fact: Hours Streaming -->
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-controller"></i>
+              <span data-purecounter-start="0" data-purecounter-end="2015" class="purecounter"></span>
+              <p><strong>Hours Streaming</strong> on Twitch & YouTube since October 17th, 2021</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Second Row -->
+        <div class="row no-gutters mt-4">
+
+          <!-- Fact: Twitch Clips -->
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-twitch"></i>
+              <span data-purecounter-start="0" data-purecounter-end="71" class="purecounter"></span>
+              <p><strong>Twitch Clips</strong> shared</p>
+            </div>
+          </div>
+
+          <!-- Fact: TikTok Videos -->
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-tiktok"></i>
+              <span data-purecounter-start="0" data-purecounter-end="283" class="purecounter"></span>
+              <p><strong>TikTok Videos</strong> uploaded</p>
+            </div>
+          </div>
+
+          <!-- Fact: YouTube Content -->
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-youtube"></i>
+              <span data-purecounter-start="0" data-purecounter-end="886" class="purecounter"></span>
+              <p><strong>YouTube Content</strong> created</p>
+            </div>
+          </div>
+
+          <!-- Fact: Total Content -->
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-collection-play"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1240" class="purecounter"></span>
+              <p><strong>Total Content</strong> across platforms</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
     </section>
-</main>
-<footer>
-    &copy 2018
-</footer>
+    <!-- End Facts Section -->
+
+    <!-- ======= Education & Training Section ======= -->
+    <section id="education" class="education section-bg">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="section-title">
+          <h2>Education & Training</h2>
+          <p>A blend of formal education, certifications, online learning, and practical experience.</p>
+        </div>
+
+        <!-- Accordion Container -->
+        <div class="accordion" id="educationAccordion">
+          
+          <!-- We Can Code IT -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingWCCI">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWCCI" aria-expanded="true" aria-controls="collapseWCCI">
+                <i class="bi bi-code-slash"></i> Full Stack Development - We Can Code IT
+              </button>
+            </h2>
+            <div id="collapseWCCI" class="accordion-collapse collapse show" aria-labelledby="headingWCCI" data-bs-parent="#educationAccordion">
+              <div class="accordion-body">
+                <p><strong>We Can Code IT (2017 - 2018)</strong><br>Columbus, OH</p>
+                <p>Completed 480 hours of intensive training in Full Stack Java development, emphasizing test-driven development and web applications.</p>
+                <div class="interactive-item text-center">
+                  <img src="src/static/img/education/wcci-cert.jpg" alt="Certificate in Software Development" class="img-fluid interactive-image" width="200">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- College of the Albemarle -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingCOA">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCOA" aria-expanded="false" aria-controls="collapseCOA">
+                <i class="bi bi-laptop"></i> Computer Engineering Technology - College of the Albemarle
+              </button>
+            </h2>
+            <div id="collapseCOA" class="accordion-collapse collapse" aria-labelledby="headingCOA" data-bs-parent="#educationAccordion">
+              <div class="accordion-body">
+                <p><strong>College of the Albemarle (2013)</strong><br>Elizabeth City, NC</p>
+                <p>Earned certification as a PC Technician with coursework in hardware troubleshooting and networking basics.</p>
+                <div class="interactive-item text-center">
+                  <img src="src/static/img/education/coa-cert.jpg" alt="Certification in Computer Engineering Technology" class="img-fluid interactive-image" width="200">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Online Learning Platforms -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOnline">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnline" aria-expanded="false" aria-controls="collapseOnline">
+                <i class="bi bi-globe"></i> Online Learning Platforms
+              </button>
+            </h2>
+            <div id="collapseOnline" class="accordion-collapse collapse" aria-labelledby="headingOnline" data-bs-parent="#educationAccordion">
+              <div class="accordion-body">
+                <p><strong>Team Treehouse:</strong> Hands-on programming exercises in JavaScript, Java, and web development.</p>
+                <p><strong>Udemy:</strong> Self-paced courses on topics like Python, Java, and web technologies.</p>
+                <div class="row">
+                  <div class="col-md-6 text-center">
+                    <img src="src/static/img/education/treehouse.png" alt="Treehouse Profile" class="img-fluid" width="150">
+                  </div>
+                  <div class="col-md-6 text-center">
+                    <img src="src/static/img/education/udemy.png" alt="Udemy Logo" class="img-fluid" width="150">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Programming Books -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingBooks">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBooks" aria-expanded="false" aria-controls="collapseBooks">
+                <i class="bi bi-book"></i> Programming Books
+              </button>
+            </h2>
+            <div id="collapseBooks" class="accordion-collapse collapse" aria-labelledby="headingBooks" data-bs-parent="#educationAccordion">
+              <div class="accordion-body">
+                <ul>
+                  <li><strong>Head First Java:</strong> Basics of Java and OOP (Used in Class)</li>
+                  <li><strong>Murach's Java Programming:</strong> Advanced topics like GUI and database programming (Reference)</li>
+                  <li><strong>JavaScript: The Good Parts:</strong> Insights into mastering JavaScript (Reference)</li>
+                  <li><strong>PHP & MySQL In Easy Steps:</strong> Exploration of PHP and MySQL (Library Book)</li>
+                  <li><strong>Unreal Engine C++:</strong> Comprehensive guide to C++ and Unreal Engine development</li>
+                </ul>
+                <div class="row">
+                  <div class="col-md-4 text-center">
+                    <img src="src/static/img/education/headfirstjava.png" alt="Head First Java" class="img-fluid interactive-image" width="150">
+                  </div>
+                  <div class="col-md-4 text-center">
+                    <img src="src/static/img/education/murach.jpg" alt="Murach's Java Programming" class="img-fluid interactive-image" width="150">
+                  </div>
+                  <div class="col-md-4 text-center">
+                    <img src="src/static/img/education/ue_c++.jpg" alt="Unreal Engine C++" class="img-fluid interactive-image" width="150">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Education & Training Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>Explore my professional timeline, from education to personal development.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            
+            <!-- Summary -->
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>William R Thompson Jr</h4>
+              <p><em>I am a dedicated Hobbyist Developer with a passion for building scalable web applications and solving complex problems. With a strong foundation in Full Stack Development and a disciplined approach learned from my time in the Marine Corps, I thrive in environments that challenge my technical skills and allow me to contribute to meaningful projects. I am particularly excited about continuous learning and expanding my expertise in Java, Spring, and web technologies. Additionally, I am exploring C++ and Blueprint for Unreal Engine 5.5 as a hobby, further enhancing my skill set in game development. My goal is to join a dynamic team where I can grow professionally and make an impact by delivering high-quality solutions.</em></p></br>
+              <p>You can download my full resume in PDF format for more details: 
+                <a href="./src/static/pdf/resume.pdf" target="_blank" rel="noopener noreferrer">Download Full Resume (PDF)</a>.</p>
+              <ul>
+                <li>Columbus, OH</li>
+                <li>wrthompsonjr86@gmail.com</li>
+              </ul>
+            </div>
+            
+            <!-- Education -->
+            <h3 class="resume-title">Education</h3>
+            <!-- School 1: WeCanCodeIT -->
+            <div class="resume-item">
+              <h4>Full Stack Development Certificate</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>We Can Code IT, Columbus, OH</em></p>
+              <p>Completed a 480-hour intensive bootcamp in Full Stack Java development, focusing on test-driven development, web technologies, and database integration. Developed several hands-on projects to hone both front-end and back-end skills.</p>
+              <div class="interactive-item">
+                <img src="src/static/img/education/wcci-cert.jpg" alt="We Can Code IT Certificate" class="img-fluid interactive-image" width="100px">
+              </div>
+            </div>
+            
+            <!-- School 2: College of the Albemarle -->
+            <div class="resume-item">
+              <h4>Computer Engineering Technology</h4>
+              <h5>2011 - 2013</h5>
+              <p><em>College of the Albemarle, Elizabeth City, NC</em></p>
+              <p>Earned a certification in Computer Engineering Technology with a focus on PC troubleshooting, networking, and hardware management. Developed foundational technical skills essential for systems administration and support roles.</p>
+              <div class="interactive-item">
+                <img src="src/static/img/education/coa-cert.jpg" alt="College of the Albemarle Certificate" class="img-fluid interactive-image" width="100px">
+              </div>
+            </div>
+            
+            <!-- School 3: Owens Community College -->
+            <div class="resume-item">
+              <h4>Course Work in Computer Science</h4>
+              <h5>2009 - 2010</h5>
+              <p><em>Owens Community College, Findlay, OH</em></p>
+              <p>Completed foundational coursework in computer science, including programming and networking fundamentals, before transitioning to full-time work. Developed initial skills in Java and C++.</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <!-- Professional -->
+            <h3 class="resume-title">Professional Experience</h3>
+            
+            <!-- Job 1: CU-Centric -->
+            <div class="resume-item">
+              <h4>Junior Analyst (Software Developer)</h4>
+              <h5>May 2019 - August 2021</h5>
+              <p><em>CU-Centric, Columbus, OH</em></p>
+              <ul>
+                <li>Collaborated with senior developers to enhance and maintain internal software tools, using PHP, PostgreSQL, and custom SQL scripts to improve data processes.</li>
+                <li>Assisted in backend development and bug fixes to ensure smoother product delivery and deployment.</li>
+                <li>Communicated directly with clients, providing technical support and assisting with troubleshooting and feature requests.</li>
+                <li>Developed and ran custom SQL scripts to automate processes, resulting in a 20% reduction in manual work hours.</li>
+              </ul>
+            </div>
+
+            <!-- Job 2: JP Morgan Chase -->
+            <div class="resume-item">
+              <h4>Software Engineer Intern</h4>
+              <h5>May 2018 - July 2018</h5>
+              <p><em>JP Morgan Chase, Columbus, OH</em></p>
+              <ul>
+                <li>Assisted in developing Java-based applications and learned Java 8 for implementing new features.</li>
+                <li>Worked with Jira and Maven to organize tasks and handle project dependencies effectively.</li>
+                <li>Gained hands-on experience in writing unit tests and collaborating with team members on agile development cycles.</li>
+                <li>Worked alongside senior engineers on critical projects that involved backend Java development and system optimization.</li>
+              </ul>
+            </div>
+
+            <!-- Job 3: United States Marine Corps -->
+            <div class="resume-item">
+              <h4>Rifleman (0311)</h4>
+              <h5>September 2005 - August 2009</h5>
+              <p><em>United States Marine Corps, Various Locations</em></p>
+              <ul>
+                <li>Selected to serve as the Scribe for the Battalion Sergeant Major due to technical competency and ability to complete high-stress tasks & missions.</li>
+                <li>Assisted with training and mentoring international soldiers on combat tactics and technical equipment use, while maintaining high standards of excellence.</li>
+                <li>Medals Include:</li>
+                <ul>
+                  <li>Marine Corps Good Conduct Medal</li>
+                  <li>Iraq Campaign Medal (1st Award) </li>
+                  <li>Sea Service Deployment Ribbon (2nd Award) </li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Here are a few projects I've worked on during my time at WeCanCodeIT and my personal projects. These showcase my journey as a developer and my growth in Full Stack Development.</p>
+        </div>
+
+        <div class="row">
+          <!-- Portfolio Filters -->
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-misc">Miscellaneous</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Portfolio Cards -->
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <!-- Fortune Teller -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="card shadow-sm" onclick="openPortfolioModal('Fortune Teller', 'src/static/img/portfolio/fortune-teller.jpg', 'The User will enter there First & Last name along with their Age, Birth Month, Favorite ROYGBIV color and Number of Siblings. Once the data is collected the program will greet the User and tell them how many years they have left to retire, how much money they have in their bank account, the location that he or she will live and their mode of transportation.')">
+              <img src="src/static/img/portfolio/fortune-teller.jpg" class="card-img-top" alt="Fortune Teller Project">
+              <div class="card-body">
+                <h5 class="card-title">Fortune Teller</h5>
+                <p class="card-text">Click to preview.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Virtual Pet -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="card shadow-sm" onclick="openPortfolioModal('Virtual Pet', 'src/static/img/portfolio/pet-1.jpg', 'Created a virtual pet similar to the one seen in the late 1990\'s. The virtual pet is named Hold. Hold will be able to inform its owner when it needs various tasks to be completed. For example, when Hold is either hungry or thirsty. It is up to the Owner of Hold to keep their virtual pet happy.')">
+              <img src="src/static/img/portfolio/pet-1.jpg" class="card-img-top" alt="Virtual Pet Project">
+              <div class="card-body">
+                <h5 class="card-title">Virtual Pet</h5>
+                <p class="card-text">Click for full details.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Virtual Pet Shelter Project -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="card shadow-sm" onclick="openPortfolioModal('Virtual Pet Shelter', 'src/static/img/portfolio/pet-shelter.png', 'Created a Virtual Pet Shelter that houses Virtual Pets. The user has the ability to feed, water and play with a pet. The user also has the option to either Adopt out a pet or Intake new pets.')">
+              <img src="src/static/img/portfolio/pet-shelter.png" class="card-img-top" alt="Virtual Pet Shelter Project">
+              <div class="card-body">
+                <h5 class="card-title">Virtual Pet Shelter</h5>
+                <p class="card-text">Click for full details.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Virtual Pets Amok Project -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="card shadow-sm" onclick="openPortfolioModal('Virtual Pets Amok', 'src/static/img/portfolio/pets-amok.jpg', 'In this iteration of Virtual Pet Shelter, the Virtual Shelter now has Dogs, Cats and Robot Dogs. The user will nee to manage the pets hunger, thirst, boredom, wast, happiness, oill and battery levels. Along with cleaning out the Shelter litter box. There are also Dog kennels that will need to be cleaned as well but the system will prompt the User when it is time to clean out each individual kennel. Adopting out and Intaking new pets are also still options. As the User, will you be able to manage this Shelter? Enjoy...')">
+              <img src="src/static/img/portfolio/pets-amok.jpg" class="card-img-top" alt="Virtual Pets Amok Project">
+              <div class="card-body">
+                <h5 class="card-title">Virtual Pets Amok</h5>
+                <p class="card-text">Click for full details.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reviews Site Project -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="card shadow-sm" onclick="openPortfolioModal('Reviews Site', 'src/static/img/portfolio/review1.jpg', 'Created a Reviews Site through Spring Boot + MVC app that displays a list of reviews allowing the user to click on an individual review to see its details.')">
+              <img src="src/static/img/portfolio/review1.jpg" class="card-img-top" alt="Reviews Site Project">
+              <div class="card-body">
+                <h5 class="card-title">Reviews Site</h5>
+                <p class="card-text">Click for full details.</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Portfolio: GitHub Portfolio (Version 1) -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="card shadow-sm" onclick="openPortfolioModal('GitHub Portfolio: The Beginning', 'src/static/img/portfolio/port-site1.png', 'The first iteration of my GitHub Protfolio site started here. It was just a simple site to introduce me to my first public site to show off my skills as an Apprentice Software Developer.')">
+              <img src="src/static/img/portfolio/port-site1.png" class="card-img-top" alt="Portfolio 1.0">
+              <div class="card-body">
+                <h5 class="card-title">GitHub Portfolio: The Beginning</h5>
+                <p class="card-text">Click for full details.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio: Reviews Site (Full Stack) -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="card shadow-sm" onclick="openPortfolioModal('Reviews Site Full Stack', 'src/static/img/portfolio/review2.png', 'This is the second iteration to Review Site but now it is being made into a Full Stack Web Application. This site has a list of categories that for now, has only one category that holds several reivews. When the User clicks on the review it will show the details of the review. Now, tags have been added to the mix. Each review is associated with a tag and when the User clicks on a specific tag all the reviews associated with that tag will appear.')">
+              <img src="src/static/img/portfolio/review2.png" class="card-img-top" alt="Reviews Site Full Stack">
+              <div class="card-body">
+                <h5 class="card-title">Reviews Site Full Stack</h5>
+                <p class="card-text">Click for full details.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio: GitHub Portfolio (Generation JScript) -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="card shadow-sm" onclick="openPortfolioModal('GitHub Portfolio: Generation JScript', 'src/static/img/portfolio/wkend8-image1.jpg', 'Now that I have been shown JavaScript, it was time to add it to my portfolio. The logo was turned into a button that would toggle between hide and show. Buttons were created to expand and collapse the descriptions for the GitHub Projects. An image carousel was added to the about me to show more than one photo. A button that showed the date and time through an event listener was also added along with with a modal for the about me description. After it was graded I completely removed it all except for the image carousel. The image posted below is what it had looked like on my Samsung Note 8 device. Note: Jasmine was also used to try and attempt to test the JavaScript but learning Jasmine, as well as how to correctly test JavaScript is still a work in progress...')">
+              <img src="src/static/img/portfolio/wkend8-image1.jpg" class="card-img-top" alt="Portfolio 2.0">
+              <div class="card-body">
+                <h5 class="card-title">GitHub Portfolio: Generation JScript</h5>
+                <p class="card-text">Click for full details.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio: Final Project - Watch Your Garden Grow -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="card shadow-sm" onclick="openPortfolioModal('Final Project: Watch Your Garden Grow', 'src/static/img/portfolio/final.jpg', 'During the last few weeks of class. A group of 7 under a Scrum Master are working diligently to create an app utilizing everything that was taught during the 10 weeks of instruction while in an Agile enviroment. Users are able to input their zip code and have returned to them a list of plants that are suitable to be planted in their area. The users are then able to select their desired plants, then generate a planting report which provides the best dates to plant each one depending on the plant\'s specification and the last frost date for the user\'s zip code.')">
+              <img src="src/static/img/portfolio/final.jpg" class="card-img-top" alt="Final Project: Watch Your Garden Grow">
+              <div class="card-body">
+                <h5 class="card-title">Final Project: Watch Your Garden Grow</h5>
+                <p class="card-text">Click for full details.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- These Are Projects Not Associated With WeCanCodeIT -->
+
+          <!-- Portfolio: Portfolio Updating -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="card shadow-sm" onclick="openPortfolioModal('Portfolio Updating', 'src/static/img/portfolio/park2.jpg', 'I felt an entire refresh was needed since the creation of this website that came out of my coding boot camp. You can find more info on WeCanCodeIT on the home page where I provide a link to a very thorough review. Anyways, with some free time here and there, and lots research and patience. This website was redesigned with Mobile views in mind and for the most part been reworked thoroughly. It still isn\'t perfect but before and after Pictures will be provided. You can check it out by clicking on the image below.')">
+              <img src="src/static/img/portfolio/park2.jpg" class="card-img-top" alt="Portfolio Updating">
+              <div class="card-body">
+                <h5 class="card-title">Portfolio Updating</h5>
+                <p class="card-text">Click for full details.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio: Green Lawn Cemetery -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="card shadow-sm" onclick="openPortfolioModal('Green Lawn Cemetery', 'src/static/img/portfolio/greenlawn.png', 'I was showing my Vietnamese Fiancee (at the time) around town today and decided to show her the Family Graves located in Green Lawn Cemetery. Having a hard time remembering exactly where their tombstones laid but eventually found them. As we walked by anonymous tombstones, my Fiancee found it confusing telling who\'s who by just what is engraved in stone. It would have been a confusing question to any other person but having visited her Family in Vietnam on a small Rice Farm it made sense to why she would ask me that. In Vietnam, their graves are not in the ground but above ground where it has very detailed info about who lays to rest, as well as a picture of who lies there. The only time I did not see a picture were the ones probably before they had cameras in Vietnam but the earlier generations all had photos of who it was. However, I did point out that some tombstones did indeed have a picture but not all. So it got me thinking, why not have an online database of those laid to rest in Green Lawn Cemetery? Especially with Ancestry and Genealogy on the rise.')">
+              <img src="src/static/img/portfolio/greenlawn.png" class="card-img-top" alt="Green Lawn Cemetery">
+              <div class="card-body">
+                <h5 class="card-title">Green Lawn Cemetery</h5>
+                <p class="card-text">Click for full details.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Babysitter Kata -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-misc">
+            <div class="card shadow-sm" onclick="openPortfolioModal('Babysitter Kata', 'src/static/img/portfolio/place-holder-img.jpg', 'This was an interesting Kata from Pillar Technologies. I had about 1 week to do this and it was definitely a memory refresher. I learned new things from this Kata, as well as learned a lot of what I need to learn to boot! This Kata taught me that I need to research and learn how to work with times. As in am/pm/24h. This kata simulates a babysitter working and getting paid for one night. The rules are pretty straight forward. If you\'re interested in this kata it can be found on my github. The README.md file has the instructions.')">
+              <div class="card-body">
+                <h5 class="card-title">Babysitter Kata</h5>
+                <p class="card-text">Click to preview.</p>
+              </div>
+            </div>
+          </div>
+        </div><!-- End of Portfolio Container -->
+
+        <!-- Portfolio Modal -->
+        <div id="portfolioModal" class="modal" onclick="closePortfolioModal(event)">
+          <div class="modal-content">
+            <span class="close" onclick="closePortfolioModal()">&times;</span>
+            <img id="portfolioModalImage" class="img-fluid" alt="Portfolio Image">
+            <h3 id="portfolioModalTitle"></h3>
+            <p id="portfolioModalDescription"></p>
+          </div>
+        </div>
+          
+        <!-- GitHub Contributions Section -->
+        <div class="col-lg-12">
+          <div class="git-calendar">
+            <h3>My GitHub Contributions</h3>
+            <p>Check out my GitHub activity, and see how often I contribute to projects!</p>
+            <!-- GitHub Calendar -->
+            <div class="calendar">
+              Loading the data just for you...
+            </div>
+          </div>
+        </div><!-- End GitHub Contributions Section-->
+
+      </div>
+    </section><!-- End Portfolio Section -->
+    
+    <!-- Live Streaming Section -->
+  <!--  
+    <section id="live-streaming" class="live-streaming">
+      <div class="container">
+        <div class="section-title">
+          <h2>Live Streaming</h2>
+          <p>Join me on Twitch or YouTube while I stream live!</p>
+        </div>
+  -->
+
+
+        <!-- Twitch Embed -->
+  <!--       
+        <div id="twitch-embed" class="stream-embed">
+          <iframe
+            src="https://player.twitch.tv/?channel=warmad2&parent=www.wrthompsonjr.com&autoplay=true&muted=true"
+            height="400"
+            width="100%"
+            allowfullscreen="true">
+          </iframe>
+        </div>
+  -->      
+
+
+        <!-- Links to Direct Channels -->
+  <!--      
+        <div class="live-stream-links">
+          <a href="https://www.twitch.tv/warmad2" target="_blank" class="btn live-btn">Visit Twitch Channel</a>
+          <a href="https://www.youtube.com/channel/UCJnDyGw4I7U6oHIqYqTHlGA" target="_blank" class="btn live-btn">Visit YouTube Channel</a>
+        </div>
+      </div>
+    </section>
+  -->
+
+    <!-- End Live Streaming Section -->
+
+
+
+
+
+  </main><!-- End #main -->
+
+  <!-- Modal -->
+  <div id="imageModal" class="modal">
+    <span class="close" onclick="document.getElementById('imageModal').style.display='none'">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <div id="caption"></div>
+  </div>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span></span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="src/static/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="src/static/vendor/aos/aos.js"></script>
+  <script src="src/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="src/static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="src/static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="src/static/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="src/static/vendor/typed.js/typed.umd.js"></script>
+  <script src="src/static/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="src/static/vendor/php-email-form/validate.js"></script>
+
+  <!-- Modal JS File-->
+  <script src="src/static/js/modal.js"></script>
+
+  <!-- GitHub Calendar Script -->
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>
+    GitHubCalendar(".calendar", "williet1986", { responsive: true });
+  </script>
+
+  <!-- Template Main JS File -->
+  <script src="src/static/js/main.js"></script>
+
 </body>
 </html>

@@ -1,203 +1,125 @@
-.navbar  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbarImage {
-    padding: 1rem;
-}
-
-header img {
-    margin-top: 1.5rem;
-    margin-left: 9rem;
-}
-
-header p {
-    display: inline-block;
-    margin-left: .5rem;
-    margin-bottom: .5rem;
-}
-
-h1 {
-	display: flex;
-	justify-content: center;
-	margin-top: 2.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-bottom: .25rem;
-}
-
-.author {
+/* Navbar Table of Contents Title */
+.toc-title {
+    color: white; /* White text for better visibility */
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-bottom: 2.5rem;
-    font-size: .8rem;
+    background-color: #333; /* Dark background for contrast */
+    padding: 10px;
+    border-radius: 5px;
 }
 
-h2 {
-    display: grid;
-    justify-content: center;
+/* Navbar Table of Contents Links */
+/* Styling for the Table of Contents Links */
+.toc-list {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+    font-size: 1.1em;
 }
 
-.table1 {  
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    text-align: center;
-    font-size: .95rem;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 1rem;
-    border: 0.125rem solid black;
-    background: #cfdbe6;  
-    margin-top: 2.5rem;  
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-bottom: 5rem;
-}
-
-.card h3 {
-    margin-top: 1rem;
-}
-
-.back {
-    text-align: center;
-    font-size: .7rem;
-    padding-right: 2.5rem;
-}
-
-.back2 {
-    font-size: .7rem;
-}
-
-.card p {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    text-indent: 2.5rem;
-}
-
-.wcciTable {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: .4rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    margin-bottom: .5rem;
-    font-size: .8rem;
-}
-
-.wcciTable li {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: .21rem;
-}
-
-.table2 {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    margin-bottom: 1rem;
-}
-
-.li2 {
-    margin-bottom: .45rem;
-}
-
-.table3 {
-    margin-left: 1.5rem;
-}
-
-.imgCard {
-    margin: auto;
-    margin-bottom: 1rem;
-    border-radius: 2rem;
-    border: 0.125rem solid black;
-}
-
-#wcci-image {   
-    padding-top: 1rem;
-    margin: auto;
+.toc-list li {
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
 }
 
-.imgCard p {
+.toc-list i {
+    margin-right: 10px;
+    color: #f1f1f1; /* Make arrows visible */
+}
+
+.toc-list a {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.toc-list a:hover {
+    background-color: #0073e6;
+    color: #fff;
+}
+
+/* Ensuring spacing and visibility */
+.nav-menu {
+    padding: 20px;
+    background-color: #1c1c1c; /* Dark background for navbar */
+    height: 100%;
+    max-width: 300px; /* Set width for better structure */
+}
+
+.nav-menu ul {
+    padding-left: 20px;
+}
+
+
+/* About WeCan{Code}IT Section Styles */
+.section-heading .section-title h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #0073e6;
+}
+
+.about-toc .row {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.about-toc ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-toc ul li {
+    margin-bottom: 10px;
+}
+
+.about-toc ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.about-toc ul li a:hover {
+    color: #0073e6;
+}
+
+.review-section {
+    margin-bottom: 50px;
+}
+
+.review-section h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.review-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.interactive-item {
+    margin-top: 20px;
     text-align: center;
-    text-indent: 0rem;
-    margin-top: 1rem;
 }
 
-/* Vertical View - 950 to 346 */
-@media screen and (max-height: 950px) and (min-height: 346px) {
-    .navbar {
-		background: gray;
-		width: 100%;
-	}
-
-	.navbar .navlinks {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-
-    .card {
-        width: 90%;
-    }
-
-    #wcci-image {
-        border-radius: 3rem;
-    }
-
-    .modal-content {
-        width: 100%;
-        height: auto;
-    }
-
-    footer {
-        margin-top: 1rem;
-        height: 1.5rem;
-        font-size: 1.5rem;
-    }
+.interactive-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
-/* Horizontal View - 977 to 346 */
-@media screen and (max-width: 977px) and (min-width: 346px) {
-    .navbar {
-        background: gray;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .navbar .navlinks {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .modal-content {
-        width: 100%;
-    }
-
-    footer {
-        margin-top: 1rem;
-        height: 2rem;
-        font-size: 2rem;
-    }
+.interactive-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
